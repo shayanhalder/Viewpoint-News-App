@@ -131,7 +131,8 @@ const presentDataMorningUpdater = nodeCron.schedule("0 30 10 * * *", async () =>
   console.log("Database updated with the following current news data: ", presentData)
 })
 
-const presentDataEveningUpdater = nodeCron.schedule("0 30 20 * * *", async () => {
+const presentDataEveningUpdater = nodeCron.schedule("0 36 20 * * *", async () => {
+  console.log("Starting evening data scheduled task: ")
   const presentData = await updatePresentData()
   console.log("Database updated with the following current news data: ", presentData)
 })

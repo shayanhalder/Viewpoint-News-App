@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 const url = 'https://abcnews.go.com'
-const PRESENT_DATA_API_KEY = process.env.API_KEY4  
+const PRESENT_DATA_API_KEY = process.env.API_KEY9  
 const PAST_DATA_API_KEY = process.env.API_KEY6 
 
 export async function getTopics() {
