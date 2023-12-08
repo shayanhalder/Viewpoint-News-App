@@ -88,7 +88,7 @@ async function updatePastData() {
   return pastNewsData
 }
 
-async function updatePresentData() {
+export async function updatePresentData() {
   /* Updates the MongoDB database with the current trending topics and top stories about the 
     trending topics from a variety of news sources on both left and right-wing media. */
 
