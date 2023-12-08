@@ -58,7 +58,7 @@ export async function updatePastData() {
   
   console.log("Starting past news database updater scheduled task:")
   const trendingTopics = await getTopics()
-  const todayDate = formatDate(new Date(), true, 0)
+  const todayDate = formatDate(new Date(), true, 1)
   const pastDate = formatDate(new Date(), true, 3) 
   // go 3 days in advance since sometimes no news data available for a 24 hr period, or none available at all
 
