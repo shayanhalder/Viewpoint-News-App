@@ -31,7 +31,7 @@ db.once('open', () => console.log('Connected to database'))
 
 
 app.listen(PORT, () => {
-  console.log("listening on port " + PORT)
+  console.log("Server running on port " + PORT)
 })
 
 // Returns trending topics in an array to the client 
