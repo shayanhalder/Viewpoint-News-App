@@ -21,7 +21,7 @@ function App() {
 
   
   const API_KEY = '623c070369de4014803bfb393262e93b'
-  const API_SERVER = 'https://viewpoint-server.shayanhalder1.repl.co/current'
+  const API_SERVER = 'https://viewpoint-node-js-backend.onrender.com'
   const LOCAL_HOST = 'http://localhost:3001'
   
   const leftSources = ["cnn.com", "washingtonpost.com", "nytimes.com", "vox.com", "msnbc.com", "huffpost.com", "buzzfeed.com"]
@@ -30,7 +30,7 @@ function App() {
   
 
   async function fetchData() {
-    const promise = await fetch(`${LOCAL_HOST}/current`, {
+    const promise = await fetch(`${API_SERVER}/current`, {
       method: 'GET'
     })
     
@@ -46,7 +46,7 @@ function App() {
   useEffect(() => { 
     async function getPast() {
       console.log(date)
-      const promise = await fetch(`${LOCAL_HOST}/history/instance/${date}`, {
+      const promise = await fetch(`${API_SERVER}/history/instance/${date}`, {
         method: 'GET',
       })
       const data = await promise.json()
