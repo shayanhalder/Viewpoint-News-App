@@ -51,7 +51,7 @@ app.get('/current', async (req, res) => {
   }
 })
 
-async function updatePastData() {
+export async function updatePastData() {
   /* Updates the MongoDB database with the trending topics at the end of a given day
      and past news data about the trending topics from a variety of news sources on both left 
      and right-wing media. */
