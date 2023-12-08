@@ -1,0 +1,28 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@types/node": "^18.0.6",
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "dns": "^0.2.2",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.1",
+        "mongoose": "^6.12.3",
+        "node-cron": "^3.0.1",
+        "node-fetch": "^3.2.6",
+        "nodecron": "^0.2.0",
+        "uuid": "^8.3.2",
+        "wink-sentiment": "^5.0.2"
+    }
+}
