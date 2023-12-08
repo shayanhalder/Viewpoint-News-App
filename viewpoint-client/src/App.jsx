@@ -20,15 +20,9 @@ function App() {
   */
 
   
-  const API_KEY = '623c070369de4014803bfb393262e93b'
   const API_SERVER = 'https://viewpoint-node-js-backend.onrender.com'
   const LOCAL_HOST = 'http://localhost:3001'
   
-  const leftSources = ["cnn.com", "washingtonpost.com", "nytimes.com", "vox.com", "msnbc.com", "huffpost.com", "buzzfeed.com"]
-  const rightSources = ["foxnews.com", "breitbart.com", "theblaze.com", "nypost.com", "theepochtimes.com", "washingtontimes.com", "dailywire.com"]
-  
-  
-
   async function fetchData() {
     const promise = await fetch(`${API_SERVER}/current`, {
       method: 'GET'
