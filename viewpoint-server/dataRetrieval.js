@@ -5,7 +5,8 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 const url = 'https://abcnews.go.com'
-const PRESENT_DATA_API_KEY = process.env.API_KEY9  
+let presentDataAPIKeyNumber = 2
+let PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`]
 const PAST_DATA_API_KEY = process.env.API_KEY6 
 
 export async function getTopics() {
@@ -193,14 +194,24 @@ are stored in an array instead of a single string, which is iterated through for
 */
 
 async function requestCurrentNewsData(topic, source) {
-  let url = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
+  presentDataAPIKeyNumber = 2
+  let response;
+  while (presentDataAPIKeyNumber <= 4) {
+    PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`]
+    
+    let url = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
                             sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
 
-  let promise = await fetch(url);
-  let response = await promise.json()
+    let promise = await fetch(url);
+    response = await promise.json()
 
+    if (response.code && response.code == "rateLimited") {
+      presentDataAPIKeyNumber += 1 // try other API keys if current API key is rate limited
+    } else if (response.status == "ok") {
+      break
+    }
+  }
   return response
-  
 
 }
 
@@ -228,15 +239,21 @@ export async function fetchCurrentData(trendingTopics) {
         // iterate through each news source for a given bias (eg cnn for left, fox news for right)
         for (let j = 0; j < source.length; j++) { 
           let response = await requestCurrentNewsData(currentTrendingTopic, source[j])
+          if (!response.articles || response.articles == 0) { // API rate limit or no news data available from API
+            return { message: "news data unavailable" }
+          }
 
           if (!response.articles || response.articles.length == 0) { // no articles returned for the current news source 
               if (j < source.length - 1) {
-                continue // continue searching if we still have some sources to search for articles left 
+                continue // continue searching if we still have some sources to search for articles left that aren't cnn or fox news
               } else if (j == source.length - 1) { 
                 // if we have reached the last source in the current source list, then fill 
                 // with cnn or fox news article
                 let fillerNewsSource = (source == leftSources) ? "cnn.com" : "foxnews.com"
                 let response = await requestCurrentNewsData(currentTrendingTopic, fillerNewsSource)
+                if (!response.articles || response.articles == 0) { // API rate limit or no news data available from API
+                  return { message: "news data unavailable" }
+                }
 
               if (!response.articles || response.articles.length == 0) {
                 continue // if still no news data for the topic, then move on to the next news source
