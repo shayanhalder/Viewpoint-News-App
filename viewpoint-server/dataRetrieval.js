@@ -239,7 +239,7 @@ export async function fetchCurrentData(trendingTopics) {
         // iterate through each news source for a given bias (eg cnn for left, fox news for right)
         for (let j = 0; j < source.length; j++) { 
           let response = await requestCurrentNewsData(currentTrendingTopic, source[j])
-          if (!response.articles || response.articles == 0) { // API rate limit or no news data available from API
+          if (!response.articles || response.articles.length == 0) { // API rate limit or no news data available from API
             return { message: "news data unavailable" }
           }
 
@@ -251,7 +251,7 @@ export async function fetchCurrentData(trendingTopics) {
                 // with cnn or fox news article
                 let fillerNewsSource = (source == leftSources) ? "cnn.com" : "foxnews.com"
                 let response = await requestCurrentNewsData(currentTrendingTopic, fillerNewsSource)
-                if (!response.articles || response.articles == 0) { // API rate limit or no news data available from API
+                if (!response.articles || response.articles.length == 0) { // API rate limit or no news data available from API
                   return { message: "news data unavailable" }
                 }
 
