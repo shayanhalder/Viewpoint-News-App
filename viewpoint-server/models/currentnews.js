@@ -1,4 +1,3 @@
-// const mongoose = require('mongoose')
 import mongoose from 'mongoose'
 
 const currentNews = new mongoose.Schema({
@@ -12,5 +11,4 @@ const currentNews = new mongoose.Schema({
     }
 })
 
-// module.exports = mongoose.model('currentNews', currentNews)
 export default mongoose.model('currentNews', currentNews)

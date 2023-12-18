@@ -1,4 +1,3 @@
-// const mongoose = require('mongoose')
 import mongoose from 'mongoose'
 
 const newsDateSchema = new mongoose.Schema({
@@ -16,5 +15,4 @@ const newsDateSchema = new mongoose.Schema({
     }
 })
 
-// module.exports = mongoose.model('NewsDate', newsDateSchema)
 export default mongoose.model('newsDate', newsDateSchema)
