@@ -73,7 +73,7 @@ function App() {
 
   return (
     <>
-      <h1 className="viewpoint"> Viewpoint </h1>
+      <h1 className="viewpoint-title-text"> Viewpoint </h1>
       <h2 style={{ textAlign: "center" }}>
         {" "}
         Trending Now:{" "}

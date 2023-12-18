@@ -4,6 +4,7 @@
   --right-news-hover: #c46e6e;
   --left-news-source-color: #4e8de6;
   --right-news-source-color: #d95f59;
+  --input-background-color: #3f3f40;
 }
 
 body {
@@ -17,19 +18,10 @@ div {
   color: white;
 }
 
-.news-column {
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  position: relative;
-  height: 100%;
-  width: 220px;
-  /* position: relative; */
-}
-
 .false {
   visibility: hidden;
 }
+
 .modified {
   width: 150px;
   height: 160px;
@@ -46,14 +38,6 @@ div {
   margin-bottom: 10px;
 }
 
-.news-container {
-  display: flex;
-  position: relative;
-  height: auto;
-  width: auto;
-  align-items: center;
-  margin-bottom: 10px;
-}
 .dash {
   width: 15px;
   height: 2px;
@@ -77,26 +61,10 @@ div {
 }
 
 .inputs {
-  background-color: #3f3f40;
+  background-color: var(--input-background-color);
   color: white;
   height: 25px;
   border-radius: 5%;
-}
-
-.timeline-container {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  width: 50%;
-  height: auto;
-  left: 5%;
-}
-
-.timeline {
-  display: inline;
-  /* position: absolute; */
-  border-left: 3px solid white;
-  height: auto;
 }
 
 .calendar {
@@ -104,6 +72,6 @@ div {
   justify-content: center;
 }
 
-.viewpoint {
+.viewpoint-title-text {
   text-align: center;
 }
