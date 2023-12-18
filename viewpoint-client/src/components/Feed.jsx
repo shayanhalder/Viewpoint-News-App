@@ -3,60 +3,25 @@ import NewsList from "./NewsList.jsx";
 import feedStyles from "../css/Feed.module.css";
 
 export default function Feed({ data, currentTopic }) {
-  return (
-    <div className={feedStyles.container}>
-      <div className={feedStyles.column}>
-        {data && currentTopic != "Select topic" ? (
-          <>
-            <h2
-              style={{
-                textAlign: "center",
-                color: "#0373fc",
-                fontStyle: "italic",
-              }}
-            >
-              <span
-                style={{
-                  backgroundColor: "#FFEB02",
-                  padding: "3px 3px 3px 3px",
-                }}
-              >
-                {" "}
-                Left{" "}
-              </span>
-            </h2>
+  // only display the news if we have data and the user selected a specific topic
+  if (data && currentTopic != "Select topic") {
+    return (
+      <>
+        <div className={feedStyles.bias}>
+          <h1 className={feedStyles.leftBiasTitle}>Left</h1>
+          <h1 className={feedStyles.rightBiasTitle}>Right</h1>
+        </div>
+        <div className={feedStyles.container}>
+          <div className={feedStyles.column}>
             <NewsList list={data.left} bias="left" />
-          </>
-        ) : (
-          <p></p>
-        )}
-      </div>
-      <div className={feedStyles.column}>
-        {data && currentTopic != "Select topic" ? (
-          <>
-            <h2
-              style={{
-                textAlign: "center",
-                color: "#d43b3b",
-                fontStyle: "italic",
-              }}
-            >
-              <span
-                style={{
-                  backgroundColor: "#FFEB02",
-                  padding: "3px 3px 3px 3px",
-                }}
-              >
-                {" "}
-                Right{" "}
-              </span>
-            </h2>
+          </div>
+          <div className={feedStyles.column}>
             <NewsList list={data.right} bias="right" />
-          </>
-        ) : (
-          <p></p>
-        )}
-      </div>
-    </div>
-  );
+          </div>
+        </div>
+      </>
+    );
+  } else {
+    return;
+  }
 }

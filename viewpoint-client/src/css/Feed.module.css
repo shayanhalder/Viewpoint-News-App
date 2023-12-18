@@ -8,6 +8,31 @@
 .column {
   display: flex;
   height: 100%;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 50%; */
+  width: 500px;
   margin-right: 10px;
+}
+
+.bias {
+  display: flex;
+  justify-content: center;
+  column-gap: 31%; /* centers the words "left" and "right" on their respective columns */
+  width: 100%;
+}
+
+.leftBiasTitle {
+  color: #0373fc;
+  font-style: italic;
+  background-color: #ffeb02;
+  padding: 3px 3px 3px 3px;
+}
+
+.rightBiasTitle {
+  color: #d43b3b;
+  font-style: italic;
+  background-color: #ffeb02;
+  padding: 3px 3px 3px 3px;
 }
