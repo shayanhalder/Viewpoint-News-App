@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import newsStyles from "../css/News.module.css";
 
 export default function News({
   title,
@@ -45,13 +46,13 @@ export default function News({
 
   return (
     <>
-      <div className={`news ${bias}Background`}>
-        <a target="_blank" href={link} className="link">
-          <img src={imageSrc} className="thumbnail" />
-          <div className="text">
-            <div className={`source ${bias}`}> {source} </div>
-            <div className="title"> {title} </div>
-            <div className="desc">
+      <div className={`${newsStyles.news} ${bias}Background`}>
+        <a target="_blank" href={link} className={newsStyles.link}>
+          <img src={imageSrc} className={newsStyles.thumbnail} />
+          <div className={newsStyles.text}>
+            <div className={`${newsStyles.source} ${bias}`}> {source} </div>
+            <div className={newsStyles.title}> {title} </div>
+            <div className={newsStyles.desc}>
               {" "}
               {modifiedDesc ? (
                 modifiedDesc.endsWith(".") ? (
@@ -64,8 +65,8 @@ export default function News({
               )}{" "}
             </div>
 
-            <hr className="line"></hr>
-            <div className="date">
+            <hr className={newsStyles.line}></hr>
+            <div className={newsStyles.date}>
               {" "}
               {modifiedDate ? modifiedDate : <p> Loading... </p>}{" "}
             </div>

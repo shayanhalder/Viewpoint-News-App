@@ -76,7 +76,7 @@ function App() {
       <h1 className="viewpoint"> Viewpoint </h1>
       <h2 style={{ textAlign: "center" }}>
         {" "}
-        Trending Now:
+        Trending Now:{" "}
         {trending ? (
           <Topics
             data={data}

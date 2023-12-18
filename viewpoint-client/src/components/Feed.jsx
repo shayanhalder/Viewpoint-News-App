@@ -1,10 +1,11 @@
 import React from "react";
 import NewsList from "./NewsList.jsx";
+import feedStyles from "../css/Feed.module.css";
 
 export default function Feed({ data, currentTopic }) {
   return (
-    <div className="container">
-      <div className="column">
+    <div className={feedStyles.container}>
+      <div className={feedStyles.column}>
         {data && currentTopic != "Select topic" ? (
           <>
             <h2
@@ -30,7 +31,7 @@ export default function Feed({ data, currentTopic }) {
           <p></p>
         )}
       </div>
-      <div className="column">
+      <div className={feedStyles.column}>
         {data && currentTopic != "Select topic" ? (
           <>
             <h2
