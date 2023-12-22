@@ -2,6 +2,7 @@ import axios from "axios";
 import cheerio from "cheerio";
 import { getAllIndexes } from "./dataFormatting.js";
 import dotenv from "dotenv";
+import Sentiment from "sentiment";
 
 dotenv.config();
 const url = "https://abcnews.go.com";
@@ -255,6 +256,8 @@ export async function fetchCurrentData(trendingTopics) {
   ];
 
   const sources = [leftSources, rightSources];
+  const sentimentAnalyzer = new Sentiment();
+
   let output = {};
 
   // for each trending topic, use API to gather news data from both
@@ -286,6 +289,7 @@ export async function fetchCurrentData(trendingTopics) {
             // with cnn or fox news article
             let fillerNewsSource =
               source == leftSources ? "cnn.com" : "foxnews.com";
+
             let response = await requestCurrentNewsData(
               currentTrendingTopic,
               fillerNewsSource
@@ -298,11 +302,30 @@ export async function fetchCurrentData(trendingTopics) {
               continue; // if still no news data for the topic, then move on to the next news source
             }
 
+            // get sentiment analysis score for the current news story that we are adding
+            const currentURL = response.articles[0].url;
+            const sentimentScore = await getNewsSentimentScore(
+              currentURL,
+              sentimentAnalyzer
+            );
+
+            // add the sentiment analysis score
+            response.articles[0].sentimentScore = sentimentScore;
+
             source == leftSources
               ? leftOutput.push(response.articles[0])
               : rightOutput.push(response.articles[0]);
           }
         } else {
+          // get sentiment analysis score for the current news story that we are adding
+          const currentURL = response.articles[0].url;
+          const sentimentScore = await getNewsSentimentScore(
+            currentURL,
+            sentimentAnalyzer
+          );
+
+          // add the sentiment analysis score
+          response.articles[0].sentimentScore = sentimentScore;
           source == leftSources
             ? leftOutput.push(response.articles[0])
             : rightOutput.push(response.articles[0]);
@@ -321,6 +344,19 @@ export async function fetchCurrentData(trendingTopics) {
 
   removeEmptyNewsLists(output);
   return output;
+}
+
+async function getNewsSentimentScore(currentURL, sentiment) {
+  const promise = await fetch(
+    `https://extractorapi.com/api/v1/extractor/?apikey=${process.env.SENTIMENT_KEY1}&url=${currentURL}`
+  );
+  const data = await promise.json();
+  const text = data.text;
+  const score = sentiment.analyze(text);
+  console.log("sentiment score:");
+  console.log(score);
+
+  return score;
 }
 
 function removeEmptyNewsLists(newsData) {
