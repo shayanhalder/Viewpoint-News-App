@@ -353,6 +353,11 @@ async function getNewsSentimentScore(currentURL, sentiment) {
   const data = await promise.json();
   const text = data.text;
   const score = sentiment.analyze(text);
+
+  delete score.tokens;
+  delete score.words;
+  delete score.calculation;
+
   console.log("sentiment score:");
   console.log(score);
 
