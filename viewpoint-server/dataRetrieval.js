@@ -34,8 +34,7 @@ async function requestPastNewsData(topic, sources, previousDate, date) {
   /* Requests news API with relevant parameters-- date, trending topic, news sources,
     and returns the JSON response.  */
 
-  let url =
-    new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
+  let url = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
                         &from=${previousDate}&to=${date}&apiKey=${PAST_DATA_API_KEY}`);
   let promise = await fetch(url);
   let response = await promise.json();
@@ -90,10 +89,7 @@ function getNewsStoryIndices(uniqueSources, allSources) {
 }
 
 function addRepeatSources(output, response, uniqueSources, allSources) {
-  const [newsIndexesSortedBySource, maxColumns] = getNewsStoryIndices(
-    uniqueSources,
-    allSources
-  );
+  const [newsIndexesSortedBySource, maxColumns] = getNewsStoryIndices(uniqueSources, allSources);
 
   console.log("Indexes: ");
   console.log(newsIndexesSortedBySource);
@@ -125,9 +121,7 @@ function addRepeatSources(output, response, uniqueSources, allSources) {
         continue; // 2D array is not rectangular so some rows have less columns than others
       }
       const containsDuplicateNewsStory = output.some(
-        (news) =>
-          news.title ==
-          response.articles[newsIndexesSortedBySource[row][col]].title
+        (news) => news.title == response.articles[newsIndexesSortedBySource[row][col]].title
       );
       if (!containsDuplicateNewsStory) {
         // only add news stories we do not already have
@@ -152,8 +146,7 @@ function addRepeatSources(output, response, uniqueSources, allSources) {
 export async function fetchPastData(trendingTopics, date, previousDate) {
   let pastNewsData = {};
 
-  const leftSources =
-    "cnn.com,washingtonpost.com,nytimes.com,huffpost.com,vox.com,msnbc.com,buzzfeed.com";
+  const leftSources = "cnn.com,washingtonpost.com,nytimes.com,huffpost.com,vox.com,msnbc.com,buzzfeed.com";
   const rightSources =
     "foxnews.com,breitbart.com,theblaze.com,nypost.com,theepochtimes.com,washingtontimes.com,dailywire.com";
   const sources = [leftSources, rightSources];
@@ -164,12 +157,7 @@ export async function fetchPastData(trendingTopics, date, previousDate) {
 
     for (let source of sources) {
       let output = source == leftSources ? leftOutput : rightOutput;
-      let response = await requestPastNewsData(
-        currentTrendingTopic,
-        source,
-        previousDate,
-        date
-      );
+      let response = await requestPastNewsData(currentTrendingTopic, source, previousDate, date);
 
       console.log("past data news response: ");
       console.log(response);
@@ -214,8 +202,7 @@ async function requestCurrentNewsData(topic, source) {
   while (presentDataAPIKeyNumber <= 4) {
     PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
 
-    let url =
-      new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
+    let url = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
                             sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
 
     let promise = await fetch(url);
@@ -270,11 +257,7 @@ export async function fetchCurrentData(trendingTopics) {
     for (let source of sources) {
       // iterate through each news source for a given bias (eg cnn for left, fox news for right)
       for (let j = 0; j < source.length; j++) {
-        let response = await requestCurrentNewsData(
-          currentTrendingTopic,
-          source[j]
-        );
-
+        let response = await requestCurrentNewsData(currentTrendingTopic, source[j]);
         if (!response.articles) {
           // API rate limit so no more requests in the future will work for the current day
           return { message: "news data unavailable" };
@@ -287,13 +270,9 @@ export async function fetchCurrentData(trendingTopics) {
           } else if (j == source.length - 1) {
             // if we have reached the last source in the current source list, then fill
             // with cnn or fox news article
-            let fillerNewsSource =
-              source == leftSources ? "cnn.com" : "foxnews.com";
+            let fillerNewsSource = source == leftSources ? "cnn.com" : "foxnews.com";
 
-            let response = await requestCurrentNewsData(
-              currentTrendingTopic,
-              fillerNewsSource
-            );
+            let response = await requestCurrentNewsData(currentTrendingTopic, fillerNewsSource);
 
             if (!response.articles) {
               // API rate limit so no more requests in the future will work for the current day
@@ -304,10 +283,7 @@ export async function fetchCurrentData(trendingTopics) {
 
             // get sentiment analysis score for the current news story that we are adding
             const currentURL = response.articles[0].url;
-            const sentimentScore = await getNewsSentimentScore(
-              currentURL,
-              sentimentAnalyzer
-            );
+            const sentimentScore = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
 
             // add the sentiment analysis score
             response.articles[0].sentimentScore = sentimentScore;
@@ -319,17 +295,12 @@ export async function fetchCurrentData(trendingTopics) {
         } else {
           // get sentiment analysis score for the current news story that we are adding
           const currentURL = response.articles[0].url;
-          const sentimentScore = await getNewsSentimentScore(
-            currentURL,
-            sentimentAnalyzer
-          );
-
+          const sentimentScore = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
           // add the sentiment analysis score
           response.articles[0].sentimentScore = sentimentScore;
           source == leftSources
             ? leftOutput.push(response.articles[0])
             : rightOutput.push(response.articles[0]);
-
           console.log(leftOutput);
           console.log(rightOutput);
         }
@@ -369,10 +340,7 @@ function removeEmptyNewsLists(newsData) {
     news data in them, which can happen from the News API output sometimes. */
 
   for (let currentTrendingTopic of Object.keys(newsData)) {
-    if (
-      newsData[currentTrendingTopic].left.length == 0 ||
-      newsData[currentTrendingTopic].right.length == 0
-    ) {
+    if (newsData[currentTrendingTopic].left.length == 0 || newsData[currentTrendingTopic].right.length == 0) {
       delete newsData[currentTrendingTopic];
     }
   }

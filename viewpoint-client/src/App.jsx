@@ -90,15 +90,7 @@ function App() {
         )}
       </h2>
 
-      {trending ? (
-        <Calendar
-          pastDate={date}
-          setPastDate={setDate}
-          date={formatDate(new Date())}
-        />
-      ) : (
-        <p></p>
-      )}
+      {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
 
       {data && currentTopic != "Select topic" ? (
         <Feed data={data.news[currentTopic]} currentTopic={currentTopic} />
