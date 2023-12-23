@@ -3,6 +3,14 @@ import News from "./News.jsx";
 
 export default function NewsList({ list, bias }) {
   return list.map((item) => {
+    let currentScore;
+
+    if (item.sentimentScore != undefined && item.sentimentScore.comparative != 0) {
+      currentScore = item.sentimentScore.comparative;
+    } else {
+      currentScore = undefined;
+    }
+
     return (
       <News
         key={Math.random()}
@@ -14,6 +22,7 @@ export default function NewsList({ list, bias }) {
         link={item.url}
         date={item.publishedAt}
         bias={bias}
+        sentimentScore={currentScore}
       />
     );
   });

@@ -1,16 +1,7 @@
 import React, { useState, useEffect } from "react";
 import newsStyles from "../css/News.module.css";
 
-export default function News({
-  title,
-  author,
-  source,
-  imageSrc,
-  desc,
-  link,
-  date,
-  bias,
-}) {
+export default function News({ title, author, source, imageSrc, desc, link, date, bias, sentimentScore }) {
   const [modifiedDesc, setModifiedDesc] = useState();
   const [modifiedDate, setModifiedDate] = useState();
 
@@ -23,11 +14,7 @@ export default function News({
       return temp;
     }
     if (desc.startsWith("<ol><li>")) {
-      const temp = removeValues(
-        desc,
-        ["<li>", "<ol>", "</li>", "</ol>", "\\r\\n", source],
-        ""
-      );
+      const temp = removeValues(desc, ["<li>", "<ol>", "</li>", "</ol>", "\\r\\n", source], "");
       setModifiedDesc(temp);
       console.log(modifiedDesc);
     } else {
@@ -49,6 +36,16 @@ export default function News({
       <div className={`${newsStyles.news} ${bias}Background`}>
         <a target="_blank" href={link} className={newsStyles.link}>
           <img src={imageSrc} className={newsStyles.thumbnail} />
+
+          {sentimentScore != undefined ? (
+            <span className={newsStyles.tooltip}>
+              {" "}
+              Sentiment: {Math.round(sentimentScore * 10 ** 4) / 10 ** 4}
+            </span>
+          ) : (
+            <span className={newsStyles.tooltip}> Sentiment: N/A</span>
+          )}
+
           <div className={newsStyles.text}>
             <div className={`${newsStyles.source} ${bias}`}> {source} </div>
             <div className={newsStyles.title}> {title} </div>
@@ -66,10 +63,7 @@ export default function News({
             </div>
 
             <hr className={newsStyles.line}></hr>
-            <div className={newsStyles.date}>
-              {" "}
-              {modifiedDate ? modifiedDate : <p> Loading... </p>}{" "}
-            </div>
+            <div className={newsStyles.date}> {modifiedDate ? modifiedDate : <p> Loading... </p>} </div>
           </div>
         </a>
       </div>
