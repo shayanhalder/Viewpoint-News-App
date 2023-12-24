@@ -4,6 +4,7 @@ import Topics from "./components/Topics.jsx";
 import Feed from "./components/Feed.jsx";
 import Calendar from "./components/Calendar.jsx";
 import formatDate from "./dateFormat.js";
+import Tabs from "./components/Tabs.jsx";
 
 function App() {
   const [trending, setTrending] = useState();
@@ -91,6 +92,8 @@ function App() {
       </h2>
 
       {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
+
+      <Tabs choices={["Grid", "Individual", "Sentiment"]} />
 
       {data && currentTopic != "Select topic" ? (
         <Feed data={data.news[currentTopic]} currentTopic={currentTopic} />
