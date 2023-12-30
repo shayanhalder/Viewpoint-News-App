@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import tabStyles from "../css/Tabs.module.css";
 
-export default function Tabs({ choices }) {
-  const [toggledChoices, setToggledChoices] = useState(1);
+export default function Tabs({ choices, viewType, setViewType }) {
+  const [toggledChoices, setToggledChoices] = useState(1); // first choice is selected by default
+
+  function handleViewChange(e) {
+    setToggledChoices(e.target.id);
+    setViewType(e.target.getAttribute("viewtype"));
+  }
 
   return (
     <div className={tabStyles.tabs}>
@@ -12,7 +17,7 @@ export default function Tabs({ choices }) {
 
           return (
             <label key={Math.random()} className={`${tabStyles.tabLabel} ${style}`}>
-              <input type="radio" id={index + 1} onClick={(e) => setToggledChoices(e.target.id)} />
+              <input type="radio" viewtype={choice} id={index + 1} onClick={handleViewChange} />
               {choice}
             </label>
           );

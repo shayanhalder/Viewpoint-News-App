@@ -11,6 +11,7 @@ function App() {
   const [currentTopic, setCurrentTopic] = useState();
   const [data, setData] = useState();
   const [date, setDate] = useState(formatDate(new Date()));
+  const [viewType, setViewType] = useState("Grid");
 
   /*
   if no data found for trending topic, make sure it isn't included in upload object for database, 
@@ -38,7 +39,7 @@ function App() {
   useEffect(() => {
     async function getPast() {
       console.log(date);
-      const promise = await fetch(`${LOCAL_HOST}/history/instance/${date}`, {
+      const promise = await fetch(`${API_SERVER}/history/instance/${date}`, {
         method: "GET",
       });
       const data = await promise.json();
@@ -93,10 +94,10 @@ function App() {
 
       {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
 
-      <Tabs choices={["Grid", "Individual", "Sentiment"]} />
+      <Tabs choices={["Grid", "Individual", "Sentiment"]} viewType={viewType} setViewType={setViewType} />
 
       {data && currentTopic != "Select topic" ? (
-        <Feed data={data.news[currentTopic]} currentTopic={currentTopic} />
+        <Feed data={data.news[currentTopic]} currentTopic={currentTopic} viewType={viewType} />
       ) : (
         <p style={{ textAlign: "center" }}> </p>
       )}

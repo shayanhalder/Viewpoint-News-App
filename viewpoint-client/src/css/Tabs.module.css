@@ -19,6 +19,10 @@
   border-bottom: 1px solid gray;
 }
 
+.tabLabel:hover {
+  cursor: pointer;
+}
+
 .selected {
   background-color: rgb(255, 255, 255, 0.1);
   border-bottom: 1px solid #ffeb02;
