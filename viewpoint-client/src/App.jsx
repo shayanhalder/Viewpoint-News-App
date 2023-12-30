@@ -37,7 +37,7 @@ function App() {
   useEffect(() => {
     async function getPast() {
       console.log(date);
-      const promise = await fetch(`${LOCAL_HOST}/history/instance/${date}`, {
+      const promise = await fetch(`${API_SERVER}/history/instance/${date}`, {
         method: "GET",
       });
       const data = await promise.json();
