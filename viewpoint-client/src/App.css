@@ -5,13 +5,15 @@
   --left-news-source-color: #4e8de6;
   --right-news-source-color: #d95f59;
   --input-background-color: #3f3f40;
+  --news-background-color: #3f3f40;
+  --dark-yellow: #ffeb02;
+  --light-yellow: #fbf4a0;
 }
 
 body {
   background-color: var(--background-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 div {
