@@ -197,9 +197,9 @@ are stored in an array instead of a single string, which is iterated through for
 */
 
 async function requestCurrentNewsData(topic, source) {
-  presentDataAPIKeyNumber = 7;
+  presentDataAPIKeyNumber = 2;
   let response;
-  while (presentDataAPIKeyNumber <= 7) {
+  while (presentDataAPIKeyNumber <= 4) {
     PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
 
     let url = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
@@ -288,7 +288,7 @@ export async function fetchCurrentData(trendingTopics) {
 
             // add the sentiment analysis score and GPT analysis
             response.articles[0].sentimentScore = sentimentScore;
-            response.articles[0].analysis = gptAnalysis;
+            response.articles[0].gptAnalysis = gptAnalysis;
 
             source == leftSources
               ? leftOutput.push(response.articles[0])
@@ -301,7 +301,7 @@ export async function fetchCurrentData(trendingTopics) {
           const gptAnalysis = await getGPTAnalysis(articleText, currentTrendingTopic);
           // add the sentiment analysis score and GPT analysis
           response.articles[0].sentimentScore = sentimentScore;
-          response.articles[0].analysis = gptAnalysis;
+          response.articles[0].gptAnalysis = gptAnalysis;
           source == leftSources
             ? leftOutput.push(response.articles[0])
             : rightOutput.push(response.articles[0]);
