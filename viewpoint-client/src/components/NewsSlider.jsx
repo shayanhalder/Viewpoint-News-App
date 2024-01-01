@@ -19,6 +19,7 @@ export default function NewsSlider({ list, bias }) {
         link={story.url}
         date={story.publishedAt}
         bias={bias}
+        sentimentScore={story.sentimentScore.comparative}
       />
     );
   }
@@ -37,11 +38,11 @@ export default function NewsSlider({ list, bias }) {
 
   return (
     <div className={SliderStyles.container} bias={bias}>
-      <button onClick={() => switchNews(currentStoryIndex - 1)}> Prev </button>
+      <button onClick={() => switchNews(currentStoryIndex - 1)}> &lt; </button>
 
       {stories[currentStoryIndex]}
 
-      <button onClick={() => switchNews(currentStoryIndex + 1)}> Next </button>
+      <button onClick={() => switchNews(currentStoryIndex + 1)}> &gt; </button>
     </div>
   );
 }
