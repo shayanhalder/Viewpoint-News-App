@@ -60,4 +60,4 @@ def get_analysis() -> str:
 if __name__ == "__main__":
     load_dotenv()
     PORT = os.getenv('PORT')
-    app.run(debug=True, port=PORT)
+    app.run(debug=True, host="0.0.0.0", port=PORT)
