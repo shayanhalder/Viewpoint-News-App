@@ -1,5 +1,7 @@
 import g4f
 from flask import Flask, request, jsonify 
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
 
@@ -56,4 +58,6 @@ def get_analysis() -> str:
     return jsonify(response_data)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    load_dotenv()
+    PORT = os.getenv('PORT')
+    app.run(debug=True, port=PORT)
