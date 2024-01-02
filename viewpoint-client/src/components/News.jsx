@@ -16,10 +16,10 @@ export default function News({ title, author, source, imageSrc, desc, link, date
     if (desc.startsWith("<ol><li>")) {
       const temp = removeValues(desc, ["<li>", "<ol>", "</li>", "</ol>", "\\r\\n", source], "");
       setModifiedDesc(temp);
-      console.log(modifiedDesc);
+      // console.log(modifiedDesc);
     } else {
       setModifiedDesc(desc);
-      console.log(modifiedDesc);
+      // console.log(modifiedDesc);
     }
 
     let temp = date.substring(5, 10).replace("-", "/") + ` · ${author}`;

@@ -283,10 +283,12 @@ export async function fetchCurrentData(trendingTopics) {
 
             // get sentiment analysis score for the current news story that we are adding
             const currentURL = response.articles[0].url;
-            const sentimentScore = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
+            const [sentimentScore, articleText] = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
+            const gptAnalysis = await getGPTAnalysis(articleText, currentTrendingTopic);
 
-            // add the sentiment analysis score
+            // add the sentiment analysis score and GPT analysis
             response.articles[0].sentimentScore = sentimentScore;
+            response.articles[0].gptAnalysis = gptAnalysis;
 
             source == leftSources
               ? leftOutput.push(response.articles[0])
@@ -295,9 +297,11 @@ export async function fetchCurrentData(trendingTopics) {
         } else {
           // get sentiment analysis score for the current news story that we are adding
           const currentURL = response.articles[0].url;
-          const sentimentScore = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
-          // add the sentiment analysis score
+          const [sentimentScore, articleText] = await getNewsSentimentScore(currentURL, sentimentAnalyzer);
+          const gptAnalysis = await getGPTAnalysis(articleText, currentTrendingTopic);
+          // add the sentiment analysis score and GPT analysis
           response.articles[0].sentimentScore = sentimentScore;
+          response.articles[0].gptAnalysis = gptAnalysis;
           source == leftSources
             ? leftOutput.push(response.articles[0])
             : rightOutput.push(response.articles[0]);
@@ -318,10 +322,25 @@ export async function fetchCurrentData(trendingTopics) {
 }
 
 async function getNewsSentimentScore(currentURL, sentiment) {
-  const promise = await fetch(
-    `https://extractorapi.com/api/v1/extractor/?apikey=${process.env.SENTIMENT_KEY1}&url=${currentURL}`
-  );
-  const data = await promise.json();
+  let sentimentKeyNumber = 1;
+  let data;
+  while (sentimentKeyNumber <= 4) {
+    const promise = await fetch(
+      `https://extractorapi.com/api/v1/extractor/?apikey=${
+        process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
+      }&url=${currentURL}`
+    );
+    data = await promise.json();
+    if ("detail" in data && !("text" in data)) {
+      // rate limit for current API key-- shuffle to next API key
+      sentimentKeyNumber += 1;
+      continue;
+    } else {
+      // if valid data and API response, then stop shuffling API keys
+      break;
+    }
+  }
+
   const text = data.text;
   const score = sentiment.analyze(text);
 
@@ -332,7 +351,29 @@ async function getNewsSentimentScore(currentURL, sentiment) {
   console.log("sentiment score:");
   console.log(score);
 
-  return score;
+  return [score, text];
+}
+
+async function getGPTAnalysis(articleText, trendingTopic) {
+  const requestBody = JSON.stringify({
+    trending_topic: trendingTopic,
+    body: articleText,
+  });
+
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: requestBody,
+  };
+
+  const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
+  const analysis = await promise.json();
+  console.log("Analysis: ");
+  console.log(analysis);
+
+  return analysis;
 }
 
 function removeEmptyNewsLists(newsData) {

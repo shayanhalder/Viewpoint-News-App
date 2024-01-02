@@ -4,12 +4,14 @@ import Topics from "./components/Topics.jsx";
 import Feed from "./components/Feed.jsx";
 import Calendar from "./components/Calendar.jsx";
 import formatDate from "./dateFormat.js";
+import Tabs from "./components/Tabs.jsx";
 
 function App() {
   const [trending, setTrending] = useState();
   const [currentTopic, setCurrentTopic] = useState();
   const [data, setData] = useState();
   const [date, setDate] = useState(formatDate(new Date()));
+  const [viewType, setViewType] = useState("Grid");
 
   /*
   if no data found for trending topic, make sure it isn't included in upload object for database, 
@@ -92,8 +94,10 @@ function App() {
 
       {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
 
+      <Tabs choices={["Grid", "Individual"]} viewType={viewType} setViewType={setViewType} />
+
       {data && currentTopic != "Select topic" ? (
-        <Feed data={data.news[currentTopic]} currentTopic={currentTopic} />
+        <Feed data={data.news[currentTopic]} currentTopic={currentTopic} viewType={viewType} />
       ) : (
         <p style={{ textAlign: "center" }}> </p>
       )}
