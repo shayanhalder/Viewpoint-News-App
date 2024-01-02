@@ -322,10 +322,25 @@ export async function fetchCurrentData(trendingTopics) {
 }
 
 async function getNewsSentimentScore(currentURL, sentiment) {
-  const promise = await fetch(
-    `https://extractorapi.com/api/v1/extractor/?apikey=${process.env.SENTIMENT_KEY1}&url=${currentURL}`
-  );
-  const data = await promise.json();
+  let sentimentKeyNumber = 1;
+  let data;
+  while (sentimentKeyNumber <= 4) {
+    const promise = await fetch(
+      `https://extractorapi.com/api/v1/extractor/?apikey=${
+        process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
+      }&url=${currentURL}`
+    );
+    data = await promise.json();
+    if ("detail" in data && !("text" in data)) {
+      // rate limit for current API key-- shuffle to next API key
+      sentimentKeyNumber += 1;
+      continue;
+    } else {
+      // if valid data and API response, then stop shuffling API keys
+      break;
+    }
+  }
+
   const text = data.text;
   const score = sentiment.analyze(text);
 
@@ -353,7 +368,7 @@ async function getGPTAnalysis(articleText, trendingTopic) {
     body: requestBody,
   };
 
-  const promise = await fetch("http://127.0.0.1:5000/get-analysis", options);
+  const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
   const analysis = await promise.json();
   console.log("Analysis: ");
   console.log(analysis);

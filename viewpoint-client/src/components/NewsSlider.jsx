@@ -8,6 +8,13 @@ export default function NewsSlider({ list, bias }) {
   let stories = [];
 
   for (let story of list) {
+    let score;
+    if ("sentimentScore" in story && "comparative" in story.sentimentScore) {
+      score = story.sentimentScore.comparative;
+    } else {
+      score = undefined;
+    }
+
     stories.push(
       <News
         key={Math.random()}
@@ -19,7 +26,7 @@ export default function NewsSlider({ list, bias }) {
         link={story.url}
         date={story.publishedAt}
         bias={bias}
-        sentimentScore={story.sentimentScore.comparative}
+        sentimentScore={score}
       />
     );
   }

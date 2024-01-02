@@ -94,7 +94,7 @@ function App() {
 
       {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
 
-      <Tabs choices={["Grid", "Individual", "Overview"]} viewType={viewType} setViewType={setViewType} />
+      <Tabs choices={["Grid", "Individual"]} viewType={viewType} setViewType={setViewType} />
 
       {data && currentTopic != "Select topic" ? (
         <Feed data={data.news[currentTopic]} currentTopic={currentTopic} viewType={viewType} />
