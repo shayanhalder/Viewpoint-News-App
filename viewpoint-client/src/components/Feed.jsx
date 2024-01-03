@@ -30,7 +30,7 @@ export default function Feed({ data, currentTopic, viewType }) {
         {viewType == "Individual" ? (
           <>
             <div className={SliderStyles.parentContainer}>
-              <NewsSlider list={data.left} bias="left" />
+              <NewsSlider data={data} bias="left" />
             </div>
           </>
         ) : null}
