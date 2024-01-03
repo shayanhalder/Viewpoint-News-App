@@ -8,7 +8,7 @@ dotenv.config();
 const url = "https://abcnews.go.com";
 let presentDataAPIKeyNumber = 2;
 let PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
-const PAST_DATA_API_KEY = process.env.API_KEY6;
+const PAST_DATA_API_KEY = process.env.API_KEY11;
 
 export async function getTopics() {
   /* Gets the Trending Topics from ABC News by WebScrapping */
@@ -276,7 +276,7 @@ export async function fetchCurrentData(trendingTopics) {
 
             if (!response.articles) {
               // API rate limit so no more requests in the future will work for the current day
-              return { message: "news data unavailable" };
+              return { message: "news data unavailable-- API rate limited" };
             } else if (response.articles.length == 0) {
               continue; // if still no news data for the topic, then move on to the next news source
             }
@@ -330,15 +330,27 @@ async function getNewsSentimentScore(currentURL, sentiment) {
         process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
       }&url=${currentURL}`
     );
-    data = await promise.json();
+    try {
+      data = await promise.json();
+    } catch (err) {
+      console.log(err);
+      sentimentKeyNumber += 1;
+      continue;
+    }
+
     if ("detail" in data && !("text" in data)) {
       // rate limit for current API key-- shuffle to next API key
+      console.log("Extractor API Rate limited");
       sentimentKeyNumber += 1;
       continue;
     } else {
       // if valid data and API response, then stop shuffling API keys
       break;
     }
+  }
+
+  if (!("text" in data)) {
+    return null;
   }
 
   const text = data.text;
@@ -369,7 +381,14 @@ async function getGPTAnalysis(articleText, trendingTopic) {
   };
 
   const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
-  const analysis = await promise.json();
+  let analysis;
+  try {
+    analysis = await promise.json();
+  } catch (err) {
+    console.log(err);
+    return null;
+  }
+
   console.log("Analysis: ");
   console.log(analysis);
 
