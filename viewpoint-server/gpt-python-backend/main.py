@@ -13,6 +13,14 @@ def home() -> str:
 
 @app.route("/get-analysis", methods=['POST'])
 def get_analysis() -> str:
+    
+    # Print all available providers
+    print("Available providers: ")
+    print([
+        provider.__name__
+        for provider in g4f.Provider.__providers__
+        if provider.working
+    ])
     article_info = request.json
     trending_topic = article_info['trending_topic']
     article_body = article_info['body']
@@ -45,7 +53,7 @@ def get_analysis() -> str:
     g4f.debug.check_version = False  # Disable automatic version checking
     
     response = g4f.ChatCompletion.create(
-        model=g4f.models.gpt_35_turbo,
+        model=g4f.models.gpt_4,
         messages=[{"role": "user", "content": message}],
     )
     

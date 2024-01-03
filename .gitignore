@@ -1,2 +1,4 @@
 viewpoint-server/.env
 viewpoint-server/gpt-python-backend/.env
+.DS_Store
+viewpoint-server/.DS_Store
