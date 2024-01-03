@@ -2,6 +2,7 @@ import React from "react";
 import News from "./News.jsx";
 import { useState } from "react";
 import SliderStyles from "../css/NewsSlider.module.css";
+import Tabs from "./Tabs.jsx";
 
 export default function NewsSlider({ list, bias }) {
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
@@ -44,12 +45,27 @@ export default function NewsSlider({ list, bias }) {
   }
 
   return (
-    <div className={SliderStyles.container} bias={bias}>
-      <button onClick={() => switchNews(currentStoryIndex - 1)}> &lt; </button>
+    <>
+      {/* <div className={SliderStyles.biasToggle}>Left/Right</div> */}
+      <div className={SliderStyles.container} bias={bias}>
+        <div className={SliderStyles.newsContainer}>
+          <button onClick={() => switchNews(currentStoryIndex - 1)}> &lt; </button>
+          <div>
+            <div className={SliderStyles.biasToggle}>
+              <Tabs choices={["Left", "Right"]} />
+            </div>
+            {stories[currentStoryIndex]}
+          </div>
 
-      {stories[currentStoryIndex]}
-
-      <button onClick={() => switchNews(currentStoryIndex + 1)}> &gt; </button>
-    </div>
+          <button onClick={() => switchNews(currentStoryIndex + 1)}> &gt; </button>
+        </div>
+        <div className={SliderStyles.verticalBar}></div>
+        <div className={SliderStyles.analysisContainer}>
+          {"gptAnalysis" in list[currentStoryIndex] ? (
+            <div>{list[currentStoryIndex].gptAnalysis.analysis}</div>
+          ) : null}
+        </div>
+      </div>
+    </>
   );
 }

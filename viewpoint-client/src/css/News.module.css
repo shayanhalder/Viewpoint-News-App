@@ -1,6 +1,6 @@
 .news {
   width: 220px;
-  height: 100%;
+  height: auto;
   position: relative;
   background-color: #3f3f40;
   margin: 10px 10px 10px 10px;

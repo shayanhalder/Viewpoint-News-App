@@ -1,12 +1,15 @@
 .parentContainer {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   column-gap: 5%;
 }
 
 .container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
   column-gap: 30px;
 }
 
@@ -24,7 +27,32 @@
   border: 1px solid var(--right-news-source-color);
 }
 
+.analysisContainer {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
 .verticalBar {
-  height: auto;
+  height: 100%;
   border: 1px solid white;
+}
+
+.newsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsContainer button {
+  position: relative;
+  top: 30px;
+}
+.biasToggle {
+  display: flex;
+  position: relative;
+  /* left: 200px;
+  top: 10px; */
+  justify-content: center;
+  margin: 10px 20px;
 }
