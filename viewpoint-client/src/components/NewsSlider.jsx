@@ -3,6 +3,7 @@ import News from "./News.jsx";
 import { useState } from "react";
 import SliderStyles from "../css/NewsSlider.module.css";
 import Tabs from "./Tabs.jsx";
+import Analysis from "./Analysis.jsx";
 
 export default function NewsSlider({ data, bias }) {
   const [currentBias, setCurrentBias] = useState("left");
@@ -63,7 +64,9 @@ export default function NewsSlider({ data, bias }) {
         <div className={SliderStyles.verticalBar}></div>
         <div className={SliderStyles.analysisContainer}>
           {"gptAnalysis" in data[currentBias.toLowerCase()][currentStoryIndex] ? (
-            <div>{data[currentBias.toLowerCase()][currentStoryIndex].gptAnalysis.analysis}</div>
+            <div>
+              <Analysis text={data[currentBias.toLowerCase()][currentStoryIndex].gptAnalysis.analysis} />
+            </div>
           ) : null}
         </div>
       </div>
