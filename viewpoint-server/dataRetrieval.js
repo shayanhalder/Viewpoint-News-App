@@ -380,7 +380,7 @@ async function getGPTAnalysis(articleText, trendingTopic) {
     body: requestBody,
   };
 
-  const promise = await fetch("https://shayanhalder.pythonanywhere.com/get-analysis", options);
+  const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
   let analysis;
   try {
     analysis = await promise.json();
