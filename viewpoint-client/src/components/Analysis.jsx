@@ -9,14 +9,16 @@ export default function Analysis({ text }) {
   console.log(analysis);
 
   for (let currentInfo of analysis) {
-    const bullets = currentInfo.split(" - ");
+    const bullets = currentInfo.split("\n- ");
+    let title = currentInfo.split(" ")[1];
+    title = title.slice(0, title.length - 1);
     const template = (
       <div>
-        <p>{currentInfo.split(" ")[0]}</p>
+        <p>{title}</p>
         <ul>
-          {bullets.map((bullet) => {
-            <li> {bullet} </li>;
-          })}
+          {bullets.slice(1).map((bullet) => (
+            <li key={Math.random()}>{bullet}</li>
+          ))}
         </ul>
       </div>
     );
@@ -26,7 +28,7 @@ export default function Analysis({ text }) {
   return (
     <div>
       {information.map((section) => (
-        <div> {section} </div>
+        <div key={Math.random()}> {section} </div>
       ))}
     </div>
   );

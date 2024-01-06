@@ -1,6 +1,6 @@
 import React from "react";
 import News from "./News.jsx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SliderStyles from "../css/NewsSlider.module.css";
 import Tabs from "./Tabs.jsx";
 import Analysis from "./Analysis.jsx";
@@ -46,6 +46,10 @@ export default function NewsSlider({ data, bias }) {
     setCurrentStoryIndex(newIndex);
   }
 
+  useEffect(() => {
+    setCurrentStoryIndex(0);
+  }, [currentBias]);
+
   return (
     <>
       {/* <div className={SliderStyles.biasToggle}>Left/Right</div> */}
@@ -63,7 +67,8 @@ export default function NewsSlider({ data, bias }) {
         </div>
         <div className={SliderStyles.verticalBar}></div>
         <div className={SliderStyles.analysisContainer}>
-          {"gptAnalysis" in data[currentBias.toLowerCase()][currentStoryIndex] ? (
+          {data[currentBias.toLowerCase()][currentStoryIndex] != undefined &&
+          "gptAnalysis" in data[currentBias.toLowerCase()][currentStoryIndex] ? (
             <div>
               <Analysis text={data[currentBias.toLowerCase()][currentStoryIndex].gptAnalysis.analysis} />
             </div>
