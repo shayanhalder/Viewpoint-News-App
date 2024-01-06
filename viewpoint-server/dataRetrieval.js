@@ -349,10 +349,6 @@ async function getNewsSentimentScore(currentURL, sentiment) {
     }
   }
 
-  if (!("text" in data)) {
-    return null;
-  }
-
   const text = data.text;
   const score = sentiment.analyze(text);
 
