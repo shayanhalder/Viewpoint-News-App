@@ -54,6 +54,32 @@ app.get("/current", async (req, res) => {
   }
 });
 
+app.post("/get-analysis", async (req, res) => {
+  const requestBody = JSON.stringify({
+    trending_topic: req.body.trending,
+    body: req.body.text,
+  });
+
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: requestBody,
+  };
+  const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
+  let analysis;
+  try {
+    analysis = await promise.json();
+  } catch (err) {
+    console.log(err);
+  }
+
+  console.log(analysis);
+
+  res.json(analysis);
+});
+
 export async function updatePastData() {
   /* Updates the MongoDB database with the trending topics at the end of a given day
      and past news data about the trending topics from a variety of news sources on both left 
