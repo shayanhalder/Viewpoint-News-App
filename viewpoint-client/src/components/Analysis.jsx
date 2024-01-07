@@ -1,38 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-export default function Analysis({ text }) {
-  let information = [];
+export default function Analysis({ text, currentAnalysis }) {
+  let analysisCategories = {}; // 3 sections in GPT analysis: overview, biases, comments. Maps a given section to its corresponding text
 
-  let analysis = text.slice(text.indexOf("####"));
+  let analysis = text.slice(text.indexOf("####")); // #### Used in GPT output to indicate the different sections.
   analysis = analysis.split("####").slice(1);
 
-  console.log(analysis);
-
-  for (let currentInfo of analysis) {
-    let bullets = currentInfo.split("\n");
-    bullets = bullets.filter((element) => element.trim() !== "");
+  for (let currentSection of analysis) {
+    let bullets = currentSection.split("\n");
+    bullets = bullets.filter((element) => element.trim() !== ""); // remove extra whitespace
     for (let i = 0; i < bullets.length; i++) {
-      // let currentBullet = bullets[i];
       if (bullets[i].indexOf(" * ") !== -1) {
-        // sub-bullets exist
+        // GPT uses "*" to indicate secondary sub-bullets
         bullets[i] = bullets[i].split("*");
         bullets[i] = bullets[i].filter((element) => element.trim() !== "" && element.trim() !== "-");
       }
     }
-    console.log("bullets: ");
-    console.log(bullets);
-    let title = currentInfo.split(" ")[1];
-    title = title.slice(0, title.indexOf("\n"));
-    const template = (
+    let title = currentSection.split(" ")[1];
+    title = title.slice(0, title.indexOf("\n")); // remove newline character
+
+    const currentSectionTemplate = (
       <div>
-        <p>{title}</p>
-        <ul key={Math.random()}>
+        <ul>
           {bullets.slice(1).map((bullet) => {
             if (Array.isArray(bullet)) {
+              // sub-bullets exists within current bullet
               return (
                 <>
-                  {/* <li key={Math.random()}> {bullet[0]} </li> */}
-                  <ul key={Math.random()}>
+                  <ul>
                     {bullet.map((subBullet) => {
                       if (subBullet.trim() == "") {
                         return null;
@@ -45,20 +40,15 @@ export default function Analysis({ text }) {
             } else if (bullet.trim() == "") {
               return null;
             } else {
+              // normal bullet
               return <li key={Math.random()}>{bullet.replace("-", "")}</li>;
             }
           })}
         </ul>
       </div>
     );
-    information.push(template);
+    analysisCategories[title.toLowerCase()] = currentSectionTemplate;
   }
 
-  return (
-    <div>
-      {information.map((section) => (
-        <div key={Math.random()}> {section} </div>
-      ))}
-    </div>
-  );
+  return <div>{analysisCategories[currentAnalysis]}</div>;
 }
