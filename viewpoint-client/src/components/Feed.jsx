@@ -14,7 +14,7 @@ export default function Feed({ data, currentTopic, viewType }) {
           <h1 className={feedStyles.rightBiasTitle}>Right</h1>
         </div>
 
-        {viewType == "Grid" ? (
+        {viewType == "Grid" && (
           <div className={feedStyles.container}>
             <div className={feedStyles.column}>
               <NewsList list={data.left} bias="left" />
@@ -23,15 +23,15 @@ export default function Feed({ data, currentTopic, viewType }) {
               <NewsList list={data.right} bias="right" />
             </div>
           </div>
-        ) : null}
+        )}
 
-        {viewType == "Individual" ? (
+        {viewType == "Individual" && (
           <div className={SlideStyles.parentContainer}>
             <NewsSlider list={data.left} bias="left" />
             <div className={SlideStyles.verticalBar}></div>
             <NewsSlider list={data.right} bias="right" />
           </div>
-        ) : null}
+        )}
       </>
     );
   } else {

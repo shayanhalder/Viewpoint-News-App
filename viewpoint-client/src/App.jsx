@@ -6,66 +6,66 @@ import Calendar from "./components/Calendar.jsx";
 import formatDate from "./dateFormat.js";
 import Tabs from "./components/Tabs.jsx";
 
+const PROD_SERVER = import.meta.env.VITE_PROD_SERVER;
+const DEV_SERVER = import.meta.env.VITE_DEV_SERVER;
+
 function App() {
-  const [trending, setTrending] = useState();
-  const [currentTopic, setCurrentTopic] = useState();
-  const [data, setData] = useState();
-  const [date, setDate] = useState(formatDate(new Date()));
-  const [viewType, setViewType] = useState("Grid");
+  const [trendingTopics, setTrendingTopics] = useState(); // array with the currently trending topics that were webscraped
+  const [currentTopic, setCurrentTopic] = useState(); // string with the currently chosen trending topic 
+  const [data, setData] = useState(); // object containing the news data information associated with each trending topic 
+  const [date, setDate] = useState(formatDate(new Date())); // array with the date components in YYYY-MM-DD format
+  const [viewType, setViewType] = useState("Grid"); // string indicating the current layout option ('grid' or 'individual')
 
   /*
-  if no data found for trending topic, make sure it isn't included in upload object for database, 
-  AND remove that trending topic from the "trending" list as well. 
-  
-  make server update currentNews database twice a day
+    Fetches current trending news data from backend and sets
+    the 'data' and 'trending' states accordingly.
   */
-
-  const API_SERVER = "https://viewpoint-node-js-backend.onrender.com";
-  const LOCAL_HOST = "http://localhost:3001";
-
   async function fetchData() {
-    const promise = await fetch(`${API_SERVER}/current`, {
+    const promise = await fetch(`${PROD_SERVER}/current`, {
       method: "GET",
     });
 
-    let output = await promise.json();
-    output = output[0]; // database returns an array even if only one element
+    const databaseOutput = await promise.json();
+    let output = databaseOutput[0]; // database returns all queries in an array
     setData(output);
-    output.trending.splice(0, 0, "Select topic"); // get rid of "Select topic"
-    setTrending(output.trending);
+    output.trending.splice(0, 0, "Select topic"); // add "Select topic" as the first elements in trending topics array as a default placeholder on page load
+    setTrendingTopics(output.trending);
+    // TODO: remove 'trending' state variable since it is derived from the "data" object and is redundant
   }
 
-  // user changes current date, so news data for the new date is requested and stored
+  /*
+    Fetches past news data from the /history/instance endpoint which returns 
+    the news data associated with a specific date.
+
+    Occurs whenever user changes the 'date' state variable. 
+  */
   useEffect(() => {
     async function getPast() {
       console.log(date);
-      const promise = await fetch(`${API_SERVER}/history/instance/${date}`, {
+      const promise = await fetch(`${PROD_SERVER}/history/instance/${date}`, {
         method: "GET",
       });
       const data = await promise.json();
-      console.log(data);
-      if (data.length == 0) {
+      if (data.length == 0) { // no data found for the given date 
+        // TODO: make backend return a proper object with a 404 error
         alert("No data available for this day, try another date.");
         setData(null);
-        setTrending(["N/A"]);
-      } else {
-        data[0].trending.splice(0, 0, "Select topic");
+        setTrendingTopics(["N/A"]);
+      } else { // data found
+        data[0].trending.splice(0, 0, "Select topic"); // add "Select topic" as the first elements in trending topics array as a default placeholder on page load
         setCurrentTopic("Select topic");
-        setTrending(data[0].trending);
+        setTrendingTopics(data[0].trending);
         setData(data[0]);
       }
     }
-
-    // update news data if user selects a past date
-    if (date != formatDate(new Date())) {
+    if (date != formatDate(new Date())) { // if date is not today, get past news data
       getPast();
-      console.log(date);
     } else {
       fetchData();
     }
   }, [date]);
 
-  // if current selected date is today, then fetch today's data
+  // fetch current news data on page load
   useEffect(() => {
     if (date == formatDate(new Date())) {
       fetchData();
@@ -78,12 +78,10 @@ function App() {
       <h2 style={{ textAlign: "center" }}>
         {" "}
         Trending Now:{" "}
-        {trending ? (
+        {trendingTopics ? (
           <Topics
-            data={data}
-            trending={trending}
-            setTrending={setTrending}
-            pastDate={date}
+            trending={trendingTopics}
+            setTrending={setTrendingTopics}
             currentTopic={currentTopic}
             setCurrentTopic={setCurrentTopic}
           />
@@ -92,14 +90,12 @@ function App() {
         )}
       </h2>
 
-      {trending ? <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} /> : <p></p>}
+      {trendingTopics && <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} />}
 
       <Tabs choices={["Grid", "Individual"]} viewType={viewType} setViewType={setViewType} />
 
-      {data && currentTopic != "Select topic" ? (
+      {data && currentTopic != "Select topic" && (
         <Feed data={data.news[currentTopic]} currentTopic={currentTopic} viewType={viewType} />
-      ) : (
-        <p style={{ textAlign: "center" }}> </p>
       )}
     </>
   );

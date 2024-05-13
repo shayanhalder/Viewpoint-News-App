@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 
 export default function Topics({
-  data,
   trending,
   setTrending,
-  pastDate,
   currentTopic,
   setCurrentTopic,
 }) {
