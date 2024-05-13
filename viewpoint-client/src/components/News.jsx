@@ -1,30 +1,38 @@
 import React, { useState, useEffect } from "react";
 import newsStyles from "../css/News.module.css";
 
+/**
+ * Given a string, an array of targets, and a replacement, it replaces all the targets in the given string
+   with a specific value. Used because sometimes News API description field contains HTML tags.
+ * @param {string} string The string that you want to remove values from. 
+ * @param {Array<string>} list An array of all targets that will be replaced.
+ * @param {string} newVal The string that will replace the value of each of the targets.
+ * @returns {string} The modified string with all targets replaced.
+ */
+
+function removeValues(string, list, newVal) {
+  let temp = string;
+  for (let i = 0; i < list.length; i++) {
+    temp = temp.replaceAll(list[i], newVal);
+  }
+  return temp;
+}
+
 export default function News({ title, author, source, imageSrc, desc, link, date, bias, sentimentScore }) {
   const [modifiedDesc, setModifiedDesc] = useState();
   const [modifiedDate, setModifiedDate] = useState();
 
   useEffect(() => {
-    function removeValues(string, list, newVal) {
-      let temp = string;
-      for (let i = 0; i < list.length; i++) {
-        temp = temp.replaceAll(list[i], newVal);
-      }
-      return temp;
-    }
-    if (desc.startsWith("<ol><li>")) {
-      const temp = removeValues(desc, ["<li>", "<ol>", "</li>", "</ol>", "\\r\\n", source], "");
-      setModifiedDesc(temp);
-      // console.log(modifiedDesc);
+    if (desc.startsWith("<")) { // if HTML in description, filter out all tags
+      const modifiedDescription = removeValues(desc, ["<li>", "<ol>", "</li>", "</ol>", "\\r\\n", source], "");
+      setModifiedDesc(modifiedDescription);
     } else {
       setModifiedDesc(desc);
-      // console.log(modifiedDesc);
     }
 
-    let temp = date.substring(5, 10).replace("-", "/") + ` · ${author}`;
+    let temp = date.substring(5, 10).replace("-", "/") + ` · ${author}`; // extract only date number to be displayed
     if (temp[0] == "0" && temp[3] == "0") {
-      temp = temp.replaceAll("0", "");
+      temp = temp.replaceAll("0", ""); // unpad the date numbers-- remove leading zeros for display
     } else if (temp[0] == "0" && temp[3] !== "0") {
       temp = temp.replace("0", "");
     }

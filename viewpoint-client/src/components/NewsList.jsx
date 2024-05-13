@@ -8,7 +8,7 @@ export default function NewsList({ list, bias }) {
     if (item.sentimentScore != undefined && item.sentimentScore.comparative != 0) {
       currentScore = item.sentimentScore.comparative;
     } else {
-      currentScore = undefined;
+      currentScore = undefined; // make sentiment score undefined if 0 since score of 0 means nothing
     }
 
     return (

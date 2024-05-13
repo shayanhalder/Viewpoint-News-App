@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Topics({
   trending,
@@ -6,10 +6,15 @@ export default function Topics({
   currentTopic,
   setCurrentTopic,
 }) {
+  /**
+   * Update current trending topic state when the select element is changed. Removes default 'Select topic' placeholder if needed. 
+  * @param {number} val The new current topic that was selected.
+  * @returns {null}
+  */
   function refresh(val) {
     setCurrentTopic(val);
     if (trending[0] == "Select topic") {
-      setTrending(trending.splice(1, trending.length)); // remove 'Select topic' from dropdown
+      setTrending(trending.splice(1, trending.length)); // remove 'Select topic' from dropdown after an option is selected
     }
   }
 

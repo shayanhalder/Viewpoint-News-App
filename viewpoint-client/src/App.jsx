@@ -6,6 +6,7 @@ import Calendar from "./components/Calendar.jsx";
 import formatDate from "./dateFormat.js";
 import Tabs from "./components/Tabs.jsx";
 
+// import environment variables
 const PROD_SERVER = import.meta.env.VITE_PROD_SERVER;
 const DEV_SERVER = import.meta.env.VITE_DEV_SERVER;
 
@@ -90,9 +91,9 @@ function App() {
         )}
       </h2>
 
-      {trendingTopics && <Calendar pastDate={date} setPastDate={setDate} date={formatDate(new Date())} />}
+      {trendingTopics && <Calendar pastDate={date} setPastDate={setDate} currentDate={formatDate(new Date())} />}
 
-      <Tabs choices={["Grid", "Individual"]} viewType={viewType} setViewType={setViewType} />
+      <Tabs choices={["Grid", "Individual"]} setViewType={setViewType} />
 
       {data && currentTopic != "Select topic" && (
         <Feed data={data.news[currentTopic]} currentTopic={currentTopic} viewType={viewType} />

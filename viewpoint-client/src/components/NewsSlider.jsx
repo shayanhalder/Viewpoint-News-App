@@ -4,15 +4,16 @@ import { useState } from "react";
 import SliderStyles from "../css/NewsSlider.module.css";
 
 export default function NewsSlider({ list, bias }) {
-  const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
+  const [currentStoryIndex, setCurrentStoryIndex] = useState(0); // handles displaying the current story in the slider
   let stories = [];
 
   for (let story of list) {
     let score;
+    // check if the key fields exist in the news story data object
     if ("sentimentScore" in story && "comparative" in story.sentimentScore) {
       score = story.sentimentScore.comparative;
     } else {
-      score = undefined;
+      score = undefined; // value of undefined will be handled by News.jsx component 
     }
 
     stories.push(
@@ -31,16 +32,21 @@ export default function NewsSlider({ list, bias }) {
     );
   }
 
+  /**
+   * Cycle to a different news item given a new index number, handling out of bounds indices.
+  * @param {number} newIndex The new index you want the slider to switch to.  
+  * @returns {null}
+  */
+
   function switchNews(newIndex) {
     if (newIndex > stories.length - 1) {
-      setCurrentStoryIndex(0);
-      return;
+      setCurrentStoryIndex(0); // reset index to 0 when out of bounds
     } else if (newIndex < 0) {
-      setCurrentStoryIndex(stories.length - 1);
-      return;
+      setCurrentStoryIndex(stories.length - 1); // reset index to last news item when out of bounds
+    } else {
+      setCurrentStoryIndex(newIndex);
     }
 
-    setCurrentStoryIndex(newIndex);
   }
 
   return (

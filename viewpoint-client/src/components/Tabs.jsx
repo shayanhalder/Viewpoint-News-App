@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import tabStyles from "../css/Tabs.module.css";
 
-export default function Tabs({ choices, viewType, setViewType }) {
+export default function Tabs({ choices, setViewType }) {
   const [toggledChoices, setToggledChoices] = useState(1); // first choice is selected by default
+
+  /**
+   * Sets the current choice to the next news in line.
+  * @param {Event} e DOM event from clicking
+  * @returns {null}
+  */
 
   function handleViewChange(e) {
     setToggledChoices(e.target.id);
