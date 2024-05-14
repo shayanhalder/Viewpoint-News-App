@@ -2,7 +2,6 @@ import { formatDate, removeMissingNewsData } from "./dataFormatting.js";
 import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
-import nodeCron from "node-cron";
 import NewsDate from "./models/newsdate.js";
 import newsRouter from "./routes/news.js";
 import currentNews from "./models/currentnews.js";
@@ -88,9 +87,8 @@ export async function updatePastData() {
 
   console.log("Starting past news database updater scheduled task:");
   const trendingTopics = await getTopics();
-  const todayDate = formatDate(new Date(), true, 1);
-  const pastDate = formatDate(new Date(), true, 3);
-  // go 3 days in advance since sometimes no news data available for a 24 hr period, or none available at all
+  const todayDate = formatDate(new Date(), past = 1); // one day in advance since for some reason on the backend web hosting if you don't do this it goes one day in advance
+  const pastDate = formatDate(new Date(), past = 3); // go 3 days in advance since sometimes no news data available for a 24 hr period, or none available at all
 
   const pastNewsData = await fetchPastData(trendingTopics, todayDate, pastDate);
   const usedTrendingTopics = Object.keys(pastNewsData);
@@ -106,6 +104,11 @@ export async function updatePastData() {
     trending: usedTrendingTopics,
     news: pastNewsData,
   });
+
+  // elements in the trending array may be different from the keys in the 'news' object because 
+  // the news api may not find stories for some trending topics so it won't use those topics at all
+  // trending = all trending topics webscraped at that time
+  // keys of 'news' object = actual trending topics that news was found for
 
   try {
     const newNews = await uploadObject.save();
@@ -146,26 +149,6 @@ export async function updatePresentData() {
     return { message: err };
   }
 }
-
-// nodeCron database automation schedulers
-
-// Automate database updating
-const pastDataUpdater = nodeCron.schedule("0 30 23 * * *", async () => {
-  const pastData = await updatePastData();
-  console.log("Databse updated with the following past news data: ", pastData);
-});
-
-// Automated Task to Update the Current News Data at the start of the day
-const presentDataMorningUpdater = nodeCron.schedule("0 30 10 * * *", async () => {
-  const presentData = await updatePresentData();
-  console.log("Database updated with the following current news data: ", presentData);
-});
-
-const presentDataEveningUpdater = nodeCron.schedule("0 36 20 * * *", async () => {
-  console.log("Starting evening data scheduled task: ");
-  const presentData = await updatePresentData();
-  console.log("Database updated with the following current news data: ", presentData);
-});
 
 // Endpoints with NodeCron schedulers for manual testing and debugging-- not meant to be used from React-frontend.
 app.get("/updatePastData", async (req, res) => {

@@ -4,40 +4,46 @@ import { getAllIndexes } from "./dataFormatting.js";
 import dotenv from "dotenv";
 import Sentiment from "sentiment";
 
-dotenv.config();
-const url = "https://abcnews.go.com";
+dotenv.config(); // load env variables
+const TOPICS_RETRIEVAL_URL = process.env.TOPICS_RETRIEVAL_URL;
 let presentDataAPIKeyNumber = 2;
 let PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
 const PAST_DATA_API_KEY = process.env.API_KEY11;
 
+/** Gets the Trending Topics from ABC News by WebScrapping 
+* @returns {Array} List of currently trending topics.
+*/
 export async function getTopics() {
-  /* Gets the Trending Topics from ABC News by WebScrapping */
   const topics = [];
-  await axios(url)
+  await axios(TOPICS_RETRIEVAL_URL)
     .then((response) => {
       const html = response.data;
-      const $ = cheerio.load(html);
-      $(".subNav__text", html).each(function () {
-        // AP NEWS: .PagePromo-title .PagePromoContentIcons-text
+      const $ = cheerio.load(html); // TODO: use updated version of Cheerio
+      $(".subNav__text", html).each(function () { // .subNav__text class represents the elements with trending topic text
         let title = $(this).text();
-        title = title.replace("Live Updates:", "");
+        title = title.replace("Live Updates:", ""); // sometimes the website adds 'Live Updates' to the topic
         topics.push(title);
-        console.log(title);
       });
     })
     .catch((err) => console.log(err));
 
-  return topics.splice(0, 5);
+  return topics.splice(0, 5); // take just the first 5 trending topics
 }
 
-async function requestPastNewsData(topic, sources, previousDate, date) {
-  /* Requests news API with relevant parameters-- date, trending topic, news sources,
-    and returns the JSON response.  */
-
-  let url = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
-                        &from=${previousDate}&to=${date}&apiKey=${PAST_DATA_API_KEY}`);
-  let promise = await fetch(url);
-  let response = await promise.json();
+/** Helper function to get past news data given a topic, potential sources to search for, and time frame.
+ * @param {string} topic - Trending topic that you want news data about
+ * @param {string} sources - A string of all news sources to use when looking for the news data. 
+ * @param {string} startDate - Furthest date in the search timeframe.
+ * @param {string} endDate - Most recent date in the search timeframe.
+* @returns {Object} Past news data for given timeframe.
+*/
+async function requestPastNewsData(topic, sources, startDate, endDate) {
+  const pastDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
+                        &from=${startDate}&to=${endDate}&apiKey=${PAST_DATA_API_KEY}`);
+  // NOTE: when searching for past news in a timeframe with the news API, the search results tend to be better if
+  // the potential sources are given all as one string.    
+  const promise = await fetch(pastDataURL);
+  const response = await promise.json();
 
   return response;
 }
@@ -95,7 +101,7 @@ function addRepeatSources(output, response, uniqueSources, allSources) {
   console.log(newsIndexesSortedBySource);
 
   // iterate by column over the 2D array of indices and add news stories until we reach 5 total news stories
-  /* Example: 
+  /* Example: x
     newsIndexesSortedBySource = [ SHOULD BE INDICES INSTEAD OF WEBSITE SOURCES
       [0, 1, 2, 3, 5],
       [4, 6, 7, 8, 9],
@@ -152,12 +158,12 @@ export async function fetchPastData(trendingTopics, date, previousDate) {
   const sources = [leftSources, rightSources];
 
   for (let currentTrendingTopic of trendingTopics) {
-    let leftOutput = []; // stores news from left-wing sources
-    let rightOutput = []; // stores news from right-wing sources
+    const leftOutput = []; // stores news from left-wing sources
+    const rightOutput = []; // stores news from right-wing sources
 
-    for (let source of sources) {
+    for (let source of sources) { // for each trending topic, we will gather left and right-wing news sources
       let output = source == leftSources ? leftOutput : rightOutput;
-      let response = await requestPastNewsData(currentTrendingTopic, source, previousDate, date);
+      let response = await requestPastNewsData(currentTrendingTopic, source, startDate = previousDate, endDate = date);
 
       console.log("past data news response: ");
       console.log(response);
@@ -202,10 +208,10 @@ async function requestCurrentNewsData(topic, source) {
   while (presentDataAPIKeyNumber <= 4) {
     PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
 
-    let url = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
+    let currentDataURL = new URL(`https://newsapi.org/v2/everything?q=+${topic}&domains=${source}&
                             sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
 
-    let promise = await fetch(url);
+    let promise = await fetch(currentDataURL);
     response = await promise.json();
 
     if (response.code && response.code == "rateLimited") {
@@ -329,8 +335,7 @@ async function getNewsSentimentScore(currentURL, sentiment) {
   let data;
   while (sentimentKeyNumber <= 4) {
     const promise = await fetch(
-      `https://extractorapi.com/api/v1/extractor/?apikey=${
-        process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
+      `https://extractorapi.com/api/v1/extractor/?apikey=${process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
       }&url=${currentURL}`
     );
     try {

@@ -9,7 +9,7 @@ import Tabs from "./components/Tabs.jsx";
 const PROD_SERVER = 'https://viewpoint-node-js-backend.onrender.com'
 const DEV_SERVER = 'http://localhost:3001'
 
-const CURRENT_SERVER = PROD_SERVER; // change accordingly for testing purposes
+const CURRENT_SERVER = DEV_SERVER; // change accordingly for testing purposes
 
 function App() {
   const [trendingTopics, setTrendingTopics] = useState(); // array with the currently trending topics that were webscraped
