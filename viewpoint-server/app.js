@@ -13,7 +13,8 @@ import dotenv from "dotenv";
 const fetch = (
   ...args // fetch API for node.js
 ) => import("node-fetch").then(({ default: fetch }) => fetch(...args));
-dotenv.config();
+
+dotenv.config(); // load env variables
 const PORT = process.env.PORT;
 
 const app = express();
@@ -23,9 +24,9 @@ app.use("/history", newsRouter);
 
 // Connect to MongoDB Database
 mongoose.connect(
-  "mongodb+srv://shalder:0Aiq5tTJN8A2Ms93@viewpoint-app.caac4gp.mongodb.net/?retryWrites=true&w=majority",
+  process.env.MONGODB_KEY,
   {
-    useNewUrlParser: true,
+    useNewUrlParser: true
   }
 );
 

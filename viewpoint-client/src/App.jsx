@@ -9,6 +9,8 @@ import Tabs from "./components/Tabs.jsx";
 const PROD_SERVER = 'https://viewpoint-node-js-backend.onrender.com'
 const DEV_SERVER = 'http://localhost:3001'
 
+const CURRENT_SERVER = DEV_SERVER; // change accordingly for testing purposes
+
 function App() {
   const [trendingTopics, setTrendingTopics] = useState(); // array with the currently trending topics that were webscraped
   const [currentTopic, setCurrentTopic] = useState(); // string with the currently chosen trending topic 
@@ -21,7 +23,7 @@ function App() {
     the 'data' and 'trending' states accordingly.
   */
   async function fetchData() {
-    const promise = await fetch(`${PROD_SERVER}/current`, {
+    const promise = await fetch(`${CURRENT_SERVER}/current`, {
       method: "GET",
     });
 
@@ -42,7 +44,7 @@ function App() {
   useEffect(() => {
     async function getPast() {
       console.log(date);
-      const promise = await fetch(`${PROD_SERVER}/history/instance/${date}`, {
+      const promise = await fetch(`${CURRENT_SERVER}/history/instance/${date}`, {
         method: "GET",
       });
       const data = await promise.json();

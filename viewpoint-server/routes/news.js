@@ -10,7 +10,7 @@ router.get('/all', async (req, res) => {
         const dates = await NewsDate.find()
         res.json(dates)
     } catch (err) {
-        res.status(500).json({ message: err.message})
+        res.status(500).json({ message: err.message })
     }
 })
 
@@ -31,7 +31,7 @@ router.post('/add', async (req, res) => {
         const newNews = await news.save()
         res.status(201).json(newNews)
     } catch (err) {
-        res.status(400).json({message: err.message })
+        res.status(400).json({ message: err.message })
     }
 })
 
@@ -59,10 +59,10 @@ router.patch('/update', getNews, async (req, res) => {
 // Deleting news
 router.delete('/delete', async (req, res) => {
     try {
-        const removed = await NewsDate.deleteOne( { date: req.body.date })
-        res.json({message: "Deleted news", removed: removed})
+        const removed = await NewsDate.deleteOne({ date: req.body.date })
+        res.json({ message: "Deleted news", removed: removed })
     } catch (err) {
-        res.status(500).json( { message: err.message })
+        res.status(500).json({ message: err.message })
     }
 })
 
@@ -70,9 +70,9 @@ router.delete('/delete', async (req, res) => {
 async function getNews(req, res, next) {
     let news
     try {
-        news = await NewsDate.find({ date: req.params.date})
+        news = await NewsDate.find({ date: req.params.date })
         if (news == null) {
-            return res.status(404).json( { message: "Cannot find news"})
+            return res.status(404).json({ message: "Cannot find news" })
         }
     } catch (err) {
         return res.status(500).json({ message: err.message })
@@ -81,29 +81,5 @@ async function getNews(req, res, next) {
     next()
 }
 
-
-
-// module.exports = router
 export default router
 
-// router.get('/', (req, res) => {
-//     res.send("User List")
-// })
-
-// router.get('/new', (req, res) => {
-//     res.send("User new form")
-// })
-
-// // router.route() -> lets us handle multiple separate types of requests for a given path
-// router
-//     .route('/:id')
-//     .get((req, res) => { 
-//         res.send(`Get user with ID ${req.params.id}`)
-//     })
-//     .put((req, res) => {
-//         res.send(`Update user with ID ${req.params.id}`)
-//     })
-//     .delete((req, res) => {
-//         res.send(`Delete user with ID ${req.params.id}`)
-//     })
- 
