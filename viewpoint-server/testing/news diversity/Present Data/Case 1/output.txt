@@ -1,0 +1,1306 @@
+{
+  "status": "ok",
+  "totalResults": 503,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Nicole Narea",
+      "title": "What Israel’s shutdown of Al Jazeera means",
+      "description": "Press freedom is in a state of emergency in Israel and Gaza ahead of a planned invasion of Rafah.",
+      "url": "https://www.vox.com/24150640/israel-gaza-al-jazeera-ban-press-freedom-security",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/a3hDJwX9ElkyZEKNakcsEE5hbhg=/0x371:5184x3085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25436218/2151055060.jpg",
+      "publishedAt": "2024-05-06T23:00:00Z",
+      "content": "Inspectors and police are seen raiding the Al Jazeera offices in Jerusalem, Israel, on May 5, 2024, and confiscating its equipment.  | Saeed Qaq/NurPhoto via Getty Images\r\n\n \n\n Press freedom is in a … [+4921 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Opinion by Richard Galant, CNN",
+      "title": "Opinion: Trump followers were asleep at the switch",
+      "description": "After two months of inaction partly induced by former President Donald Trump, Speaker Mike Johnson worked with Democrats to approve aid to Ukraine, Israel...",
+      "url": "https://www.cnn.com/2024/04/21/opinions/trump-followers-asleep-at-switch-opinion-galant/index.html",
+      "urlToImage": "https://media.zenfs.com/en/cnn_articles_875/76786c096174b4164b7cd706438a819b",
+      "publishedAt": "2024-04-21T14:02:09Z",
+      "content": "Editors Note: Sign up to get this weekly column as a newsletter. Were looking back at the strongest, smartest opinion takes of the week from CNN and other outlets.\r\nWe are most deeply asleep at the s… [+16602 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Ellen Ioanes",
+      "title": "Israel’s Rafah operation, explained",
+      "description": "The Israel-Hamas war went from a potential short-term ceasefire to strikes on Rafah on Monday.",
+      "url": "https://www.vox.com/world-politics/2024/5/6/24150729/israel-rafah-hamas-ceasefire-gaza-cairo-khan-younis-idf-gallant-netanyahu",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/oDw1JV18MPccsWml3Dlppbi_Q38=/0x232:4068x2362/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25436462/2151218743.jpg",
+      "publishedAt": "2024-05-07T01:51:19Z",
+      "content": "Palestinians in eastern Rafah migrate to Khan Yunis after the Israeli army’s announcement on May 6, 2024. | Ashraf Amra/Anadolu via Getty Images\r\n\n \n\n The Israel-Hamas war went from a potential short… [+10529 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Joshua Keating",
+      "title": "Israel’s other war",
+      "description": "Israel and Hezbollah are trying to keep their fighting contained. But the conflict keeps escalating.",
+      "url": "https://www.vox.com/world-politics/24153755/hezbollah-israel-lebanon",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/4Fv1s2d8lvIiCENU9ZSe5jBIwS8=/0x373:5200x3096/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25442162/2151464506.jpg",
+      "publishedAt": "2024-05-11T10:00:00Z",
+      "content": "An Israeli reserve combat soldier takes part in a training drill on May 8, 2024, in the Golan Heights. | Amir Levy/Getty Images\r\n\n \n\n Israel and Hezbollah are trying to keep their fighting contained.… [+13208 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Li Zhou",
+      "title": "Summer Lee’s primary puts Democrats’ divides on Israel on display",
+      "description": "Lee is the first Squad member to face a 2024 primary challenge. It could send a strong message about progressive power.",
+      "url": "https://www.vox.com/politics/24138686/summer-lee-pennsylvania-primary-israel-gaza-policy",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/TsdEI7DPPrICAEEbO0utYQOOJsI=/0x0:3763x1970/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25414761/1240730173.jpg",
+      "publishedAt": "2024-04-23T23:15:00Z",
+      "content": "Rep. Summer Lee, a progressive and member of the Squad, is running for reelection in Pennsylvania. | Nate Smallwood/Bloomberg via Getty Images\r\n\n \n\n Lee is the first Squad member to face a 2024 prima… [+8903 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Opinion by Fareed Zakaria",
+      "title": "Opinion: The presidential election isn’t playing out how I thought it would",
+      "description": "President Biden was poised to run a strong campaign against Donald Trump on returning the US to normalcy, Fareed Zakaria writes. Polling shows that has gone ...",
+      "url": "https://www.cnn.com/2024/05/10/opinions/us-election-isnt-playing-out-how-i-thought-zakaria/index.html",
+      "urlToImage": "https://media.zenfs.com/en/cnn_articles_875/55df331b72dac427438d390cc03c1c0c",
+      "publishedAt": "2024-05-10T16:51:16Z",
+      "content": "Editors Note: Fareed Zakaria is the host of Fareed Zakaria GPS, airing at 10 a.m. and 1 p.m. ET Sundays on CNN. Follow Fareed on X, and read news, analysis, and insights from Fareed and his team in t… [+5181 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Li Zhou",
+      "title": "Ukraine aid and a potential TikTok ban: What’s in the House’s new $95 billion bill",
+      "description": "It heads to the Senate this week, and could soon be law.",
+      "url": "https://www.vox.com/politics/2024/4/22/24137598/ukraine-aid-tiktok-ban-house-mike-johnson",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/MPi1_Q0UFeKkBwk4L_kh0rnyohA=/0x86:5292x2857/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25412955/2147958166.jpg",
+      "publishedAt": "2024-04-22T21:55:00Z",
+      "content": "House Speaker Mike Johnson talks with members of the media following passage of a series of foreign aid bills at the Capitol on April 20, in Washington, DC. | Nathan Howard/Getty Images\r\n\n \n\n It head… [+7595 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Ellen Ioanes",
+      "title": "Israel and Iran’s conflict enters a new, dangerous phase",
+      "description": "Israel launched strikes in response to Iran’s retaliatory attack. Here’s what we know.",
+      "url": "https://www.vox.com/world-politics/2024/4/19/24135210/israel-iran-conflict-middle-east-gaza-war-hamas",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/XlaN4lTgVvPxl8zKQ68cjd8OarA=/0x430:6000x3571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25409190/2147846368.jpg",
+      "publishedAt": "2024-04-19T21:30:17Z",
+      "content": "A crowd carrying a model of Iran’s first-ever hypersonic missile, Fattah, past a mosque during a gathering to celebrate the IRGC UAV and missile attack against Israel, in Tehran, Iran, on April 15, 2… [+7285 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Nicole Narea",
+      "title": "What does divesting from Israel really mean?",
+      "description": "What does divesting from Israel really mean and is it feasible? Plus three other questions about students’ demands.",
+      "url": "https://www.vox.com/politics/2024/5/7/24150638/divest-israel-protesters-bds-columbia-meaning-fossil-fuel",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/_q7zgAidDyBVTWCJH5axUsRVRqk=/0x517:3774x2493/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25436253/2150415833.jpg",
+      "publishedAt": "2024-05-07T10:00:00Z",
+      "content": "Signs hang at George Washington University’s Gaza solidarity encampment, created by students in conjunction with other DC-area universities, in Washington, DC on April 25, 2024.  | Allison Bailey/Mid… [+14177 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Zack Beauchamp",
+      "title": "Israel beat Iran — for now",
+      "description": "Iran’s Saturday attack on Israel was a military failure. But things could still get a lot worse.",
+      "url": "https://www.vox.com/2024/4/15/24130346/israel-iran-attack-regional-war-april-drone-missile",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/LIa2-Heq2ZPQ9AVeGvTMhH276hI=/0x783:5472x3648/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25393951/GettyImages_2147785572.jpg",
+      "publishedAt": "2024-04-15T11:15:00Z",
+      "content": "Explosions are seen in the skies of Israel’s capital, following the retaliatory attack from Iran over the weekend. | Mostafa Alkharouf/Anadolu via Getty Images\r\n\n \n\n Iran’s Saturday attack on Israel … [+8347 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Fabiola Cineas",
+      "title": "Why USC canceled its pro-Palestinian valedictorian",
+      "description": "USC says it canceled valedictorian Asna Tabassum’s speech over safety. She says it was because of her political views.",
+      "url": "https://www.vox.com/24134018/usc-valedictorian-speech-canceled-palestine-israel-asna-tabassum",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/hLbI9yL9C2vJxwzPHwZtatJBQbk=/0x962:6720x4480/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25406893/GettyImages_2147889749__1_.jpg",
+      "publishedAt": "2024-04-18T21:45:00Z",
+      "content": "Asna Tabassum, a graduating senior at the University of Southern California majoring in biomedical engineering, is at the center of the latest firestorm on college campuses after the university named… [+10303 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Haleema Shah",
+      "title": "Is Israel a “settler-colonial” state? The debate, explained",
+      "description": "The historical discussion at the heart of Israeli-Palestinian conflict.",
+      "url": "https://www.vox.com/world-politics/24128715/israel-palestine-conflict-settler-colonialism-zionism-history-debate",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Lnc3AuoYfUc1U85cVTeXyFUWnTw=/0x63:4724x2536/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25392725/GettyImages_1749827981.jpg",
+      "publishedAt": "2024-04-17T16:00:00Z",
+      "content": "At a protest in Rome in October 2023 calling for a ceasefire and aid into Gaza, a protester holds a sign calling for an end to “colonialism and displacement” in Palestine. | Simona Granati/Corbis via… [+18789 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Alex Abad-Santos",
+      "title": "Eurovision is supposed to be fun and silly. This year is different.",
+      "description": "Eurovision doesn’t want to be about Israel-Palestine, but amid protests and boycotts, it might not have a choice.",
+      "url": "https://www.vox.com/culture/24151092/eurovision-2024-israel-ban",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/KV57DeNO8e655POtIInCOod2tYc=/0x0:6000x3141/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25437077/2151184275.jpg",
+      "publishedAt": "2024-05-07T17:05:00Z",
+      "content": "Bambie Thug, Ireland’s entry to Eurovision this year, calls herself a “ouija popstar” and a witch. | Jens Büttner/Picture Alliance via Getty Images\r\n\n \n\n Eurovision doesn’t want to be about Israel-Pa… [+10776 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Resumen de noticias de Gaza y de las protestas propalestinos en universidades de EE.UU este 4 de mayo",
+      "description": "El número de muertos en Gaza ha aumentado a al menos 34.654 como resultado de 211 días de operaciones militares israelíes en el territorio, informó este sábado el Ministerio de Salud de Gaza.\n\u003Cul\u003E\n \u003Cli\u003ELos periodistas que arriesgan su vida para informar sobre…",
+      "url": "https://cnnespanol.cnn.com/2024/05/04/resumen-de-gaza-y-de-las-protestas-propalestinos-en-universidades-de-ee-uu-noticias-y-mas/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/c02569f7-3d0f-4551-9290-61c2c2b4ea75.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-04T07:16:56Z",
+      "content": "Este fin de semana tendrán lugar ceremonias de graduación en facultades y universidades de todo Estados Unidos, tras las semanas de protestas en las que se detuvo a más de 2.100 personas en más de 40… [+3808 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de Gaza y de las protestas propalestinos en universidades de EE.UU., en vivo: noticias y más",
+      "description": "El norte de Gaza está experimentando una “hambruna en toda regla” que se está extendiendo rápidamente por toda Gaza después de casi siete meses de guerra, dijo el director ejecutivo del Programa Mundial de Alimentos.\n\u003Cul\u003E\n \u003Cli\u003ELos periodistas que arriesgan su…",
+      "url": "https://cnnespanol.cnn.com/2024/05/05/ultima-hora-de-gaza-y-de-las-protestas-propalestinos-en-universidades-de-ee-uu-en-vivo-noticias-y-mas-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/ataque-en-Gaza.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-05T09:15:38Z",
+      "content": "El norte de Gaza está experimentando una hambruna en toda regla que se está extendiendo rápidamente por toda Gaza después de casi siete meses de guerra, dijo el director ejecutivo del Programa Mundia… [+1738 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de Gaza y de las protestas propalestinas en universidades de EE.UU., en vivo: noticias y más",
+      "description": "El Ejército de Israel llama a los residentes del este de Rafah para que \"evacuen inmediatamente\", un día después de que el ministro de defensa del país dijera a las tropas dentro de Gaza que esperaran \"acción intensa en Rafah en el futuro cercano\".\n\u003Cul\u003E\n \u003Cli\u003E…",
+      "url": "https://cnnespanol.cnn.com/2024/05/06/ultima-hora-de-gaza-y-de-las-protestas-propalestinos-en-universidades-de-ee-uu-en-vivo-noticias-y-mas-2-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2017/05/cnne-logo-video-bg.png",
+      "publishedAt": "2024-05-06T09:08:55Z",
+      "content": "Al menos 34 personas murieron y 25 resultaron heridas en ataques del ejército israelí durante la noche en Gaza, según las autoridades locales.\r\nEn la ciudad meridional de Rafah, 26 personas murieron,… [+1250 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de la guerra entre Israel y Hamas este 6 de mayo",
+      "description": "El ejército israelí dice que ha capturado el lado gazatí del cruce de Rafah, según informaron este martes las Fuerzas de Defensa de Israel (FDI).\n\u003Cul\u003E\n \u003Cli\u003ELos periodistas que arriesgan su vida para informar sobre Gaza\u003C/li\u003E\n \u003Cli\u003EIsrael, incapaz de \"ganar\" en …",
+      "url": "https://cnnespanol.cnn.com/2024/05/06/resumen-noticias-guerra-israel-hamas-protestas-propalestinas-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/foto-de-social-media.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-06T09:08:55Z",
+      "content": "Palestinos desplazados que salieron con sus pertenencias de Rafah, en el sur de la Franja de Gaza, tras una orden de evacuación del ejército israelí, llegan a Khan Younis el 6 de mayo de 2024, en med… [+4268 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Aja Romano",
+      "title": "Macklemore’s anthem for Gaza is a rarity — a protest song in an era of apolitical music",
+      "description": "“Hind’s Hall” was electrifying because it was so unexpected.",
+      "url": "https://www.vox.com/culture/24153524/macklemores-anthem-gaza-protest-song-apolitical-music",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/38beMX1o3U_7vm_j6sgwQROlXK0=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25441734/2152171517.jpg",
+      "publishedAt": "2024-05-10T15:25:20Z",
+      "content": "Macklemore performs at Spark Arena on May 9, 2024, in Auckland, New Zealand. | Dave Simpson/WireImage\r\n\n \n\n “Hind’s Hall” was electrifying because it was so unexpected. One of the things that made Ma… [+12409 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de Irán, la guerra de Israel con Hamas y la situación en Gaza, en vivo: noticias, reacciones y más",
+      "description": "Los políticos israelíes han agradecido a Estados Unidos por aprobar un paquete de financiación de 95.000 millones de dólares que incluye 26.000 millones de dólares en ayuda para Israel.\n\u003Cul\u003E\n \u003Cli\u003EEncuentran fosa común con 300 cadáveres en Gaza\u003C/li\u003E\n \u003Cli\u003ELlant…",
+      "url": "https://cnnespanol.cnn.com/2024/04/24/ultima-hora-ataque-israel-iran-hamas-gaza-en-vivo-noticias-reacciones-orix-5/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/15b0266a-ec8a-450c-8e53-351f0aff3ba3.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-24T09:25:40Z",
+      "content": "La gente pasa junto a la dañada sede de la Agencia de Obras Públicas y Socorro de las Naciones Unidas para los Refugiados de Palestina (UNRWA) en la ciudad de Gaza el 15 de febrero. (Crédito: AFP/Get… [+1593 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Última hora de Gaza y de las protestas propalestinos en universidades de EE.UU., en vivo: noticias y más",
+      "description": "Colegios y universidades de todo Estados Unidos celebrarán hoy sus ceremonias de graduación tras una oleada de protestas propalestinos en todo el país. Varias escuelas han reforzado las medidas de seguridad mientras se preparan para las ceremonias de graduaci…",
+      "url": "https://cnnespanol.cnn.com/2024/05/04/ultima-hora-de-gaza-y-de-las-protestas-propalestinos-en-universidades-de-ee-uu-en-vivo-noticias-y-mas/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/protestas-gaza.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-04T07:16:56Z",
+      "content": "Este fin de semana tendrán lugar ceremonias de graduación en facultades y universidades de todo Estados Unidos, tras las semanas de protestas en las que se detuvo a más de 2.100 personas en más de 40… [+3808 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "EE.UU. detiene envío de bombas a Israel ante la preocupación por su posible uso en la incursión de Rafah, según un funcionario estadounidense",
+      "description": "Estados Unidos detuvo un envío de bombas a Israel en medio de preocupaciones por su posible uso en una incursión en Rafah, según un funcionario estadounidense.\n\u003Cul\u003E\n \u003Cli\u003EOPINIÓN | En qué se diferencia el sufrimiento en Gaza de otros conflictos\u003C/li\u003E\n \u003Cli\u003E\"Una …",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/ee-uu-detiene-envio-de-bombas-a-israel-ante-la-preocupacion-por-su-posible-uso-en-la-incursion-de-rafah-segun-un-funcionario-estadounidense/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/ap24128709643616.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T12:18:48Z",
+      "content": "(CNN) -- Estados Unidos detuvo un envío de bombas a Israel en medio de preocupaciones por su posible uso en una incursión en Rafah, según un funcionario estadounidense.\r\nEl envío, que fue retenido la… [+4487 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de la guerra de Israel con Hamas y la situación en Gaza este 23 de abril",
+      "description": "Según la Dirección General de Defensa Civil de Gaza, se han recuperado decenas de cadáveres más de una fosa común en un hospital de Khan Younis.\n\u003Cul\u003E\n \u003Cli\u003EEncuentran fosa común con 300 cadáveres en Gaza\u003C/li\u003E\n \u003Cli\u003ELlanto y dolor por la muerte de niños en Gaza\u003C…",
+      "url": "https://cnnespanol.cnn.com/2024/04/23/resumen-noticias-ataque-israel-iran-hamas-gaza-noticias-reacciones-orix-4/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/7ca49154-11e5-45d1-af61-9a27c5dbaa62.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-23T09:34:56Z",
+      "content": "El Senado de Estados Unidos aprobó un paquete de 95 mil millones de dólares que incluye dinero para Israel, Ucrania y Taiwán.\r\nLa nueva legislación incluye sanciones a Irán, la incautación de activos… [+3793 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "urielblanco",
+      "title": "El presidente de Colombia, Gustavo Petro, llama \"genocida\" a Netanyahu por la situación en Gaza",
+      "description": "El presidente de Colombia, Gustavo Petro, se refirió a la gestión del Gobierno de Israel de la situación en Gaza como \"genocida\".",
+      "url": "https://cnnespanol.cnn.com/2024/05/12/presidente-colombia-gustavo-petro-llama-genocida-netanyahu-gaza-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/petro-netanyahu.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-12T18:10:59Z",
+      "content": "(CNN) -- El presidente de Colombia, Gustavo Petro, y el primer ministro de Israel, Benjamin Netanyahu, se criticaron mutuamente el sábado en un intercambio en redes sociales, en el que Petro instó a … [+754 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de la guerra entre Israel y Hamas, en vivo: noticias, situación en Gaza y más",
+      "description": "Las Fuerzas de Defensa de Israel dicen que un vehículo de la ONU atacado en Rafah este lunes se encontraba en “una zona de combate activa”.\n\u003Cul\u003E\n \u003Cli\u003EIsrael reunió suficientes soldados como para lanzar una incursión a gran escala en Rafa\u003C/li\u003E\n \u003Cli\u003ECon ojos ve…",
+      "url": "https://cnnespanol.cnn.com/2024/05/14/ultima-hora-guerra-israel-hamas-gaza-en-vivo-orix-3/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/vehiculo-activo.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-14T08:57:32Z",
+      "content": "La agencia de la ONU responsable de proporcionar ayuda y apoyo humanitarios en Gaza, UNRWA, dice que el número estimado de personas que huyeron de Rafah durante la semana pasada aumentó a 450.000, al… [+658 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Resumen de noticias de las tensiones con Irán y la guerra de Israel contra Hamas en Gaza este 28 de abril del 2024",
+      "description": "Israel no aceptó las demandas egipcias como poner fin a la guerra y retirarse de Gaza, y presentó sus propias condiciones para un acuerdo sobre los rehenes que se encuentran bajo control de Hamas, le dijo a CNN un funcionario israelí.\n\u003Cul\u003E\n \u003Cli\u003EQué quieren lo…",
+      "url": "https://cnnespanol.cnn.com/2024/04/27/ultima-hora-guerra-israel-gaza-iran-universidad-protestas-orix-3-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/EMORY-PALESTINA.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-27T08:42:41Z",
+      "content": "Los jóvenes se reúnen en lo alto de una zona elevada en al-Zahra, en el centro de Gaza, el 23 de abril de 2024 (Foto de -/AFP vía Getty Images)\r\nUn envío desesperadamente necesario de ayuda alimentar… [+5231 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora del ataque de Irán a Israel, la guerra con Hamas y la situación en Gaza, en vivo: noticias, reacciones y más",
+      "description": "La Dirección de Defensa Civil de Gaza informó de víctimas civiles en un ataque aéreo israelí cerca de la ciudad de Gaza en las primeras horas de la mañana de este miércoles.\n\u003Cul\u003E\n \u003Cli\u003E¿Por qué Irán atacó a Israel?\u003C/li\u003E\n \u003Cli\u003EIsrael evalúa respuesta al ataque d…",
+      "url": "https://cnnespanol.cnn.com/2024/04/17/ataque-iran-israel-noticias-ultima-hora-orix-5/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/240416124258-palestinos-desplazados-intentando-regresar-hogares-norte-gaza-full-169.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-17T08:57:56Z",
+      "content": "Estados Unidos impondrá nuevas sanciones contra Teherán después del ataque a gran escala de Irán contra Israel durante el fin de semana, según el asesor de seguridad nacional Jake Sullivan.\r\nLa mayor… [+2782 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Resumen de noticias de las tensiones con Irán y la guerra de Israel contra Hamas en Gaza este 28 de abril del 2024",
+      "description": "Israel no aceptó las demandas egipcias como poner fin a la guerra y retirarse de Gaza, y presentó sus propias condiciones para un acuerdo sobre los rehenes que se encuentran bajo control de Hamas, le dijo a CNN un funcionario israelí.\n\u003Cul\u003E\n \u003Cli\u003EQué quieren lo…",
+      "url": "https://cnnespanol.cnn.com/2024/04/27/ultima-hora-guerra-israel-gaza-iran-universidad-protestas-trax-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/EMORY-PALESTINA.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-27T08:42:41Z",
+      "content": "Los jóvenes se reúnen en lo alto de una zona elevada en al-Zahra, en el centro de Gaza, el 23 de abril de 2024 (Foto de -/AFP vía Getty Images)\r\nUn envío desesperadamente necesario de ayuda alimentar… [+5231 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "El regreso de Israel a zonas de Gaza que afirmó estaban libres de Hamas suscita dudas sobre su estrategia militar",
+      "description": "El ejército de Israel reanudó los combates en el norte de Gaza, donde anteriormente afirmaba haber desmantelado la estructura de mando de Hamas. Pero ahora afirma que el grupo militante palestino está intentando \"reagruparse\" en la zona, lo que plantea dudas …",
+      "url": "https://cnnespanol.cnn.com/2024/05/13/regreso-israel-gaza-libres-hamas-dudas-estrategia-militar-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2152208792.webp",
+      "publishedAt": "2024-05-13T19:27:08Z",
+      "content": "Cerca de 300.000 personas han huido de Rafah, según la ONU 3:49\r\n(CNN) -- El ejército de Israel reanudó los combates en el norte de Gaza, donde anteriormente afirmaba haber desmantelado la estructura… [+6636 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de la guerra entre Israel y Hamas este 14 de mayo",
+      "description": "Las Fuerzas de Defensa de Israel dijeron que atacaron este martes una \"sala de guerra de Hamas\" instalada dentro de una escuela operada por la agencia de las Naciones Unidas para los refugiados palestinos, UNRWA, en el campo de refugiados de Nuseirat, en el c…",
+      "url": "https://cnnespanol.cnn.com/2024/05/14/resumen-noticias-guerra-israel-hamas-gaza-orix-3/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/cfd679f9-a23e-4043-9c45-87b9e7690720_cd6c6d.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-14T08:57:32Z",
+      "content": "Los palestinos que huyeron de Rafah, en el sur de Gaza, se sientan cerca de su tienda de campaña en Khan Yunis el 12 de mayo de 2024, en medio del conflicto en curso entre Israel y el grupo militante… [+2650 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Gonzalo Zegarra",
+      "title": "Estos son los países que han roto relaciones diplomáticas con Israel por la guerra en Gaza y otros motivos",
+      "description": "Colombia se convirtió en el tercer país en romper relaciones diplomáticas con Israel desde el inicio de la guerra contra Hamas en Gaza, aunque varios otros países ya habían cortado sus vínculos con el Estado judío y otros directamente nunca lo reconocieron.",
+      "url": "https://cnnespanol.cnn.com/2024/05/04/paises-rompieron-relaciones-israel-gaza-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-1744596675-e1714586265851.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-04T23:34:53Z",
+      "content": "El impacto de la ruptura de relaciones de Colombia con Israel 6:11\r\nCon el anuncio del miércoles del presidente Gustavo Petro, Colombia se convirtió en el tercer país en romper relaciones diplomática… [+5429 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNNEspañol sjv",
+      "title": "Turquía suspende el comercio con Israel por la guerra en Gaza",
+      "description": "El Gobierno de Turquía dijo que esta medida se toma \"hasta que el Gobierno israelí permita un flujo ininterrumpido y suficiente de ayuda humanitaria a Gaza\".",
+      "url": "https://cnnespanol.cnn.com/2024/05/03/turquia-comercio-israel-gaza-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/turquia-comercio.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-03T12:54:01Z",
+      "content": "(CNN) -- Turquía suspendió todas las transacciones de importación y exportación con Israel en protesta por la guerra en Gaza.\r\n\"Todas las transacciones de importación y exportación relacionadas con I… [+2961 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "Última hora de la guerra entre Israel y Hamas en vivo: noticias, situación en Gaza y más",
+      "description": "El primer ministro Benjamin Netanyahu afirmó que Israel lucharía con las \"uñas\" si fuera necesario tras el ultimátum del presidente Joe Biden de que una gran ofensiva israelí en la ciudad gazatí de Rafah provocaría el cierre de algunas armas de Estados Unidos…",
+      "url": "https://cnnespanol.cnn.com/2024/05/10/ultima-hora-guerra-israel-y-hamas-en-vivo-noticias-situacion-en-gaza-y-mas-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-2151707461-e1715329576371.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-10T08:39:39Z",
+      "content": "Hay una \"pausa\" en las conversaciones de alto el fuego por rehenes en Gaza mientras Israel intensifica su operación militar en la ciudad de Rafah, según han declarado a CNN dos funcionarios estadouni… [+2292 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Rocío Muñoz-Ledo",
+      "title": "Israel y Hamas intercambian reproches en medio de escasas señales de avance en las conversaciones sobre el cese del fuego y los rehenes",
+      "description": "El primer ministro de Israel, Benjamín Netanyahu, dijo que \"no puede aceptar\" las exigencias de Hamas para poner fin a la guerra en Gaza, en un intercambio de reproches entre ambas partes en medio de unas nuevas conversaciones sobre el alto el fuego que apena…",
+      "url": "https://cnnespanol.cnn.com/2024/05/05/israel-hamas-intercambian-reproches-escasas-senales-avance-conversaciones-alto-el-fuego-rehenes-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/israel-hamas-negociaciones-alto-fuego-rehenes.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-05T20:26:05Z",
+      "content": "Biden enfatiza su oposición a una avanzada israelí sobre Rafah 3:05\r\n(CNN) -- El primer ministro de Israel, Benjamín Netanyahu, dijo que \"no puede aceptar\" las exigencias de Hamas para poner fin a la… [+5637 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de Irán, la guerra de Israel con Hamas y la situación en Gaza, en vivo: noticias, reacciones y más",
+      "description": "El Ministerio de Salud de Gaza informó de 32 muertes más debido a operaciones militares israelíes, lo que eleva el número total de personas muertas desde el 7 de octubre a 34.183 después de 200 días de guerra.\n\u003Cul\u003E\n \u003Cli\u003EEncuentran fosa común con 300 cadáveres…",
+      "url": "https://cnnespanol.cnn.com/2024/04/23/ultima-hora-ataque-israel-iran-hamas-gaza-en-vivo-noticias-reacciones-orix-4/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/240422194128-gaza-fosa-comun-283-cuerpos-hospital-nada-bashir-panorama-mundial-tv-full-169.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-23T09:34:56Z",
+      "content": "El Ministerio de Salud de Gaza informó de 32 muertes más debido a operaciones militares israelíes, lo que eleva el número total de personas muertas desde el 7 de octubre a 34.183 después de 200 días … [+1182 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Israel reunió suficientes soldados como para lanzar una incursión a gran escala en Rafah, dicen funcionarios de EE.UU.",
+      "description": "La administración de Joe Biden estima que Israel reunió suficientes soldados en las afueras de la ciudad de Rafah en Gaza como para avanzar con una incursión a gran escala en los próximos días, pero altos funcionarios estadounidenses actualmente no están segu…",
+      "url": "https://cnnespanol.cnn.com/2024/05/13/estados-unidos-israel-tropas-incursion-rafah-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2152178682.webp",
+      "publishedAt": "2024-05-14T01:46:11Z",
+      "content": "Más de 300.000 palestinos han evacuado Rafah 3:08\r\n(CNN) -- La administración de Joe Biden estima que Israel reunió suficientes soldados en las afueras de la ciudad de Rafah en Gaza como para avanzar… [+5458 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "urielblanco",
+      "title": "¿Cómo el pequeño Estado árabe de Qatar se volvió indispensable en las conversaciones con Hamas?",
+      "description": "Qatar vuelve a ocupar un lugar destacado en la diplomacia mundial, esta vez por sus esfuerzos para mediar en las conversaciones entre Israel y Hamas sobre un alto el fuego en Gaza y la liberación de los rehenes tomados por el grupo extremista durante sus ataq…",
+      "url": "https://cnnespanol.cnn.com/2024/05/06/como-pequeno-estado-arabe-qatar-indispensable-conversaciones-hamas-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2023/11/Copia-de-FOTO-PARA-WP-2023-11-01T112104.849.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-06T20:26:57Z",
+      "content": "Israel anuncia que se posterga la liberación de rehenes 2:46\r\n(CNN) -- Qatar, el pequeño Estado del golfo Pérsico, vuelve a ocupar un lugar destacado en la diplomacia mundial, esta vez por sus esfuer… [+10709 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Guerra entre Israel y Hamas en vivo: noticias, situación en Gaza y más",
+      "description": "El Ejército de Israel dijo este martes que había tomado el control del lado palestino del cruce de Rafah, un punto de entrada vital para la ayuda a Gaza en la frontera con Egipto.\n\u003Cul\u003E\n \u003Cli\u003EPalestinos que huyen de Rafah describen su miedo y desesperación\u003C/li\u003E…",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/ultima-hora-guerra-israel-hamasen-vivo-noticias-y-mas-orix-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/foto-de-social-media.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-07T09:24:44Z",
+      "content": "Un tanque israelí entra en el lado de Gaza del cruce fronterizo de Rafah el 7 de mayo. (Crédito: Fuerzas de Defensa de Israel/AP)\r\nLos esfuerzos de ayuda humanitaria en Gaza podrían verse paralizados… [+1039 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de la guerra entre Israel y Hamas en vivo: noticias, situación en Gaza y más",
+      "description": "La principal agencia de ayuda de la ONU en Gaza (UNRWA) estima que casi 79.000 personas han huido de la ciudad sureña de Rafah desde este lunes a medida que se expande una ofensiva israelí en la ciudad.\n\u003Cul\u003E\n \u003Cli\u003EANÁLISIS | Biden enfrenta una creciente divisi…",
+      "url": "https://cnnespanol.cnn.com/2024/05/09/ultima-hora-guerra-israel-y-hamas-en-vivo-noticias-situacion-en-gaza-y-mas-orix-3/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/una-nina-palestina.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-09T09:12:57Z",
+      "content": "El embajador de Israel ante las Naciones Unidas, Gilad Erdan, habla durante una reunión del Consejo de Seguridad en la sede de las Naciones Unidas el 18 de abril. (Crédito: Yuki Iwamura/AP)\r\nUna inte… [+1734 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Benavides",
+      "title": "Un hombre \"portando granada o chaleco explosivo\" es visto entrando al consulado iraní en París, dice la policía",
+      "description": "Un testigo vio a un hombre entrar al consulado iraní en París portando una \"granada o un chaleco explosivo\", dijo a CNN la prefectura de policía de París este viernes.\n\u003Cul\u003E\n \u003Cli\u003EÚltima hora del ataque en Irán, la guerra de Israel con Hamas y la situación en G…",
+      "url": "https://cnnespanol.cnn.com/2024/04/19/hombre-granada-explosivo-consulado-iran-paris-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2022/10/ultima-hora-1200.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-19T12:39:50Z",
+      "content": "(CNN) -- Un testigo vio a un hombre entrar al consulado iraní en París portando una \"granada o un chaleco explosivo\", dijo a CNN la prefectura de policía de París este viernes. Tras un operativo poli… [+769 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Última hora de la guerra entre Israel y Hamas, en vivo: noticias, situación en Gaza y más",
+      "description": "Las Fuerzas de Defensa de Israel ordenaron la evacuación inmediata de varios barrios más en el este de Rafah, a medida que el ejército israelí intensifica sus operaciones en la ciudad del sur de Gaza.\n\u003Cul\u003E\n \u003Cli\u003EEE.UU. dice que es \"razonable considerar\" que Is…",
+      "url": "https://cnnespanol.cnn.com/2024/05/11/ultima-hora-guerra-israel-hamas-gaza-en-vivo-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Gaza.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-11T09:01:51Z",
+      "content": "El gobierno de Biden afirmó este viernes que es \"razonable considerar\" que las fuerzas israelíes utilizaron armas estadounidenses en Gaza de forma \"incompatible\" con el derecho internacional humanita… [+3171 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Resumen de noticias de la guerra entre Israel y Hamas este sábado 11 de mayo",
+      "description": "Georgios Petropoulous, jefe de la Agencia Humanitaria de las Naciones Unidas (OCHA) en Gaza, advirtió que las agencias de las Naciones Unidas, el Programa Mundial de Alimentos y la Agencia de las Naciones Unidas para los Refugiados Palestinos (UNRWA), probabl…",
+      "url": "https://cnnespanol.cnn.com/2024/05/11/resumen-noticias-guerra-israel-hamas-gaza-11-mayo-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-2076699048-e1715437560817.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-11T09:01:51Z",
+      "content": "El gobierno de Biden afirmó este viernes que es \"razonable considerar\" que las fuerzas israelíes utilizaron armas estadounidenses en Gaza de forma \"incompatible\" con el derecho internacional humanita… [+3171 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "Israel retrasa sus planes de ofensiva en Rafah en medio de un intenso debate sobre la respuesta al ataque iraní, según fuentes",
+      "description": "Israel se disponía a comenzar ofensiva terrestre sobre la ciudad de Rafah, en Gaza, pero retrasó esa campaña tras el ataque de Irán contra su país, el cual ha desatado un debate sobre cómo responder, según informaron fuentes israelíes.",
+      "url": "https://cnnespanol.cnn.com/2024/04/15/israel-retrasa-ofensiva-rafah-ataque-irani-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/GettyImages-2131308202.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-16T00:58:05Z",
+      "content": "Israel analiza cómo responder al ataque de Irán 6:41\r\nTel Aviv, Israel (CNN) -- Israel se disponía a dar los primeros pasos hacia una ofensiva terrestre sobre la ciudad de Rafah, en Gaza, pero retras… [+5823 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "ANÁLISIS | Lo que está en juego con la ruptura de relaciones de Colombia con Israel",
+      "description": "El presidente de Colombia, Gustavo Petro, lo venía advirtiendo desde hacía meses: en caso de que Israel continuara con el \"genocidio\" contra el pueblo palestino en Gaza —tras los ataques de Hamas el 7 de octubre— rompería relaciones diplomáticas.",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/analisis-petro-romper-relaciones-israel-militar-comercio-diplomacia-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/240501140551-gustavo-petro-israel-relaciones-diplomaticas-redaccion-buenos-aires-tv-00000605-full-169.png",
+      "publishedAt": "2024-05-07T12:45:15Z",
+      "content": "El impacto de la ruptura de relaciones de Colombia con Israel 6:11\r\n(CNN Español) -- El presidente de Colombia, Gustavo Petro, lo venía advirtiendo desde hacía meses: en caso de que Israel continuara… [+9654 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Funcionarios de Hamas dicen que el grupo está dispuesto a desarmarse si se establece un Estado palestino",
+      "description": "Algunos funcionarios de Hamas señalan que el grupo militante podría abandonar la lucha armada contra Israel si los palestinos obtienen un Estado independiente en los territorios capturados por Israel en la guerra de 1967.",
+      "url": "https://cnnespanol.cnn.com/2024/04/25/hamas-dispuesto-desarmarse-estado-palestino-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gettyimages-823023052.webp",
+      "publishedAt": "2024-04-25T20:59:42Z",
+      "content": "Residentes de Gaza hablan sobre la destrucción que ha causado la guerra 3:35\r\n(CNN) -- Algunos funcionarios de Hamas señalan que el grupo militante podría abandonar la lucha armada contra Israel si l… [+5672 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "Una mirada retrospectiva a los movimientos de protesta estudiantil en EE.UU.",
+      "description": "Las protestas de universitarios contra la guerra de Israel en Gaza, que están conmocionando los campus universitarios de todo Estados Unidos, se inspiran en la larga, aunque a menudo turbulenta, historia del activismo universitario en el país.",
+      "url": "https://cnnespanol.cnn.com/2024/04/30/retrospectiva-movimientos-protesta-estudiantil-eeuu-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/h-14885277.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-30T17:37:26Z",
+      "content": "(CNN) -- Grupos de estudiantes se han instalado en campamentos y han ocupado edificios universitarios para protestar contra la guerra de Israel en Gaza, conmocionando los campus universitarios de tod… [+17244 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "El Gobierno de Biden dice que es \"razonable considerar\" que Israel utilizó armas estadounidenses de forma \"incompatible\" con el derecho internacional",
+      "description": "El gobierno de Biden afirmó este viernes que es \"razonable considerar\" que las fuerzas israelíes utilizaron armas estadounidenses en Gaza de forma \"incompatible\" con el derecho internacional humanitario, pero no llegó a afirmar oficialmente que Israel violó l…",
+      "url": "https://cnnespanol.cnn.com/2024/05/10/gobierno-biden-razonable-considerar-israel-armas-estadounidenses-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2151654481.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-11T00:04:14Z",
+      "content": "EE.UU. dejará de enviar armas a Israel si invade Rafah 1:43\r\n(CNN) -- El gobierno de Biden afirmó este viernes que es \"razonable considerar\" que las fuerzas israelíes utilizaron armas estadounidenses… [+10118 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "Última hora de las tensiones con Irán y la guerra de Israel en Gaza, en vivo: noticias, protestas en las universidades y más",
+      "description": "Un barco con ayuda y trabajadores humanitarios que iba a zarpar de Turquía con destino a Gaza ha sufrido un retraso, según un comunicado de los organizadores, que culpan a Israel del retraso.",
+      "url": "https://cnnespanol.cnn.com/2024/04/26/ultima-hora-de-las-tensiones-con-iran-y-la-guerra-de-israel-en-gaza-en-vivo-noticias-protestas-en-las-universidades-y-mas/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/GettyImages-2149260217-e1714118451472.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-26T08:17:49Z",
+      "content": "Carteles de protesta en la hierba mientras la gente se reúne en el campus de la Universidad Northwestern para mostrar su apoyo a los residentes de Gaza el 25 de abril de 2024 en Evanston, Illinois. (… [+3853 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Estados Unidos determina que cinco unidades de seguridad israelíes cometieron violaciones de derechos humanos antes de la guerra de Gaza",
+      "description": "El Departamento de Estado de EE.UU determinó que cinco unidades de seguridad de Israel cometieron graves violaciones a los derechos humanos antes del estallido de la guerra con Hamas en Gaza.",
+      "url": "https://cnnespanol.cnn.com/2024/04/29/estados-unidos-seguridad-israel-violaciones-derechos-humanos-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/c-gettyimages-492241185.webp",
+      "publishedAt": "2024-04-29T21:16:29Z",
+      "content": "Biden enfatiza su oposición a una avanzada israelí sobre Rafah 3:05\r\n(CNN) -- El Departamento de Estado de EE.UU determinó que cinco unidades de seguridad de Israel cometieron graves violaciones a lo… [+3175 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNNEspañol sjv",
+      "title": "Las 5 cosas que debes saber este 14 de mayo: Cohen dice que intimidaba a personas trabajando para Trump",
+      "description": "Regreso de Israel a zonas de Gaza plantea dudas sobre su estrategia militar. La fiscal de Ecuador dice que asesinos de Villavicencio también querían matarla. ¿Están preparados los políticos para la revolución de inteligencia artificial?",
+      "url": "https://cnnespanol.cnn.com/2024/05/14/5-cosas-14-mayo-cohen-trump-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Michael-Cohen-e1715575418636.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-14T09:54:41Z",
+      "content": "Regreso de Israel a zonas de Gaza plantea dudas sobre su estrategia militar. La fiscal de Ecuador dice que asesinos de Villavicencio también querían matarla. ¿Están preparados los políticos para la r… [+5217 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Última hora de las tensiones con Irán y la guerra de Israel contra Hamas en Gaza, en vivo: noticias, protestas en las universidades y más",
+      "description": "Un buque de apoyo de la Marina británica zarpó desde Chipre para apoyar los esfuerzos internacionales para construir un muelle temporal frente a la costa de Gaza que permita aumentar la entrega de ayuda humanitaria. Mientras, en Estados Unidos continúan las p…",
+      "url": "https://cnnespanol.cnn.com/2024/04/27/ultima-hora-guerra-israel-gaza-iran-universidad-protestas-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/GettyImages-2149373252-e1714207257710.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-27T08:42:41Z",
+      "content": "Una delegación egipcia se encuentra en Israel en un esfuerzo por avanzar en las estancadas negociaciones destinadas a liberar a los rehenes e implementar un alto el fuego en Gaza, dijeron funcionario… [+3791 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Paulina Nares",
+      "title": "Colombia retira a sus diplomáticos de Israel tras anuncio de ruptura de relaciones por operación militar en Gaza",
+      "description": "El Ministerio de Asuntos Exteriores de Colombia no especificó cuándo regresarán los diplomáticos a su país, pero dijo que informaría a la embajada de Israel en Colombia de la medida. El comunicado del ministerio tampoco detalló si los diplomáticos israelíes t…",
+      "url": "https://cnnespanol.cnn.com/2024/05/02/colombia-retirara-diplomaticos-israel-gaza-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2023/04/GettyImages-1252170342-e1682495225579.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-02T15:23:21Z",
+      "content": "Petro anuncia que romperá relaciones con Israel 0:52\r\n(CNN Español) -- Colombia retirará a sus funcionarios diplomáticos de Israel luego de que el presidente de Colombia, Gustavo Petro, anunciara una… [+1455 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Luis Ernesto Quintana Barney",
+      "title": "Petro anuncia que Colombia romperá relaciones diplomáticas con Israel",
+      "description": "El presidente de Colombia, Gustavo Petro, anunció que romperá relaciones con Israel el jueves. Lo hizo en un discurso desde la Plaza de Bolívar en Bogotá durante el Día Internacional del Trabajo.\n\u003Cul\u003E\n \u003Cli\u003EANÁLISIS | Petro se juega su mandato en las calles\u003C/l…",
+      "url": "https://cnnespanol.cnn.com/2024/05/01/colombia-rompera-relaciones-diplomaticas-con-israel-petro-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/240501140551-gustavo-petro-israel-relaciones-diplomaticas-redaccion-buenos-aires-tv-00000605-full-169.png",
+      "publishedAt": "2024-05-01T18:00:01Z",
+      "content": "Petro anuncia que romperá relaciones con Israel 0:52\r\n(CNN Español) -- El presidente de Colombia, Gustavo Petro, anunció que el jueves romperá relaciones con Israel por las acciones en curso en Gaza.… [+478 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "\"Su comida hace que la gente se sienta como en casa\": World Central Kitchen vuelve a servir comidas en Gaza",
+      "description": "World Central Kitchen reanudó su trabajo en Gaza esta semana, después de una pausa tras una serie de ataques militares israelíes que mataron a siete empleados en abril\n\u003Cul\u003E\n \u003Cli\u003EMuerte, hambre y destrucción en Gaza\u003C/li\u003E\n \u003Cli\u003E\"No tenemos nada\" los niños mueren…",
+      "url": "https://cnnespanol.cnn.com/2024/05/02/world-central-kitchen-comidas-gaza-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/GettyImages-2084796749.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-02T22:34:45Z",
+      "content": "Tras ataque de Israel, WCK retoma actividades en Gaza 0:32\r\n(CNN) -- Decenas de niños palestinos hacían fila con entusiasmo para comer en Deir al-Balah, en el centro de Gaza, mientras los trabajadore… [+5725 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Algunos funcionarios del Departamento de Estado no creen que Israel esté usando armas estadounidenses que respeten el derecho internacional, dice una fuente",
+      "description": "El Departamento de Estado de EE.UU. está dividido sobre si Israel está utilizando armas proporcionadas por Estados Unidos que respetan el derecho internacional o no.",
+      "url": "https://cnnespanol.cnn.com/2024/04/28/departamento-estado-israel-armas-derecho-internacional-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gettyimages-1238104307.webp",
+      "publishedAt": "2024-04-29T01:24:07Z",
+      "content": "Biden enfatiza su oposición a una avanzada israelí sobre Rafah 3:05\r\n(CNN) -- El Departamento de Estado de EE.UU. está dividido sobre si Israel utilizó armas proporcionadas por Estados Unidos que res… [+5376 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Germán Padinger",
+      "title": "Este mapa muestra los focos de conflicto activos en Medio Oriente",
+      "description": "Este es un vistazo a los principales focos de conflicto activos en Medio Oriente actualmente tras el estallido de la guerra en Gaza.",
+      "url": "https://cnnespanol.cnn.com/2024/04/17/mapa-focos-conflicto-activos-medio-oriente-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/iran-US-ME-CARD-ES.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-17T14:53:12Z",
+      "content": "Análisis de lo último en la Guerra entre Israel y Hamas 2:59\r\n(CNN Español) -- Medio Oriente atraviesa una de sus crisis más importantes de las últimas décadas, luego de que el grupo militante Hamas … [+3805 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "OPINIÓN | Israel, incapaz de \"ganar\" en Gaza, pone la mira en otra parte",
+      "description": "Tras las tensiones entre Israel e Irán, puede que el tiempo se esté agotando para el Líbano, ya que se avecina una posible ofensiva israelí que sería desastrosa para el Gobierno de Biden, escribe Hussein Ibish.",
+      "url": "https://cnnespanol.cnn.com/2024/05/02/opinion-israel-gaza-libano-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2147830512.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-02T16:33:19Z",
+      "content": "Nota del editor:Hussein Ibish es investigador residente en el Instituto de los Estados Árabes del Golfo en Washington. Su libro más reciente es \"What's Wrong With the One-State Agenda? Why Ending the… [+9464 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "urielblanco",
+      "title": "Macklemore lanza canción propalestina con fuertes críticas a Biden y a la industria musical",
+      "description": "El rapero estadounidense Macklemore lanzó el lunes “Hind's Hall”, una canción en la que expresa su apoyo a las protestas propalestinas que se registran desde hace varias semanas en Estados Unidos",
+      "url": "https://cnnespanol.cnn.com/2024/05/09/macklemore-cancion-propalestina-criticas-biden-gaza-israel-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Copia-de-FOTO-PARA-WP-2024-05-07T104000.067.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-09T17:34:36Z",
+      "content": "(CNN Español) -- El rapero estadounidense Macklemore lanzó el lunes Hind's Hall, una canción en la que expresa su apoyo a las protestas propalestinas que se registran desde hace varias semanas en Est… [+7110 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "Blinken celebra reuniones de alto nivel en Israel mientras aumenta la presión sobre Hamas para que acepte el acuerdo de alto el fuego",
+      "description": "Funcionarios estadounidenses han mostrado cierto optimismo sobre la posibilidad de alcanzar un acuerdo que garantice un alto el fuego y la liberación de los rehenes en manos de Hamas, después de que Israel presentara lo que Blinken describió este lunes como u…",
+      "url": "https://cnnespanol.cnn.com/2024/05/01/blinken-reunion-israel-presion-hamas-alto-el-fuego-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Anthony-Blinken-Israel-Hamas-e1714545144319.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-01T07:52:05Z",
+      "content": "Biden enfatiza su oposición a una avanzada israelí sobre Rafah 3:05\r\n(CNN) -- El secretario de Estado de Estados Unidos, Antony Blinken, se prepara para una nueva ronda de conversaciones de alto nive… [+4996 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de la guerra entre Israel y Hamas, en vivo: noticias, situación en Gaza y más",
+      "description": "Casi la mitad de las tierras agrícolas de Gaza han sido destruidas y la recuperación podría llevar años, dijo este lunes a CNN un experto que estudia imágenes satelitales.\"Lo que vemos en los datos satelitales es realmente devastador\", dijo He Yin, profesor a…",
+      "url": "https://cnnespanol.cnn.com/2024/05/13/ultima-hora-guerra-israel-hamas-gaza-en-vivo-orix-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/imagenes-satelitales.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-13T09:01:06Z",
+      "content": "Los palestinos abandonan el campo de refugiados de Jabalya con sus pertenencias en Gaza, el 12 de mayo. (Crédito: Dawoud Abo Alkas/Anadolu/Getty Images)\r\nIsrael está luchando contra Hamas en toda Gaz… [+3056 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Luis Ernesto Quintana Barney",
+      "title": "La amenaza de Biden de detener las entregas de armas causa rabia y luchas internas entre funcionarios israelíes",
+      "description": "Funcionarios israelíes criticaron duramente a Estados Unidos y han caído en un episodio de luchas internas por las declaraciones del presidente de EE.UU. Joe Biden de que detendría algunos envíos de armas estadounidenses a Israel si se lanza una operación ter…",
+      "url": "https://cnnespanol.cnn.com/2024/05/09/biden-entrega-armas-funcionarios-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/still-20593967-2196544-142-still.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-09T17:03:23Z",
+      "content": "EE.UU. dejará de enviar armas a Israel si invade Rafah 1:43\r\n(CNN) -- Funcionarios israelíes criticaron duramente a Estados Unidos y han caído en un episodio de luchas internas por las declaraciones … [+6139 chars]"
+    },
+    {
+      "source": {
+        "id": "msnbc",
+        "name": "MSNBC"
+      },
+      "author": "Jacques Berlinerblau",
+      "title": "Republicans are using antisemitism hearings to carry out a sinister agenda",
+      "description": "Since Hamas’ attack on Israel Oct. 7, and Israel’s subsequent onslaught on Gaza, American college campuses have been seized by protests. Columbia is no exception.",
+      "url": "https://www.msnbc.com/opinion/msnbc-opinion/columbia-university-antisemitism-hearing-gop-rcna148297",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240418-columbia-university-gaza-war-protest-vl-1202p-bba782.jpg",
+      "publishedAt": "2024-04-18T17:32:00Z",
+      "content": "Since Hamas attack on Israel on Oct. 7, and Israels subsequent onslaught on Gaza, American college campuses have been seized by protests as the death toll in Gaza has risen past 34,000. Jewish studen… [+6839 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "¿Cómo es la propuesta de alto el fuego de Hamas a Israel, qué respuesta ha tenido y qué hay en juego?",
+      "description": "Cuando Hamas declaró el lunes por la noche que había \"aceptado\" un acuerdo de alto el fuego, a muchos los tomó por sorpresa. Evidentemente, Israel no se lo esperaba y ni siquiera quedó claro de inmediato qué había acordado Hamas.",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/hamas-acuerdo-alto-al-fuego-israel-netanyahu-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/01-02-gettyimages-2150528378.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-07T20:53:26Z",
+      "content": "(CNN) -- Cuando Hamas declaró el lunes por la noche que había \"aceptado\" un acuerdo de alto el fuego, a muchos los tomó por sorpresa. Evidentemente, Israel no se lo esperaba y ni siquiera quedó claro… [+9758 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de la guerra entre Israel y Hamas este 13 de mayo",
+      "description": "El Ministerio de Salud de Gaza dijo este martes que 82 personas murieron en el período de 24 horas más reciente como resultado de las operaciones israelíes.\n\n \n\u003Cul\u003E\n \u003Cli\u003ECon ojos vendados y en pañales: el centro de detención israelí\u003C/li\u003E\n \u003Cli\u003EPor qué no hay f…",
+      "url": "https://cnnespanol.cnn.com/2024/05/13/resumen-noticias-guerra-israel-hamas-gaza-en-vivo-orix-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2152178682.webp",
+      "publishedAt": "2024-05-13T09:01:06Z",
+      "content": "Una captura de pantalla de un video muestra a los israelíes bloqueando el paso de los camiones de ayuda y arrojando paquetes de ayuda al suelo. Crédito: KAN2COME/Reuters\r\nUn envío de ayuda humanitari… [+2283 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Abdallah Fayyad",
+      "title": "The lessons from colleges that didn’t call the police",
+      "description": "Deescalating conflict around protests was possible — but many colleges turned to law enforcement instead.",
+      "url": "https://www.vox.com/24147461/columbia-gaza-encampment-campus-protests-police-crackdown-pro-palestinian-students",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/KZ-RCCvLpRmNfBXLwLj7FKnO7Pw=/0x438:8658x4971/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25432004/GettyImages_2150632345__1_.jpg",
+      "publishedAt": "2024-05-03T21:00:00Z",
+      "content": "Pro-Palestinian students and activists face police officers after protesters were evicted from the campus library earlier in the day at Portland State University in Portland, Oregon on May 2. | AFP v… [+11168 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "OPINIÓN | Cinco conclusiones cruciales sobre el ataque de Irán a Israel",
+      "description": "La idea de que un día Irán atacara Israel podía parecer una posibilidad lejana, pero hemos aprendido que lo inimaginable puede suceder, escribe Frida Ghitis.",
+      "url": "https://cnnespanol.cnn.com/2024/04/17/opinion-5-conclusiones-cruciales-ataque-iran-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/2024-04-13t233806z-760586938-rc2y57asx8kc-rtrmadp-3-israel-palestinians-iran-20240415194039062.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-17T04:27:42Z",
+      "content": "Nota del editor:Frida Ghitis, exproductora y corresponsal de CNN, es columnista de asuntos mundiales. Es colaboradora semanal de opinión de CNN, columnista del diario The Washington Post y columnista… [+9103 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Luis Ernesto Quintana Barney",
+      "title": "Casi 400 cadáveres fueron encontrados en la fosa común de un hospital de Gaza, dice la Defensa Civil Palestina",
+      "description": "Las autoridades de Gaza concluyeron su búsqueda de fosas comunes en un hospital en el sur de Gaza y dijeron que descubrieron un total de 392 cadáveres, incluidos algunos que todavía llevaban batas quirúrgicas.\n\u003Cul\u003E\n \u003Cli\u003EONU exige investigación tras hallazgo d…",
+      "url": "https://cnnespanol.cnn.com/2024/04/25/casi-400-cadaveres-fosas-hospital-nasser-gaza-khan-younis-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gettyimages-2149566900.webp",
+      "publishedAt": "2024-04-26T00:04:30Z",
+      "content": "Gaza: Hallan casi 300 cuerpos en fosa común de un hospital 3:08\r\n(CNN) -- Las autoridades de Gaza concluyeron su búsqueda de fosas comunes en un hospital en el sur de Gaza y dijeron que descubrieron … [+8064 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "Hamas considera una propuesta de alto el fuego y liberación de rehenes que, según fuentes israelíes, podría evitar la invasión de Rafah",
+      "description": "Hamas está considerando un nuevo marco propuesto por Egipto que pide al grupo liberar hasta 33 rehenes secuestrados en Israel a cambio de una pausa en las hostilidades en Gaza, dijo a CNN una fuente israelí familiarizada con las negociaciones y una fuente dip…",
+      "url": "https://cnnespanol.cnn.com/2024/04/29/hamas-propuesta-alto-fuego-liberacion-rehenes-rafah-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gettyimages-2100340928.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-29T19:38:58Z",
+      "content": "Biden enfatiza su oposición a una avanzada israelí sobre Rafah 3:05\r\nRiad y Jerusalén (CNN) -- Hamas está considerando un nuevo marco propuesto por Egipto que pide al grupo liberar hasta 33 rehenes s… [+7979 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora del ataque en Irán, la guerra de Israel con Hamas y la situación en Gaza, en vivo: noticias, reacciones y más",
+      "description": "El jefe de la rama de inteligencia militar de las Fuerzas de Defensa de Israel (FDI) renunció luego de su “responsabilidad de liderazgo” por los ataques de Hamas el 7 de octubre, dijeron las FDI este lunes.\n\u003Cul\u003E\n \u003Cli\u003ELlanto y dolor por la muerte de niños en G…",
+      "url": "https://cnnespanol.cnn.com/2024/04/22/ultima-hora-ataque-israel-iran-hamas-gaza-en-vivo-noticias-reacciones-orix-3-2/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/comandante.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-04-22T09:15:35Z",
+      "content": "Comandante de la Inteligencia Militar de las FDI Aharon Haliva FDI\r\nEl jefe de la rama de inteligencia del ejército israelí renunció por los fracasos de su unidad durante los ataques de Hamas del 7 d… [+1051 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Benavides",
+      "title": "ANÁLISIS | Por qué no hay final a la vista para la guerra en Gaza",
+      "description": "Las tensiones en el gabinete de Israel, la economía y las masivas manifestaciones por los rehenes no parecen ser suficientes para tener un impacto en el curso de la guerra. Pero tampoco parecen serlo los organismos internacionales o la diplomacia.\n\u003Cul\u003E\n \u003Cli\u003EI…",
+      "url": "https://cnnespanol.cnn.com/2024/05/11/por-que-no-final-guerra-en-gaza-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-2076699048-e1715437560817.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-11T14:33:19Z",
+      "content": "(CNN Español) --  ¿Cómo terminan las guerras? La incursión israelí en Rafah, ciudad del sur de Gaza donde actualmente se refugian más de un millón de palestinos, en el marco de un potencial alto al f… [+18895 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "La Casa Blanca se mantiene firme en su apoyo Israel a pesar de la frustración creciente de los progresistas y la agitación en los campus",
+      "description": "A pesar de la frustración creciente de los progresistas y la agitación en los campus, donde continúan las manifestaciones propalestinos, el Gobierno del presidente Joe Biden sigue inquebrantable en su política hacia Israel.\n\u003Cul\u003E\n \u003Cli\u003E¿Por qué hay protestas es…",
+      "url": "https://cnnespanol.cnn.com/2024/04/26/eeuu-apoyo-israel-agitacion-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gettyimages-2149991056-20240424154746598.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-26T09:53:10Z",
+      "content": "Detienen a manifestantes propalestinos en Boston 0:49\r\n(CNN) -- Cuando el presidente Joe Biden visitó Virginia para conmemorar el Día de la Tierra el lunes, se le unió el Senador Bernie Sanders, un a… [+6624 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Última hora de Gaza y de las protestas propalestina en universidades de EE.UU., en vivo: noticias y más",
+      "description": "En todo Estados Unidos, más de 2.000 personas han sido detenidas en campus universitarios desde el 18 de abril, en el marco de la ola de protestas propalestinos que se extiende por el país.\n\u003Cul\u003E\n \u003Cli\u003EOPINIÓN | Israel, incapaz de \"ganar\" en Gaza, pone la mira …",
+      "url": "https://cnnespanol.cnn.com/2024/05/03/ultima-hora-gaza-protestas-propalestina-universidades-ee-uu-en-vivo-noticias-y-mas/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-2150533265-e1714725577757.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-03T08:40:29Z",
+      "content": "Un destacado cirujano de Gaza murió en una prisión israelí tras permanecer recluido más de cuatro meses, según la Sociedad de presos palestinos.\r\nEn un comunicado conjunto emitido el jueves, la Socie… [+2872 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Rocío Muñoz-Ledo",
+      "title": "Israel dice que las operaciones en Rafah continuarán mientras el acuerdo con Hamas sigue \"lejos\" de satisfacer sus demandas",
+      "description": "Israel dijo que los términos del acuerdo de alto el fuego aceptado este lunes por Hamas están \"lejos\" de satisfacer sus demandas y advirtió que sus operaciones militares en Rafah continuarían, incluso cuando envió negociadores a las conversaciones con los med…",
+      "url": "https://cnnespanol.cnn.com/2024/05/06/israel-acuerdo-hamas-lejos-satisfacer-exigencias-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/israel-hamas-acuerdo-alto-fuego-rehenes.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-06T23:57:21Z",
+      "content": "El último informe de Al Jazeera en Jerusalén tras ser prohibido por Israel 1:14\r\n(CNN) -- Israel dijo que los términos del acuerdo de alto el fuego aceptado este lunes por Hamas están \"lejos\" de sati… [+7617 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "Imágenes muestran a militares estadounidenses construyendo un muelle flotante frente a Gaza. El Pentágono dice que costará US$ 320 millones",
+      "description": "El Comando Central de Estados Unidos publicó imágenes de un muelle flotante que está construyendo el ejército estadounidense frente a la costa de Gaza y que, una vez terminado, ayudará a suministrar la ayuda humanitaria que tanto necesita la población hambrie…",
+      "url": "https://cnnespanol.cnn.com/2024/04/30/militares-eeuu-construye-muelle-flotante-gaza-320-millones-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/US-pier-Humitarian-help-Gaza-2-e1714460267987.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-04-30T08:25:10Z",
+      "content": "Gaza: Hallan casi 300 cuerpos en fosa común de un hospital 3:08\r\n(CNN) -- El Comando Central de Estados Unidos publicó imágenes de un muelle flotante que está construyendo el ejército estadounidense … [+5650 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "\"Una hambruna en toda regla\" está ocurriendo en Gaza, dice el director ejecutivo del Programa Mundial de Alimentos",
+      "description": "El norte de Gaza está experimentando una “hambruna en toda regla” que se está extendiendo rápidamente por toda Gaza después de casi siete meses de guerra, dijo el director ejecutivo del Programa Mundial de Alimentos.",
+      "url": "https://cnnespanol.cnn.com/2024/05/05/hambruna-toda-regla-ocurriendo-en-gaza-dice-director-programa-mundial-alimentos-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2017/05/cnne-logo-video-bg.png",
+      "publishedAt": "2024-05-05T09:52:13Z",
+      "content": "Gaza está \"al borde de hambruna\", advierte UNRWA 1:06\r\n(CNN) -- El norte de Gaza está experimentando una hambruna en toda regla que se está extendiendo rápidamente por toda Gaza después de casi siete… [+4159 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "ANÁLISIS | ¿Contención o castigo? Israel se enfrenta a un dilema en su respuesta al ataque de Irán",
+      "description": "Benjamin Netanyahu tiene que sopesar el llamamiento de su coalición ultraderechista a una reacción contundente frente al riesgo de un mayor aislamiento internacional de Israel al ampliar la guerra sin apoyo internacional.",
+      "url": "https://cnnespanol.cnn.com/2024/04/15/analisis-contencion-castigo-israel-respuesta-iran-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/5a0724dd-cd2e-4d69-823c-42984829ff14.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-15T20:53:19Z",
+      "content": "Israel analiza cómo responder al ataque de Irán 6:41\r\n(CNN) -- Israel aún no decide cómo responder al ataque iraní del fin de semana, en el que se dispararon más de 300 proyectiles contra su territor… [+10156 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Biden enfrenta crítica bipartidista en el Capitolio por el ultimátum a Israel",
+      "description": "El presidente Joe Biden se enfrenta a críticas de los legisladores de ambos partidos por su ultimátum de que una gran ofensiva israelí en la ciudad de Rafah daría lugar al corte de suministro de algunas armas estadounidenses.",
+      "url": "https://cnnespanol.cnn.com/2024/05/12/biden-reaccion-capitolio-ultimatum-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/still-20593967-1988702-241-still.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-13T02:13:48Z",
+      "content": "EE.UU. dejará de enviar armas a Israel si invade Rafah 1:43\r\n(CNN) -- El presidente de Estados Unidos Joe Biden se enfrenta a críticas por parte de legisladores de ambos partidos por su ultimátum de … [+7153 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de la Guerra entre Israel y Hamas en vivo: noticias, situación en Gaza y más",
+      "description": "“Hemos seguido la pista a unas 50.000 personas que salieron de Rafah en las últimas 48 horas. Los hemos visto ir a Khan Younis, algunos han ido al área humanitaria ampliada de Al Mawasi, otros han ido a Deir al-Balah”, dijo el subdirector principal de Asuntos…",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/ultima-hora-guerra-israel-hamasen-vivo-noticias-y-mas-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Palestinos-Jabalia-Gaza-Strip-e1715150670183.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T09:12:03Z",
+      "content": "Aproximadamente 50.000 personas han abandonado la ciudad de Rafah, en el sur de Gaza, en las últimas 48 horas como resultado de la orden de evacuación de Israel, dijo a CNN este miércoles un alto fun… [+2399 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Valeria Ordóñez Ghio",
+      "title": "Biden dice que dejará de enviar bombas y munición de artillería a Israel si lanzan una invasión a gran escala en Rafah",
+      "description": "El presidente de Estados Unidos, Joe Biden, dijo este miércoles por primera vez que detendría los envíos de armas estadounidenses a Israel —que, según reconoció, se han utilizado en la muerte de civiles en Gaza— si el primer ministro Benjamin Netanyahu ordena…",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/biden-dejara-envio-armas-israel-invasion-rafah-entrevista-cnn-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/biden-entrevista.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T23:41:26Z",
+      "content": "(CNN) -- El presidente de Estados Unidos, Joe Biden, dijo este miércoles por primera vez que detendría los envíos de armas estadounidenses a Israel que, según reconoció, se han utilizado en la muerte… [+7990 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "El ejército de Israel insta a los habitantes de Gaza en partes del este de Rafah a evacuar",
+      "description": "El ejército de Israel llama a los residentes del este de Rafah para que \"evacuen inmediatamente\", un día después de que el ministro de defensa del país dijera a las tropas dentro de Gaza que esperaran \"acción intensa en Rafah en el futuro cercano\".",
+      "url": "https://cnnespanol.cnn.com/2024/05/06/ejercito-israel-insta-a-los-habitantes-de-gaza-en-partes-del-este-de-rafah-a-evacuar-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/img-7944.webp",
+      "publishedAt": "2024-05-06T05:51:25Z",
+      "content": "(CNN) -- El ejército de Israel llama a los residentes del este de Rafah para que \"evacuen inmediatamente\", un día después de que el ministro de defensa del país dijera a las tropas dentro de Gaza que… [+1223 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora del ataque de Irán a Israel, en vivo: noticias, reacción de EE.UU. y más",
+      "description": "El ataque de Irán a Israel fue una reacción “legítima” y “responsable”, reiteró el lunes el portavoz del Ministerio de Asuntos Exteriores iraní, Nasser Kanaani.\n\u003Cul\u003E\n \u003Cli\u003E¿Por qué Irán atacó a Israel?\u003C/li\u003E\n \u003Cli\u003EQué es el Domo de Hierro y cómo intercepta misil…",
+      "url": "https://cnnespanol.cnn.com/2024/04/15/ataque-iran-israel-noticias-ultima-hora-orix-3/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/iran.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-15T09:08:50Z",
+      "content": "Varios países africanos han expresado preocupación tras el ataque de Irán a Israel.\r\nSudáfrica enfatizó que todas las partes deben \"evitar cualquier acto que pueda aumentar las tensiones en una regió… [+1352 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Belén Liotti",
+      "title": "Habitantes de Gaza agradecen a quienes se manifiestan en universidades de EE.UU., mientras Israel pide la expulsión de los estudiantes",
+      "description": "Concentraciones de personas en todo el norte y centro de Gaza expresaron este miércoles su gratitud a los estudiantes de los campus universitarios estadounidenses que estuvieron protestando por la guerra en Gaza.",
+      "url": "https://cnnespanol.cnn.com/2024/05/01/lhabitantes-gaza-agradecen-manifestantes-universitarios-estadounidenses-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/gettyimages-2150462070.webp",
+      "publishedAt": "2024-05-01T23:47:44Z",
+      "content": "Así entro la Policía de Nueva York a Hamilton Hall 2:50\r\n(CNN) -- Concentraciones de personas en todo el norte y centro de Gaza expresaron este miércoles su gratitud a los estudiantes de los campus u… [+3876 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "OPINIÓN | La mentira antisemita en el centro de muchas protestas universitarias",
+      "description": "La acusación de que Israel está cometiendo un genocidio y los cánticos de \"Joe genocida\" contra Biden evocan el libelo de sangre de la época medieval contra los judíos a los ojos de la escritora Frida Ghitis.",
+      "url": "https://cnnespanol.cnn.com/2024/05/09/opinion-ghitis-mentira-antisemita-protestas-universitarias-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/2024-04-25t175531z-410001094-rc2td7aucnhk-rtrmadp-3-israel-palestinians-usa-protests.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-09T14:12:16Z",
+      "content": "Nota del editor: Frida Ghitis, exproductora y corresponsal de CNN, es columnista de asuntos mundiales. Es colaboradora semanal de opinión de CNN, columnista del diario The Washington Post y columnist… [+12780 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vox"
+      },
+      "author": "Christian Paz",
+      "title": "The silver lining in a very bad poll for Biden",
+      "description": "The Sun Belt is a disaster, but the Great Lakes states offer some hope of beating Trump.",
+      "url": "https://www.vox.com/2024-elections/24156428/poll-biden-great-lakes-sun-belt-swing-election-2024",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/v0pZEeID5_JTjW6meurgKzirVw8=/57x299:2960x1819/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25447447/1245215328.jpg",
+      "publishedAt": "2024-05-14T17:46:00Z",
+      "content": "President Joe Biden arrives to speak at the SK Siltron CSS facility in Bay City, Michigan, on November 29, 2022. | Nic Antaya/Bloomberg via Getty Images\r\n\n \n\n The Sun Belt is a disaster, but the Grea… [+6546 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de Gaza y de las protestas propalestinas en universidades de EE.UU., este 5 de mayo",
+      "description": "El Ejército de Israel llama a los residentes del este de Rafah para que \"evacuen inmediatamente\", un día después de que el ministro de defensa del país dijera a las tropas dentro de Gaza que esperaran \"acción intensa en Rafah en el futuro cercano\".",
+      "url": "https://cnnespanol.cnn.com/2024/05/05/resumen-noticias-gaza-protestas-propalestinas-universidades-ee-uu-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/hombre-sentado.webp",
+      "publishedAt": "2024-05-05T09:15:38Z",
+      "content": "(Crédito: Jack Guez/AFP/Getty Images/Archivo)\r\nEl primer ministro de Israel, Benjamin Netanyahu, ha emitido un comunicado en video en el que acusa a Hamas de plantear exigencias inaceptables en las n… [+2259 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNNEspañol sjv",
+      "title": "Las 5 cosas que debes saber este 8 de mayo: Lo que dice Trump del crimen en Venezuela es falso",
+      "description": "Lo que está en juego con la ruptura de relaciones de Colombia con Israel. La venta de yerba mate cae a su mínimo desde 2018 en Argentina. Borussia Dortmund, primer finalista de la Champions. Esto es lo que debes saber para comenzar el día. Primero la verdad.",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/5-cosas-8-mayo-crimen-venezuela-trump-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/trump-venezuela-e1714752594780.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T09:44:17Z",
+      "content": "Lo que está en juego con la ruptura de relaciones de Colombia con Israel. La venta de yerba mate cae a su mínimo desde 2018 en Argentina. Borussia Dortmund, primer finalista de la Champions. Esto es … [+5115 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Paulina Nares",
+      "title": "La ONU exige una investigación tras el hallazgo de fosas comunes en hospitales de Gaza allanados por Israel",
+      "description": "El alto comisionado de la ONU para los Derechos Humanos, Volker Türk, dijo en un comunicado que estaba \"horrorizado\" por las escenas denunciadas en los complejos médicos de Nasser y Al Shifa, en el enclave asediado.",
+      "url": "https://cnnespanol.cnn.com/2024/04/24/lonu-exige-investigacion-hallazgo-fosas-comunes-hospitales-gaza-por-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/gaza-onu.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-24T22:16:57Z",
+      "content": "200 días después, Gaza es un paisaje de escombros 3:35\r\n(CNN) -- Naciones Unidas pidió una \"investigación independiente, efectiva y transparente\" sobre el descubrimiento de fosas comunes en dos hospi… [+4578 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Última hora de la guerra entre Israel y Hamas, en vivo: noticias, situación en Gaza y más",
+      "description": "La agencia de la ONU responsable de proporcionar ayuda y apoyo humanitarios en Gaza – UNRWA – dice que durante la última semana estima que alrededor de 300.000 personas han huido de Rafah en Gaza.\n\u003Cul\u003E\n \u003Cli\u003ECon ojos vendados y en pañales: el centro de detenci…",
+      "url": "https://cnnespanol.cnn.com/2024/05/12/ultima-hora-guerra-israel-hamas-gaza-en-vivo-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/GettyImages-943420466.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-12T09:02:28Z",
+      "content": "La agencia de la ONU responsable de proporcionar ayuda y apoyo humanitarios en Gaza UNRWA dice que durante la última semana estima que alrededor de 300.000 personas han huido de Rafah en Gaza.\r\nLa es… [+1855 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ángela Reyes Haczek",
+      "title": "Biden dice que no hay lugar para el antisemitismo en Estados Unidos",
+      "description": "En un discurso sobre antisemitismo pronunciado el martes en el Capitolio, el presidente de Estados Unidos, Joe Biden, se refirió a las protestas que han sacudido los campus universitarios en las últimas semanas en respuesta a la guerra de Israel en Gaza.",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/biden-dice-que-no-hay-lugar-para-el-antisemitismo-en-estados-unidos-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/eeb4ab60-6fb7-4e38-941d-fae3e6b305c9-e1715099325120.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-07T16:29:02Z",
+      "content": "La policía es abucheada al intentar disolver las protestas de la Universidad de Columbia 2:28\r\n(CNN) -- En un discurso sobre antisemitismo pronunciado este martes en el Capitolio, el presidente de Es… [+10501 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "ANÁLISIS | El discurso de Biden sobre el antisemitismo deja en claro que apoya a Israel pese a las tensiones con Netanyahu",
+      "description": "En un momento de crudeza política, en el que Israel bombardea Gaza y la indignación sacude los campus universitarios estadounidenses, el gran discurso de condena del antisemitismo pronunciado Joe Biden destaca sobre todo por lo que se dejó en el tintero.",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/analisis-discurso-biden-antisemitismo-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/2024-05-07t190449z-1160153719-rc2sl7ai6iqm-rtrmadp-3-usa-biden-antisemitism.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T00:34:07Z",
+      "content": "(CNN) --  En un momento de crudeza política, en el que Israel bombardea Gaza y la indignación sacude los campus universitarios estadounidenses, el gran discurso de condena del antisemitismo pronuncia… [+10245 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "ANÁLISIS | Biden se enfrenta a una creciente división partidista sobre Israel",
+      "description": "El presidente Joe Biden se enfrenta a más momentos cruciales esta semana en los que se pondrá a prueba su tensa relación con su base con relación a la guerra de Israel en Gaza y que podrían ampliar potencialmente la división partidista sobre el Estado judío q…",
+      "url": "https://cnnespanol.cnn.com/2024/05/07/analisis-biden-creciente-division-partidista-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/ap24127724947418.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-07T17:40:04Z",
+      "content": "(CNN) -- El presidente Joe Biden se enfrenta a más momentos cruciales esta semana en los que se pondrá a prueba su tensa relación con su base con relación a la guerra de Israel en Gaza y que podrían … [+18159 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Los manifestantes estudiantiles de Columbia exigen la desinversión. Esto es de lo que la universidad se desprendió en el pasado",
+      "description": "Una de las principales demandas de la semana pasada por parte de los grupos de estudiantes propalestinos de la Universidad de Columbia ha sido que la escuela retire los fondos de inversión de lo que describen como empresas que se benefician de la acción milit…",
+      "url": "https://cnnespanol.cnn.com/2024/04/28/manifestantes-estudiantiles-columbia-exigen-la-desinversion-esto-ha-desprendido-en-el-pasado-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/universidad-de-columbia.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-28T10:49:49Z",
+      "content": "Manifestantes en Columbia reciben una extensión de las autoridades de la Universidad para retirar el campamento 1:46\r\n(CNN) -- Una de las principales demandas de la semana pasada por parte de los gru… [+7624 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Las 5 cosas que debes saber este 13 de mayo: Partido socialista vence en las elecciones al parlamento de Cataluña",
+      "description": "Aumenta el número de víctimas en Brasil por las inundaciones. Continúa el juicio contra Trump. Putin cambia al ministro de Defensa. Israel sigue atacando el norte de Gaza. Messi se queja de una regla de la MLS. Además, los chiles más picantes del mundo.",
+      "url": "https://cnnespanol.cnn.com/2024/05/13/5-cosas-13-mayo-partido-socialista-elecciones-catalanas-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/catalunya.webp",
+      "publishedAt": "2024-05-13T09:54:32Z",
+      "content": "Aumenta el número de víctimas en Brasil por las inundaciones. Continúa el juicio contra Trump. Putin cambia al ministro de Defensa. Israel sigue atacando el norte de Gaza. Messi se queja de una regla… [+3965 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Melissa Velásquez Loaiza",
+      "title": "Un informe de alto nivel se cierne sobre Biden para saber si Israel violó el derecho internacional",
+      "description": "El Gobierno de Biden se apresura a terminar un informe de alto riesgo que debe presentar al Congreso esta semana sobre si Israel ha violado el derecho internacional humanitario durante su guerra en Gaza, una determinación que podría tener importantes repercus…",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/informe-alto-nivel-biden-israel-violo-derecho-internacional-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/Palestinos-Jabalia-Gaza-Strip-e1715150670183.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T07:59:27Z",
+      "content": "Video muestra explosiones en Rafah por ataques aéreos israelíes 1:18\r\n(CNN) -- El Gobierno de Biden se apresura a terminar un informe de alto riesgo que debe presentar al Congreso esta semana sobre s… [+8418 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNNEspañol sjv",
+      "title": "Irán dice que derribó drones mientras aumentan las tensiones regionales. ¿Cómo se llegó a este punto?",
+      "description": "Irán ha tratado de restar importancia a un ataque con drones en su territorio, e Israel no se ha atribuido la responsabilidad de lo que parece ser el más reciente ataque lanzado mientras emerge a la luz pública una guerra en la sombra que lleva décadas entre …",
+      "url": "https://cnnespanol.cnn.com/2024/04/19/iran-drones-israel-como-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/ataque-iran-israel-.jpeg?quality=100&strip=info",
+      "publishedAt": "2024-04-19T12:45:39Z",
+      "content": "EE.UU. confirma ataque de Israel contra Irán 2:36\r\n(CNN) -- Un ataque aéreo no reivindicado en el centro de Irán el viernes se produce inmediatamente después de los ataques iraníes e israelíes (en re… [+7455 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "urielblanco",
+      "title": "ANÁLISIS | ¿Puede Netanyahu evitar desencadenar una guerra regional?",
+      "description": "Israel, desafiando las advertencias de EE.UU. de \"asumir la victoria\" y la amenaza de Irán de una respuesta \"severa, extensa y dolorosa\" a cualquier represalia, está contemplando precisamente eso.",
+      "url": "https://cnnespanol.cnn.com/2024/04/17/analisis-puede-netanyahu-evitar-desencadenar-guerra-regional-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/Copia-de-FOTO-PARA-WP-2024-04-17T072546.179.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-17T14:22:43Z",
+      "content": "¿Seguirán los enfrentamientos entre Irán e Israel? 3:11\r\n(CNN) --Israel, ayudado por sus aliados, esquivó una bala el domingo.\r\nPara ser más precisos, 60 toneladas de explosivos a bordo de más de 350… [+6619 chars]"
+    },
+    {
+      "source": {
+        "id": "msnbc",
+        "name": "MSNBC"
+      },
+      "author": "Clarissa-Jan Lim",
+      "title": "‘Full-blown famine’ in northern Gaza, World Food Programme director says",
+      "description": "\"Full-blown famine\" is present in the northern part of Gaza and is spreading south, Cindy McCain, the executive director of the World Food Programme, said.",
+      "url": "https://www.msnbc.com/top-stories/latest/gaza-famine-world-food-programme-rcna150715",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-05/240504-gaza-famine-ch-1139-4a141b.jpg",
+      "publishedAt": "2024-05-04T20:37:09Z",
+      "content": "Full-blown famine is present in the northern part of Gaza and is spreading south, saidCindy McCain, the executive director of the World Food Programme.\r\nWhat I can explain to you is that there is fam… [+2304 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Sofía Barruti",
+      "title": "Resumen de noticias de la guerra entre Israel y Hamas este 8 de mayo",
+      "description": "Rafah está \"colgando al borde de un precipicio\" y los que quedan en la ciudad del sur de Gaza, incluidos 600.000 niños, son los más vulnerables y viven en condiciones \"impactantes\", según un funcionario del Fondo de las Naciones Unidas para la Infancia en Raf…",
+      "url": "https://cnnespanol.cnn.com/2024/05/08/resumen-noticias-guerra-israel-hamasen-vivo-noticias-y-mas-orix/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/una-nina-palestina.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-08T09:12:03Z",
+      "content": "Los palestinos continúan saliendo de los barrios orientales de Rafah, Gaza, debido a los ataques israelíes en curso el 8 de mayo. (Ali Jadallah/Anadolu/Getty Images)\r\nAltos funcionarios internacional… [+2728 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Alexandra Ferguson",
+      "title": "Google despidió a 50 empleados tras las protestas por un acuerdo de servicios en la nube con Israel, según activistas",
+      "description": "Google despidió a otros 20 trabajadores que, según afirma, participaron en las protestas de la semana pasada por el contrato de servicios de computación en nube de la empresa con el Gobierno de Israel.",
+      "url": "https://cnnespanol.cnn.com/2024/04/23/google-despidio-50-empleados-protestas-israel-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/04/2024-04-16t223807z-216457222-rc2u77afh3bk-rtrmadp-3-israel-palestinians-usa-google-protest.jpg?quality=100&strip=info",
+      "publishedAt": "2024-04-23T20:39:56Z",
+      "content": "(CNN) -- Google despidió a otros 20 trabajadores que, según afirma, participaron en las protestas de la semana pasada por el contrato de servicios de computación en nube de la empresa con el Gobierno… [+3757 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Rocío Muñoz-Ledo",
+      "title": "Israel cerrará la cadena de noticias Al Jazeera en el país",
+      "description": "El primer ministro de Israel, Benjamín Netanyahu, publicó en X que se cerrarán las operaciones del canal de noticias qatarí Al Jazeera en el país.",
+      "url": "https://cnnespanol.cnn.com/2024/05/05/israel-cerrara-cadena-noticias-al-jazeera-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2017/05/cnne-logo-video-bg.png",
+      "publishedAt": "2024-05-05T14:44:24Z",
+      "content": "Periodista de Al Jazeera vuelve al trabajo 3:56\r\n(CNN) -- Israel ordenó el cierre de Al Jazeera en el país, una medida que la cadena de noticias con sede en Qatar calificó de \"acto criminal\".\r\nEl pri… [+3968 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Valeria Ordóñez Ghio",
+      "title": "Las protestantes propalestinos en las universidades de EE.UU. llaman a la desinversión. Esto es lo que eso significa",
+      "description": "Casi todas las protestas propalestina piden a las universidades de Estados Unidos la desinversión a Israel de alguna forma.",
+      "url": "https://cnnespanol.cnn.com/2024/05/01/desinversion-israel-protestas-propalestina-universidades-estados-unidos-trax/",
+      "urlToImage": "https://cnnespanol.cnn.com/wp-content/uploads/2024/05/protestas-propalestina.jpg?quality=100&strip=info",
+      "publishedAt": "2024-05-02T02:15:22Z",
+      "content": "Disturbios y arrestos en protestas propalestinas en Universidad de Columbia 2:11\r\n(CNN) -- Este mes, se han llevado a cabo protestas propalestina en campus universitarios de todo Estados Unidos.\r\nSi … [+5885 chars]"
+    }
+  ]
+}

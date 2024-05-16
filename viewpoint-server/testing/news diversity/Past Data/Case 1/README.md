@@ -1,0 +1,1 @@
+Query: https://newsapi.org/v2/everything?q=Israel-Gaza&domains=cnn.com,washingtonpost.com,nytimes.com,huffpost.com,vox.com,msnbc.com,buzzfeed.com&sortBy=relevancy&from=2024-05-05&to=2024-05-13&apiKey=5575fc7844b2407cb552962391f7368f

@@ -1,11 +1,11 @@
-import { formatDate, removeMissingNewsData } from "./dataFormatting.js";
+import { formatDate, removeMissingNewsData } from "./dataRetrieval/dateFormatting.js";
 import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
 import NewsDate from "./models/newsdate.js";
 import newsRouter from "./routes/news.js";
 import currentNews from "./models/currentnews.js";
-import { getTopics, fetchPastData, fetchCurrentData } from "./dataRetrieval.js";
+import { getTopics, fetchPastData, fetchCurrentData } from "./dataRetrieval/main.js";
 import dotenv from "dotenv";
 
 // const { v1: uuidv1 } = require('uuid');
@@ -52,32 +52,6 @@ app.get("/current", async (req, res) => {
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
-});
-
-app.post("/get-analysis", async (req, res) => {
-  const requestBody = JSON.stringify({
-    trending_topic: req.body.trending,
-    body: req.body.text,
-  });
-
-  const options = {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: requestBody,
-  };
-  const promise = await fetch("https://viewpoint-python-gpt-server.onrender.com/get-analysis", options);
-  let analysis;
-  try {
-    analysis = await promise.json();
-  } catch (err) {
-    console.log(err);
-  }
-
-  console.log(analysis);
-
-  res.json(analysis);
 });
 
 export async function updatePastData() {

@@ -1,0 +1,788 @@
+{
+  "status": "ok",
+  "totalResults": 60,
+  "articles": [
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb",
+      "title": "Iran attack complicates Biden’s push to change the course of Gaza war",
+      "description": "On Gaza, Biden is warning Israel to change its approach. On Iran, he is promising unconditional support.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/15/biden-israel-iran-gaza/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JVTEH6ZWU2JGNO4KAUJTRDTXJA.JPG&w=1440",
+      "publishedAt": "2024-04-15T23:03:25Z",
+      "content": "Irans recent attack on Israel has complicated President Bidens efforts to change Israels course in Gaza and introduced a new, unpredictable element into his push to prevent the Israel-Gaza war from e… [+8044 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Kati Perry, Hannah Dormido, Dylan Moriarty, Kevin Uhrmacher, Adrián Blanco",
+      "title": "How every House member voted on aid to Ukraine, Israel and more",
+      "description": "The House is voting on funding for Ukraine, Israel, Gaza, the Pacific and a TikTok ban. Speaker Mike Johnson teed up votes over objections from far-right Republicans.",
+      "url": "https://www.washingtonpost.com/politics/interactive/2024/04/20/ukraine-israel-border-funding-house-vote/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MSEWM3ZQU32ZKVV7OJIRXW7MZM.JPG&w=1200",
+      "publishedAt": "2024-04-20T19:44:56Z",
+      "content": "The House on Saturday passed four bills in a $95 billion foreign aid package brought by House Speaker Mike Johnson (R-La.) in defiance of the right flank of his party. They include a measure that cou… [+2445 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Missy Ryan",
+      "title": "Arab states reticent as U.S. pushes postwar plan for Gaza",
+      "description": "Secretary of State Antony Blinken faced skepticism from Arab counterparts as he advocated plans for securing and rebuilding Gaza once the Israel-Hamas war ends.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/29/blinken-israel-gaza-postwar-plan/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MZPCQ6MZC3UCOA5XOHHACOKICM.jpg&w=1440",
+      "publishedAt": "2024-04-29T20:58:11Z",
+      "content": "RIYADH, Saudi Arabia Secretary of State Antony Blinken sought to press ahead Monday with plans for securing and rebuilding Gaza once the Israel-Hamas war ends, but reticence among the Arab nations th… [+146 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Abigail Hauslohner",
+      "title": "For Biden, a tough call looms on whether Israel violated laws in Gaza",
+      "description": "The Biden administration is due to deliver its assessment this week on whether Israel has violated U.S. or international law during the Gaza war.",
+      "url": "https://www.washingtonpost.com/national-security/2024/05/06/biden-israel-violations-gaza-war/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/H4K6GRVSXI4OS2ZQCMJM5ILQJI.JPG&w=1440",
+      "publishedAt": "2024-05-06T23:54:04Z",
+      "content": "The Biden administration is expected to notify Congress this weekwhether it believes Israel has violated U.S. or international law in Gaza, a determination with significant moral and political stakes… [+474 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Hannah Dormido, Szu Yu Chen, Kati Perry, Adrián Blanco",
+      "title": "How senators voted on a TikTok ban, aid to Ukraine and Israel",
+      "description": "Senate Democrats and Republicans approved a forced sale or ban of TikTok and a $95 billion aid package for Ukraine, Israel, Gaza and Taiwan.",
+      "url": "https://www.washingtonpost.com/politics/interactive/2024/04/23/senate-vote-tiktok-ban-ukraine-israel-aid/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/J2F6BKSZ7VCFTJ2WMOTJOOMPA4.JPG&w=1200",
+      "publishedAt": "2024-04-24T02:15:13Z",
+      "content": "The Senate on Tuesday evening voted to approve a $95 billion foreign aid package that includes $60 billion in Ukraine aid, $17 billion weapons aid for Israel with over $9 billion in humanitarian aid … [+607 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Dylan Wells",
+      "title": "A ‘Squad’ member’s primary tests shifting politics of Israel-Gaza war",
+      "description": "Rep. Summer Lee’s criticism of Israel’s response to the Oct. 7 attacks initially set her apart. But the Israel-Gaza war has shifted U.S. public opinion.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/22/summer-lee-primary-patel-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C2QJFDQVXG6NF4LT2JZLKQITY4_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-22T14:57:07Z",
+      "content": "PITTSBURGH Rep. Summer Lee, a freshman Democrat who faces a primary challenge Tuesday from an opponent who has characterized her as extreme on foreign policy, was one of the first members of Congress… [+6644 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Missy Ryan, Michael Birnbaum",
+      "title": "U.S. cites a litany of rights violations in Israel, Gaza and West Bank",
+      "description": "The Gaza war has worsened the human rights situation in Israel, a new State Department report says, citing claims of crimes by Hamas and the Israeli government.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/22/us-israel-gaza-human-rights/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2FOMUUVQZ57EVG5WK6SGQZQ5UA_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-22T22:34:11Z",
+      "content": "The Gaza conflict has worsened the human rights situation in Israel, the State Department said in new report released Monday, even as officials declined to say whether they would halt U.S.aid to elem… [+4542 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Glenn Kessler",
+      "title": "Eighty percent of Ukraine-Israel bill will be spent in U.S. or by U.S. military",
+      "description": "“Foreign aid” often never leaves the United States.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/25/eighty-percent-ukraine-israel-bill-will-be-spent-us-or-by-us-military/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DKCNY6XPSCXD6HETIA5TW5KK2I_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-25T07:00:45Z",
+      "content": "[Rep. Adam Schiff] wont tell you that he just voted to send $100 billion to foreign countries. We have a $35 trillion national debt in America.\r\n Richard Grenell, former U.S. ambassador to Germany, i… [+8207 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Aaron Blake",
+      "title": "The data that explains Biden’s new Israel red line",
+      "description": "Given the Democratic base’s drift away from Israel, you begin to see how even a pro-Israel Democrat like Biden might come around to a more forceful posture.",
+      "url": "https://www.washingtonpost.com/politics/2024/05/10/data-that-explains-bidens-new-israel-red-line/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F54FPVKGGZCHEQGEHARZKA7ISA.JPG&w=1440",
+      "publishedAt": "2024-05-10T19:42:37Z",
+      "content": "After months of resisting efforts by Democratic allies to get him to take a harder line with Israel for its conduct in the war in Gaza, President Biden this week made what may be his most significant… [+4435 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Missy Ryan, Claire Parker, Loveday Morris",
+      "title": "With Gaza aid flows rising, U.S. to push Israel to speed distribution",
+      "description": "Secretary of State Antony Blinken is due to meet Wednesday with Prime Minister Benjamin Netanyahu and other senior Israeli leaders.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/30/blinken-israel-gaza-aid/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HUMF2CRCVEFKMIWGBXRANU7SOE.JPG&w=1440",
+      "publishedAt": "2024-04-30T22:29:17Z",
+      "content": "AMMAN, Jordan The United States will press Israel to ensure humanitarian aid is effectively distributed within Gaza, Secretary of State Blinken said Tuesday, forecasting upcoming talksas the Biden ad… [+364 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Colby Itkowitz, Dylan Wells",
+      "title": "Summer Lee beats primary challenger after facing pressure over Israel-Gaza",
+      "description": "The race in Pennsylvania’s 12th District was considered a first test for the “Squad” of left-wing, progressive Democrats in Congress.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/23/pennsylvania-primary-election-summer-lee-win/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RH3LSHF7FJ3MOJ2EA7Y2H5COUM.JPG&w=1440",
+      "publishedAt": "2024-04-24T02:37:12Z",
+      "content": "Rep. Summer Lee, a far-left Democrat who has been critical of Israels military actions in Gaza, prevailed in Tuesdays Pennsylvania primary election, which served as a microcosm of the larger intrapar… [+5797 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Toluse Olorunnipa, Jacqueline Alemany",
+      "title": "Biden’s isolation grows as Gaza report both criticizes and clears Israel",
+      "description": "Like much of Biden’s, at times, halting approach toward the war, the report released to Congress on Friday drew criticism from across the political spectrum.",
+      "url": "https://www.washingtonpost.com/politics/2024/05/10/biden-israel-human-rights-report/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TMAXTVV7QCEUYFQC75GROYJ5AE.JPG&w=1440",
+      "publishedAt": "2024-05-10T23:33:39Z",
+      "content": "The State Departments report on the war in Gaza which suggested Israel had likely violated international law yet remained eligible to receive U.S. military aid has left President Biden increasingly i… [+455 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Hannah Knowles",
+      "title": "Trump calls deadly Charlottesville rally a ‘peanut’ next to Israel protests",
+      "description": "The comments marked his latest downplaying of a 2017 white supremacist event over which Trump as president drew massive blowback for declaring that there were ‘very fine people on both sides.’",
+      "url": "https://www.washingtonpost.com/elections/2024/04/24/trump-charlottesville-peanut-israel-protests/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TSMO4NLA2HDH2GJHXOZ4GNSTXY_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-25T02:22:14Z",
+      "content": "Former president Donald Trump on Wednesday called a deadly neo-Nazi rally a peanut compared with current protests of the Israel-Gaza war his latest downplaying of a 2017 white-supremacist event in Ch… [+2297 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb",
+      "title": "Biden team greets limited scope of Israeli strike with cautious relief",
+      "description": "White House had scrambled to avert a harsher Israeli attack on Iran that might have sparked a wider regional confrontation.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/19/us-greets-limited-israeli-strike-with-relief/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E6LFWSYFXJHBEILKE4VKQGUWZA_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-19T20:47:40Z",
+      "content": "President Biden and his aides viewed Israels strike on Iran on Friday as a relatively measured response to the barrage of missiles and drones Tehran launched toward Israel last weekend, and they are … [+6548 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "John Hudson",
+      "title": "U.S. delays arms shipments to Israel amid Rafah tensions",
+      "description": "The U.S. is delaying the sale of at least two arms shipments to Israel amid mounting concern about the country’s plan to expand its military operation in Rafah.",
+      "url": "https://www.washingtonpost.com/national-security/2024/05/07/biden-delays-weapons-israel-rafah/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XVOJKSMKIL4UPJ5GMB4KUNRTJQ.jpg&w=1440",
+      "publishedAt": "2024-05-07T23:24:40Z",
+      "content": "The Biden administration is delaying the sale of at least two arms shipments to Israel amid mounting concern about the countrys plan to expand a military operation in southern Gaza that could dramati… [+305 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Liz Goodwin, Abigail Hauslohner",
+      "title": "Senate passes Ukraine, Israel aid bill after months-long debate",
+      "description": "The bill will now go to President Biden to sign, helping him deliver on his promise to the nation’s NATO allies to continue to aid Ukraine as it enters its third year fending off Russia’s invasion.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/23/senate-vote-foreign-aid-ukraine-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/II7GXMKEK2XNSKFCI6WGGUOS6I.JPG&w=1440",
+      "publishedAt": "2024-04-24T01:44:01Z",
+      "content": "The Senate overwhelmingly passed a $95 billion foreign aid bill on Tuesday, delivering billions of dollars in weapons and support to key U.S. allies Ukraine and Israel despite some opposition from bo… [+7581 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Karen DeYoung, Matt Viser",
+      "title": "Biden counsels Netanyahu to ‘slow things down’ after Iranian attack",
+      "description": "Biden administration officials said the U.S. won’t join any Israeli response to Iran’s attack and urged the Netanyahu government to avoid escalation.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/14/biden-netanyahu-israel-iran/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GVBJ54WAGKONUE4DFMOLCMCBSY_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-14T23:18:39Z",
+      "content": "The Biden administration on Sunday congratulated Israel along with itself and allies on their spectacular success in fending off an unprecedented barrage of more than 300 Iranian missiles and armed d… [+10938 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb",
+      "title": "Biden says he will cut off offensive weapons if Israel invades Rafah",
+      "description": "It’s the first time Biden has threatened to withhold U.S. military aid, and the most direct threat he has made in the seven-month war.",
+      "url": "https://www.washingtonpost.com/politics/2024/05/08/biden-threatens-suspension-military-aid-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3YUW6Q5FIYEHJZSOKODMNMX6SY_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-05-08T22:45:25Z",
+      "content": "President Biden said Wednesday that he would halt the shipment of U.S. offensive weapons to Israel, which he acknowledged have been used to kill civilians in Gaza, if the country moves ahead with a l… [+162 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Kyle Melnick",
+      "title": "Biden denounces antisemitism on college campuses amid Columbia protests",
+      "description": "The president’s statement came after a rabbi encouraged Columbia University’s Jewish students to leave campus amid safety concerns.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/21/columbia-university-protest-biden-antisemitism/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HAXDVZ7SV3GMGVFNJD22GLBYJU_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-22T03:04:38Z",
+      "content": "President Biden condemned antisemitism on college campuses in a statement on Sunday, three days after more than 100 people protesting the Gaza war on Columbia Universitys campus were arrested.\r\nBiden… [+3726 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Missy Ryan",
+      "title": "Amnesty International says Biden must halt arms transfers to Israel",
+      "description": "In a new report, Amnesty International details Israeli attacks in which, it says, U.S-made weapons were used to kill Palestinian civilians in Gaza.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/29/amnesty-international-us-weapons-israel-gaza/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NPK3RYGUFNG5RVCKNUBBYZQKRE_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-29T18:45:14Z",
+      "content": "A new assessment from Amnesty International asserts that Israel has used U.S.-supplied weapons against Palestinian civilians in alleged violations of international law, a finding certain to inflame t… [+6877 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Philip Bump",
+      "title": "How Americans view the conflict in Gaza",
+      "description": "Most Americans oppose the military action but are more likely to sympathize with the Israeli people.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/19/americans-israel-gaza-polling/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MZCA2VD7UBR52ZDF3ZU7DBPLPQ_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-19T15:31:49Z",
+      "content": "There are few issues in American politics as fraught and contested as the war in Gaza. While thats been true for months, tensions have been particularly acute this week: The conflict itself escalated… [+4227 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Michael Birnbaum, Karen DeYoung, John Hudson, Abigail Hauslohner",
+      "title": "U.S. says Israel is complying with law on use of U.S weapons and aid",
+      "description": "The evaluation was a response to pressure from President Biden’s allies in Congress who sought to force a discussion about Israel’s use of U.S. weapons in Gaza.",
+      "url": "https://www.washingtonpost.com/national-security/2024/05/10/biden-israel-gaza-us-weapons/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LOT275VCG2YPF734PXVFIDTT6A.JPG&w=1440",
+      "publishedAt": "2024-05-10T21:21:32Z",
+      "content": "The Biden administration announced Friday that it has accepted the Israeli governments assurances that it is not violating U.S. or international law in its prosecution of the war in Gaza, a conclusio… [+331 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Tyler Pager",
+      "title": "Democrats bracing for massive protests at party’s August convention",
+      "description": "As demonstrations over Gaza erupt at campuses across the country, Biden team faces prospect of chaotic scenes in Chicago.",
+      "url": "https://www.washingtonpost.com/politics/2024/05/04/democratic-convention-protests-gaza/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PW2ANFYMACCFGOHBM6ADIHXYZE_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-05-04T10:00:46Z",
+      "content": "As protests over the Israel-Gaza war sweep college campuses, pro-Palestinian activists are ramping up plans for a major show of force at the Democratic National Convention in Chicago, increasingly wo… [+518 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Savannah Robinson, Rennie Svirnovskiy, Sean Carter, Monica Campbell",
+      "title": "The mounting antiwar protests on college campuses",
+      "description": "Today, a look inside the pro-Palestinian protests taking root on college campuses and why universities have been struggling to respond to them.",
+      "url": "https://www.washingtonpost.com/podcasts/post-reports/the-mounting-antiwar-protests-on-college-campuses/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fpodcast.posttv.com%2Fseries%2F20240424%2Ft_1713993160343_name_FWTMPG5DHFDGZHDVIVIOQ2XE3Q.jpg&w=1400",
+      "publishedAt": "2024-04-24T22:04:51Z",
+      "content": "Over the past week, protests over the Israel-Gaza war have spread and intensified on college campuses across the country. \r\nPro-Palestinian student demonstrators across the country, including at Yale… [+974 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb",
+      "title": "5,000 miles away, a Michigan mayor at the center of the Gaza storm",
+      "description": "Navigating between residents’ rage over Gaza and Democrats’ fears of Trump, Abdullah Hammoud must decide whether to back Biden in the fall",
+      "url": "https://www.washingtonpost.com/politics/2024/04/28/5000-miles-away-michigan-mayor-center-gaza-storm/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4NFWVAGIQQ2TR3LPEXXCN4SOGM_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-28T10:00:32Z",
+      "content": "DEARBORN, Mich. Abdullah Hammoud had been outspoken about Israels assault in Gaza and President Bidens unconditional support of Israel for nearly four months, but he had not attracted much attention … [+15175 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb, Tyler Pager, Matt Viser",
+      "title": "Biden aims to strike careful balance as college protests spread",
+      "description": "The president and his allies say it is unclear what impact the ongoing demonstrations might have on his reelection bid.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/23/biden-gaza-protests-trump/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A2MTG2X6HRFXVF7AVYZI6QIXTI_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-23T18:39:28Z",
+      "content": "The continued fervor of college protests against the Israel-Gaza war as it drags into its seventh month highlights the political challenges President Biden still faces from his unconditional support … [+8787 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Jennifer Rubin",
+      "title": "Biden shows that a true friend of Israel doesn’t just cheerlead",
+      "description": "President Biden remains in support of the Israeli people while delicately restraining Prime Minister Benjamin Netanyahu.",
+      "url": "https://www.washingtonpost.com/opinions/2024/04/19/israel-biden-newsletter/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OLVEAP342JITIC52JWBAHEJPFY.JPG&w=1440",
+      "publishedAt": "2024-04-19T13:00:25Z",
+      "content": "Youre reading Jennifer Rubins subscriber-only newsletter. Sign up to get it in your inbox.\r\nThis week, I look at President Bidens delicate diplomacy with Israel, pick the distinguished person of the … [+8562 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Meryl Kornfield",
+      "title": "Cornel West, focusing on Gaza, has harsh critiques for opponents, former allies",
+      "description": "“I just see both of them as so thoroughly unacceptable,” West said in a wide-ranging interview, referring to Biden and Trump.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/23/cornel-west-focusing-gaza-has-harsh-critiques-opponents-former-allies/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4HT4KUFBDAXCDRK3ELMXW23CPY.JPG&w=1440",
+      "publishedAt": "2024-04-23T18:51:25Z",
+      "content": "To hear Cornel West tell it, Joe Biden, whom West campaigned for in 2020, is complicit in war crimes occurring in Gaza. Jill Stein, whom West voted for in 2016, is no longer his ally. Donald Trump is… [+4409 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "David Ignatius",
+      "title": "The unspoken story of why Israel didn’t clobber Iran",
+      "description": "One rule for containing a crisis is to keep your mouth shut. But I’ll tell you what appears to have happened between Israel and Iran.",
+      "url": "https://www.washingtonpost.com/opinions/2024/04/19/israel-iran-retaliate-diplomacy/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/K3QDXK75N55ED3NAT64P6B3UAU_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-19T23:10:07Z",
+      "content": "One rule for containing a crisis is to keep your mouth shut, and the United States, Israel and Iran were all doing a pretty good job at that Friday after Israeli strikes near the Iranian city of Isfa… [+4817 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Cleve R. Wootson Jr.",
+      "title": "Biden’s handling of Gaza shakes his support in the Black community",
+      "description": "Some Black activists want voters to reject Biden over his Gaza policy. Others see Trump as a far bigger threat.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/17/black-activists-gaza-palestinians/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7PU3HZ6CWOGMYUPDT4ACT7FIZA_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-17T15:51:44Z",
+      "content": "PHILADELPHIA The symbolic mix of soul food and Palestinian dishes had been eaten to conclude the Ramadan fast, and remarks from Palestinian Americans about the war in Gaza had just wrapped up at the … [+10928 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Dan Lamothe",
+      "title": "Mortar attack on Gaza coast spotlights risk to U.S. pier mission",
+      "description": "Assembly of the floating pier has begun several miles off Gaza, and aid delivery is expected to start within days, U.S. officials said.",
+      "url": "https://www.washingtonpost.com/national-security/2024/04/25/gaza-floating-pier/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/O5F55XZJSQIWCBHFRV46TDWJBM_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-25T23:26:43Z",
+      "content": "Militants launched mortars at Israeli forces in Gaza as they prepared for the arrival of a floating U.S. Army pier dispatched to facilitate delivery of humanitarian aid, U.S. officials said Thursday,… [+5068 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "David Ignatius",
+      "title": "A stunning victory with the shield creates an opening for Israel",
+      "description": "“A good defense is the best offense” applies to modern warfare, too",
+      "url": "https://www.washingtonpost.com/opinions/2024/04/14/israel-victory-iranian-barrage-gaza-war/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3QOMVGFQYNOPQDYKFIR43WHBKU.JPG&w=1440",
+      "publishedAt": "2024-04-14T22:50:54Z",
+      "content": "After six frustrating months in Gaza, Israel finally won a decisive victory against its adversaries by blunting Irans all-out missile attack Saturday night with an astonishing display of high-tech mi… [+4684 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Aaron Blake",
+      "title": "Trump’s rhetoric on thwarting Iran vs. his record",
+      "description": "Trump and his allies are increasingly claiming very bad things wouldn’t have happened on his watch. Iran’s attacking Israel isn’t a great example.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/15/trumps-rhetoric-thwarting-iran-vs-his-record/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6XZFAFRZTEI6XKWZRFMSE4UAYQ.jpg&w=1440",
+      "publishedAt": "2024-04-15T22:11:17Z",
+      "content": "Donald Trump has spent a good part of his public life crafting an alternate reality. Just two days after Trump took office in 2017, adviser Kellyanne Conway set the tone by citing how Trumps White Ho… [+4865 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Yasmeen Abutaleb, Patrick Svitek, Maegan Vazquez",
+      "title": "Trump, GOP seize on campus protests to depict chaos under Biden",
+      "description": "Republicans highlight images of turmoil, though most of the pro-Palestinian demonstrations have been peaceful.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/29/gaza-college-campus-protests-republicans-attack-biden-chaos/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TLWL6AEPGX44NVWHKU754L5AMI_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-29T10:00:38Z",
+      "content": "Former president Donald Trump and other prominent Republicans are seizing on the eruption of campus protests across the country to depict the United States as out of control under President Biden, se… [+11971 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Leigh Ann Caldwell, Marianna Sotomayor",
+      "title": "Bipartisan House coalition advances Ukraine aid",
+      "description": "The vote now puts the legislation to fund Ukraine, Israel and Taiwan on a likely track of passing the House Saturday and comes after Israel carried out a strike on Iran early Friday in retaliation for a barrage of missiles and drones launched last weekend, an…",
+      "url": "https://www.washingtonpost.com/politics/2024/04/19/israel-ukraine-aid-house-speaker-mike-johnson/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SN4MBQJZFNEMPFHPEVH2BISZ4U.jpg&w=1440",
+      "publishedAt": "2024-04-19T15:28:16Z",
+      "content": "A bipartisan coalition in the House, led by House Speaker Mike Johnson (R-La.), has overcome a key procedural hurdle to advance a $95 billion foreign aid bill, despite objectionsfrom far-right lawmak… [+6788 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Marianna Sotomayor, Hannah Knowles",
+      "title": "House Speaker Johnson visits Columbia University amid protests",
+      "description": "Johnson’s visit marks the first time the top representative in the House is visiting a college campus amid ongoing protests that have at times burst into violent attacks between pro-Palestinian and Jewish students.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/24/mike-johnson-house-speaker-columbia-student-gaza-protests/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RYBE2INW3YQOA7MEOID4MZFEOQ_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-24T16:32:50Z",
+      "content": "House Speaker Mike Johnson (R-La.) has called on Columbia Universitys president to resign for failing to quickly dismantle pro-Palestinian encampments on campus grounds amid Israels war against Hamas… [+6374 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Marianna Sotomayor, Maegan Vazquez",
+      "title": "House passes foreign aid bill, sending help to Ukraine and Israel",
+      "description": "Rep. Marjorie Taylor Greene (R-Ga.) did not immediately act on a measure to topple the speaker as she had promised in the wake of of a Ukraine aid package.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZMZIUFOLZH5ENP23PE662SBJ4Q.JPG&w=1440",
+      "publishedAt": "2024-04-20T21:05:24Z",
+      "content": "The House passed a sweeping $95 billion package Saturday to aid foreign allies amid global threats, showcasing broad support for Americas role in the world in a risky push by Speaker Mike Johnson (R-… [+7697 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Mariana Alfaro, Marianna Sotomayor",
+      "title": "Iran attacks add urgency to stalled congressional aid effort for Israel",
+      "description": "As the House returns to session on Monday, there is little clarity on what type of aid package Republicans will take up.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/14/congress-aid-israel-iran/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/H7YJ5YZ5UZGEJPZ6JR6NPQQIZU.jpg&w=1440",
+      "publishedAt": "2024-04-14T19:33:25Z",
+      "content": "Irans drone and missile attacks on Israel this weekend added fresh urgency to the long-stalled congressional effort to secure more aid for a U.S. ally, but as the House returns to session on Monday, … [+9246 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "David Ignatius",
+      "title": "A quandary in Israel: How to retaliate — but not escalate?",
+      "description": "U.S. officials will probably be disappointed in the path Israel takes after Iran’s missile attack.",
+      "url": "https://www.washingtonpost.com/opinions/2024/04/15/israel-iran-retaliation-escalation/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3NKTWFCMXTWG3ELLKMVL6FESIQ.JPG&w=1440",
+      "publishedAt": "2024-04-16T00:15:02Z",
+      "content": "Israeli officials have concluded that to deter Iran, they should retaliate for this weekends massive missile barrage, according to knowledgeable sources. But as the Israelis study lists of potential … [+3474 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Amy B Wang, Marianna Sotomayor, Leigh Ann Caldwell",
+      "title": "Johnson plan to send aid to Ukraine moves closer to becoming reality",
+      "description": "Hard-line Republicans, who oppose Ukraine aid, have continued to threaten to oust House Speaker Mike Johnson (R-La.) from his leadership position over his foreign aid plan.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/18/johnson-plan-send-aid-ukraine-moves-closer-becoming-reality/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/J4MGGJ2C75KUSWM3F4UVGCET7Y.jpg&w=1440",
+      "publishedAt": "2024-04-18T14:40:29Z",
+      "content": "A bill to provide additional U.S. aid to Ukraine could move one step closer to House passage on Wednesday but not without a major boost from Democrats who would have to join Republicans to push it th… [+6621 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Jeanne Whalen, Toluse Olorunnipa",
+      "title": "This electrician and union leader could be Biden’s secret weapon in Michigan",
+      "description": "UAW President Shawn Fain is a rising star among union members and increasingly Democrats, who see his support as crucial in Michigan, Pennsylvania and other industrial states that could hinge on a few thousand votes.",
+      "url": "https://www.washingtonpost.com/business/2024/04/27/uaw-shawn-fain-democrats/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UJSOI3M7L54PO6WTX4OLJCEGGI_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-27T11:00:00Z",
+      "content": "Fresh off some historic wins for the labor movement, United Auto Workers President Shawn Fain could be the man who makes the biggest difference for President Biden in key Midwestern swing states in t… [+9338 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Marianna Sotomayor, Leigh Ann Caldwell",
+      "title": "Momentum builds to oust Johnson from House speakership",
+      "description": "“The motion is going to get called, okay? Does anybody doubt that? The motion will get called, and then he’s going to lose more votes than Kevin McCarthy,”said Rep. Thomas Massie (R-Ky.) of Johnson.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/16/mike-johnson-house-speaker-ukraine-israel-greene-massie/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C3OMDAY6L445PMCLIC4H7FUQPE.jpg&w=1440",
+      "publishedAt": "2024-04-16T16:01:23Z",
+      "content": "Two far-right members are now threatening to oust House Speaker Mike Johnson just as the embattled Republican leader has introduced a complex plan intended to fund key foreign allies during wartime.\r… [+3206 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Philip Bump",
+      "title": "Biden’s problem with younger voters isn’t only about Gaza",
+      "description": "Early in Biden’s presidency, he saw a sharper drop in approval among younger Americans.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/22/biden-approval-younger-voters/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LD4WITOEXIXHRAZ6XYGELFREE4_size-normalized.JPG&w=1440",
+      "publishedAt": "2024-04-22T20:45:14Z",
+      "content": "Let's stipulate at the outset that President Biden's ongoing difficulties with younger voters stark when measured overall, less so when considered through the lens of party are probably not heavily d… [+4148 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Patrick Svitek",
+      "title": "Criticism, praise of Texas Gov. after dramatic use of troopers on protesters",
+      "description": "The three-term governor on Wednesday ordered scores of riot gear-clad state troopers to arrest protesters on the University of Texas Austin campus.",
+      "url": "https://www.washingtonpost.com/nation/2024/04/25/protests-texas-abbott-gaza/",
+      "urlToImage": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
+      "publishedAt": "2024-04-25T23:49:22Z",
+      "content": "As word got out that pro-Palestine protesters were planning to occupy a lawn on the University of Texas campus, Gov. Greg Abbott made a dramatic move: calling in more than 100 state troopers with ord… [+7422 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Philip Bump",
+      "title": "The dishonest — and ironic — push to blame campus protests on George Soros",
+      "description": "Linking things to George Soros is a classic antisemitic ploy. Here it’s used to criticize protests described as antisemitic.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/26/dishonest-ironic-push-blame-campus-protests-george-soros/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ERPRSFOX77LRJ5ZPM6WASTH62E_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-26T18:55:58Z",
+      "content": "There is very obviously an element of opposition to the ongoing protests on college campuses that is rooted in familiar partisan rhetoric. The political rights hostility to college professors and ins… [+8011 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Josh Dawsey, Marianne LeVine, Michael Birnbaum",
+      "title": "Competing agendas and cover songs: Inside Trump’s talks with foreign leaders",
+      "description": "It’s unclear whether the conversations will have an effect on a former president who is impulsive with his decision-making.",
+      "url": "https://www.washingtonpost.com/elections/2024/04/26/trump-foreign-leaders-meetings/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ITCB6CRAK2635TEYDOAVBZE6NI_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-26T09:00:00Z",
+      "content": "In March, Hungarian Prime Minister Viktor Orban went to Mar-a-Lago, arguing to Donald Trump that Russia would grind Ukraine down and eventually win their war and that the United States should accept … [+12993 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Leigh Ann Caldwell, Marianna Sotomayor",
+      "title": "The evolution of Mike Johnson on Ukraine",
+      "description": "From backbencher to House speaker, Mike Johnson has done a dramatic turnabout on aid to Ukraine. He may lose his job as speaker because of it.",
+      "url": "https://www.washingtonpost.com/politics/2024/04/21/ukraine-aid-mike-johnson-house-speaker/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ALEV346TQQWWYK7NNG73LPANAI_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-04-21T12:51:40Z",
+      "content": "When the House passed a $40 billion emergency funding bill for Ukraine in September 2022, support for Ukraine was largely still a bipartisan issue. But a little-known conservative congressman from Lo… [+13246 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Samantha Schmidt",
+      "title": "Colombia severs diplomatic ties with Israel amid war in Gaza",
+      "description": "The decision makes Colombia — a longtime security and trade partner of Israel’s — the most populous country to sever ties amid the war in Gaza.",
+      "url": "https://www.washingtonpost.com/world/2024/05/01/colombia-israel-diplomatic-ties-petro/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W3TULWJGYZFREKEKRUVMS4GXUI.JPG&w=1440",
+      "publishedAt": "2024-05-01T22:04:19Z",
+      "content": "BOGOTÁ, Colombia Colombian President Gustavo Petro announced Wednesday that his government will suspend diplomatic relations with Israel, its longtime defense ally, making Colombia the largest countr… [+295 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Rachel Siegel",
+      "title": "Gaza protests: Divestment from Israel becomes focus of student demands",
+      "description": "Many student groups are pushing schools to exert financial pressure on Israel. Experts say that won’t be so easy.",
+      "url": "https://www.washingtonpost.com/business/2024/04/26/bds-divestment-gaza-campuses-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HNZLP5AYY554MFGLDK6PAJMIBM.jpg&w=1440",
+      "publishedAt": "2024-04-26T13:18:57Z",
+      "content": "Colleges nationwide have become major staging grounds for pro-Palestinian protests and demonstrations. And campus activism is focusing intensely onuniversity endowments the vast financial holdingstha… [+10187 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Claire Parker",
+      "title": "Palestinians in Gaza grow angry with Hamas as war with Israel drags on",
+      "description": "As Hamas sticks to a hard line in cease-fire negotiations with Israel, many Palestinians just want the fighting and misery to end after more than six devastating months.",
+      "url": "https://www.washingtonpost.com/world/2024/04/27/gaza-hamas-public-support-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CNQC2YX2VHGXHZMXULXX4FJGMI.jpg&w=1440",
+      "publishedAt": "2024-04-27T06:00:49Z",
+      "content": "JERUSALEM More than six months into the war in Gaza and with dimming hopes for a cease-fire deal, Palestinians there are growing more critical of Hamas, which some of them blame for the months-long c… [+8444 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Gerrit De Vynck",
+      "title": "Google workers stage sit-ins to protest company’s work with Israel",
+      "description": "Tech workers are escalating their protests against sales to Israel as the war in Gaza continues.",
+      "url": "https://www.washingtonpost.com/technology/2024/04/16/google-sit-in-employee-protest-nimbus-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/J2LFB3DDLKATYSTE6AEMCJWFSU.jpg&w=1440",
+      "publishedAt": "2024-04-16T17:56:33Z",
+      "content": "SAN FRANCISCO A group of Google employees staged sit-ins at two of the companys offices Tuesday to protest the tech giants work with the Israeli government, escalating the conflict inside tech compan… [+3446 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Kareem Fahim",
+      "title": "Al Jazeera is shut down in Israel by Netanyahu’s government amid war",
+      "description": "The government is banning Al Jazeera’s operations in Israel over its Gaza war coverage. Israel’s Foreign Press Association called it a “dark day for democracy.”",
+      "url": "https://www.washingtonpost.com/world/2024/05/05/al-jazeera-israel-shut-down-gaza/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5TNN2HMFAMNGNHNQ22H2FM2BH4.JPG&w=1440",
+      "publishedAt": "2024-05-05T18:31:54Z",
+      "content": "JERUSALEM Israels government moved Sunday to shut down the Al Jazeera Media Networks operations in Israel, clamping down on one of the few international broadcasters providing largely uninterrupted c… [+378 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Rachel Pannett",
+      "title": "Israeli forces advance in Rafah; Health Ministry says Gaza hospital system will collapse in hours",
+      "description": "Secretary of State Antony Blinken says Israeli success in Rafah is “not sustainable” without a postwar plan for Gaza. It’s Memorial Day in Israel.",
+      "url": "https://www.washingtonpost.com/world/2024/05/13/israel-hamas-war-news-gaza-palestine/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CIPOIPEZTTHBTG5OJKGCG3CWUQ.jpg&w=1440",
+      "publishedAt": "2024-05-13T05:08:04Z",
+      "content": "Israeli forces are advancing on the southern city of Rafah, aiming to destroy what Israeli officials have called the last significant Hamas stronghold in Gaza, at the same time that Israel and the mi… [+276 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Kate Brady",
+      "title": "Sweden celebrates Abba at this year’s Eurovision Song Contest",
+      "description": "Malmo, Sweden, is playing homage to Abba’s 1974 win as the southern Swedish city hosts the Eurovision Song Contest.",
+      "url": "https://www.washingtonpost.com/entertainment/music/2024/05/10/abba-anniversary-eurovision-waterloo/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UZK5EVKMEG7UUPUEVAUMADKHUE_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-05-10T16:01:28Z",
+      "content": "MALMO, Sweden The Eurovision stars aligned last year as Sweden claimed its seventh victory a feat shared only with Ireland bringing the song contest back to Abbas home country this year, just in time… [+493 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Daniel Wu",
+      "title": "American doctors trapped in Gaza hospital after Rafah border closing",
+      "description": "“We are stuck in Gaza,” an Oregon-based nurse said after Israel closed the Rafah border. “No safe way to get out and no new help or supplies coming in.”",
+      "url": "https://www.washingtonpost.com/world/2024/05/13/american-doctors-trapped-gaza-hospital-rafah/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AVG2E22YIGMGECOCPZZBLDHRJE_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-05-14T03:45:37Z",
+      "content": "Intensifying conflict in southern Gaza has trapped a team of international doctors, including at least 10 Americans, in a hospital near the city of Rafah, further jeopardizing conditions for both the… [+644 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Sophia Nguyen",
+      "title": "PEN America cancels the ceremony for its 2024 literary awards",
+      "description": "Nearly half of the nominees for the organization’s book awards had withdrawn in protest of its response to the war in Gaza.",
+      "url": "https://www.washingtonpost.com/books/2024/04/22/pen-america-awards-ceremony/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KMVEI7OVLZCISBLV7FAUYSX2LQ.jpg&w=1440",
+      "publishedAt": "2024-04-22T16:37:16Z",
+      "content": "After weeks of controversy over its response to the war in Gaza, the free speech nonprofit PEN America has decided to cancel its annual literary awards ceremony, which had been set to take place next… [+6712 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Pranshu Verma",
+      "title": "They criticized Israel. StopAntisemitism’s Twitter upended their lives.",
+      "description": "Since Oct. 7, StopAntisemitism’s Twitter account has flagged hundreds of people who have criticized Israel’s actions in Gaza. Many were swiftly fired.",
+      "url": "https://www.washingtonpost.com/technology/2024/04/16/stop-antisemitism-twitter-zionism-israel/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LITK5SQCABNGDA4YKV2PW4QZTM.JPG&w=1440",
+      "publishedAt": "2024-04-16T10:08:43Z",
+      "content": "Dani Marzouca was in bed trying to sleep when the phone started buzzing. An organization dedicated to publicly rebuking critics of Israel had posted on X a clip of Marzouca declaring that radical sol… [+11306 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Derek Hawkins, Clara Ence Morse, Drew Harwell, Irfan Uraizee, Adrián Blanco",
+      "title": "How Trump has become angrier and more isolated on Truth Social",
+      "description": "Here on his company’s social network Trump is offering followers an intimate view of what his second term could look like: isolated, vitriolic and vengeful.",
+      "url": "https://www.washingtonpost.com/politics/interactive/2024/trump-truth-social-posts/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Q3KO7WOUD5BG5OJQOSUO7RHJFM.jpg&w=1200",
+      "publishedAt": "2024-04-22T09:00:54Z",
+      "content": "For years, Donald Trump was among Twitters loudest and most inescapable voices: a brash, bomb-throwing businessman turned president who could capture the global news cycle with a single tweet.\r\nOn Tr… [+73395 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Caroline O'donovan",
+      "title": "Google fired 28 workers who protested its Nimbus contract with Israel",
+      "description": "After employees held sit-ins at Google offices in New York City and California, nine were arrested, and 28 were fired.",
+      "url": "https://www.washingtonpost.com/technology/2024/04/18/google-fired-nimbus-israel-palestine/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/J2LFB3DDLKATYSTE6AEMCJWFSU.jpg&w=1440",
+      "publishedAt": "2024-04-18T07:09:10Z",
+      "content": "SAN FRANCISCO Google fired 28 employees on Wednesday who were involved in a protest against a contract with the Israeli government the cloud-computing giant shares with its competitor, Amazon.\r\nThe f… [+3015 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Meg Kelly",
+      "title": "How 6-year-old Hind Rajab and two paramedics were killed in Gaza",
+      "description": "A Washington Post examination raises questions about Israel’s assertion that its forces were “not present near the vehicle or within the firing range” of 6-year-old Hind Rajab.",
+      "url": "https://www.washingtonpost.com/world/interactive/2024/hind-rajab-israel-gaza-killing-timeline/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GYNH5K5STVCTHH5YKQAHXWDSMM.png&w=1200",
+      "publishedAt": "2024-04-16T09:00:09Z",
+      "content": "For three-and-a-half long hours on Jan. 29, the cellphone in 6-year old Hind Rajabs hands was the closest thing she had to a lifeline. Alone in the back seat of a car outside a Gaza City gas station,… [+15934 chars]"
+    }
+  ]
+}
+
+

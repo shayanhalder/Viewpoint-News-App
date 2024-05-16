@@ -4,7 +4,7 @@
  * @param {number} num A number representing the current month or date.
  * @returns {string} A string padding the number with a 0. 
  */
-export function padTo2Digits(num) {
+function padTo2Digits(num) {
   return num.toString().padStart(2, '0');
 }
 
@@ -33,13 +33,4 @@ export function removeMissingNewsData(newsData) {
       }
     }
   }
-}
-
-// returns all the indexes of one specific value in an array
-export function getAllIndexes(arr, val) {
-  let indexes = [], i = -1;
-  while ((i = arr.indexOf(val, i + 1)) != -1) {
-    indexes.push(i);
-  }
-  return indexes;
 }
