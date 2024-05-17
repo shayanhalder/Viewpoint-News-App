@@ -22,15 +22,20 @@ export function formatDate(date, past) {
   ].join('-');
 }
 
-export function removeMissingNewsData(newsData) {
-  const trendingTopics = Object.keys(newsData[0]['news'])
-  for (let currentTopic of trendingTopics) {
-    for (let newsBias in newsData[0]['news'][currentTopic]) {
-      for (let [index, currentNewsStory] of newsData[0]['news'][currentTopic][newsBias].entries()) {
-        if (currentNewsStory == null) {
-          newsData[0]['news'][currentTopic][newsBias].splice(index, index + 1)
-        }
-      }
-    }
-  }
-}
+// /**
+//  * Given news data retrieved from MongoDB database, it will remove any missing data before it is sent to the client.
+//  * @param {Array} newsData - A single element array with a news data object retrieved from the MongoDB database
+//  * @returns {null} - Mutates the object to remove any empty/missing/null news data before sending it to the client.
+//  */
+// export function removeMissingNewsData(newsData) {
+//   const trendingTopics = Object.keys(newsData[0]['news'])
+//   for (let currentTopic of trendingTopics) {
+//     for (let newsBias in newsData[0]['news'][currentTopic]) {
+//       for (let [index, currentNewsStory] of newsData[0]['news'][currentTopic][newsBias].entries()) {
+//         if (currentNewsStory == null) {
+//           newsData[0]['news'][currentTopic][newsBias].splice(index, index + 1)
+//         }
+//       }
+//     }
+//   }
+// }

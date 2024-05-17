@@ -55,6 +55,7 @@ async function requestPastNewsData({ topic, sources, startDate, endDate }) {
  * @param {string} date - The end date of the time frame to search for.
  * @param {string} previousDate - The start date of the time frame to search for.
  * @returns {Object} - Left and right-wing news data for each trending topic.
+ * Example return value: 
  */
 export async function fetchPastData(trendingTopics, date, previousDate) {
   const pastNewsDataOutput = {};

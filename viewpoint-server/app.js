@@ -8,11 +8,6 @@ import currentNews from "./models/currentnews.js";
 import { getTopics, fetchPastData, fetchCurrentData } from "./dataRetrieval/main.js";
 import dotenv from "dotenv";
 
-// const { v1: uuidv1 } = require('uuid');
-const fetch = (
-  ...args // fetch API for node.js
-) => import("node-fetch").then(({ default: fetch }) => fetch(...args));
-
 dotenv.config(); // load env variables
 const PORT = process.env.PORT;
 
@@ -54,11 +49,10 @@ app.get("/current", async (req, res) => {
   }
 });
 
-export async function updatePastData() {
-  /* Updates the MongoDB database with the trending topics at the end of a given day
+/* Updates the MongoDB database with the trending topics at the end of a given day
      and past news data about the trending topics from a variety of news sources on both left 
      and right-wing media. */
-
+export async function updatePastData() {
   console.log("Starting past news database updater scheduled task:");
   const trendingTopics = await getTopics();
   const todayDate = formatDate(new Date(), past = 1); // one day in advance since for some reason on the backend web hosting if you don't do this it goes one day in advance
@@ -79,11 +73,6 @@ export async function updatePastData() {
     news: pastNewsData,
   });
 
-  // elements in the trending array may be different from the keys in the 'news' object because 
-  // the news api may not find stories for some trending topics so it won't use those topics at all
-  // trending = all trending topics webscraped at that time
-  // keys of 'news' object = actual trending topics that news was found for
-
   try {
     const newNews = await uploadObject.save();
     console.log("Successfully updated database with past news data: ", newNews);
@@ -95,10 +84,11 @@ export async function updatePastData() {
   return pastNewsData;
 }
 
-export async function updatePresentData() {
-  /* Updates the MongoDB database with the current trending topics and top stories about the 
-    trending topics from a variety of news sources on both left and right-wing media. */
 
+/* Updates the MongoDB database with the current trending topics and top stories about the 
+trending topics from a variety of news sources on both left and right-wing media. */
+
+export async function updatePresentData() {
   try {
     console.log("Starting current news data database updater: ");
     let allTrendingTopics = await getTopics(); // webscrape current trending news topics
@@ -124,13 +114,3 @@ export async function updatePresentData() {
   }
 }
 
-// Endpoints with NodeCron schedulers for manual testing and debugging-- not meant to be used from React-frontend.
-app.get("/updatePastData", async (req, res) => {
-  const pastNewsData = await updatePastData(req, res);
-  res.json(pastNewsData);
-});
-
-app.get("/updatePresentData", async (req, res) => {
-  const presentData = await updatePresentData(req, res);
-  res.json(presentData);
-});
