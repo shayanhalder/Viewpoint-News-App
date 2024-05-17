@@ -6,9 +6,8 @@ import { sourceURLMap, maximizeNewsDiversity } from "./dataSorting.js";
 
 dotenv.config(); // load env variables
 const TOPICS_RETRIEVAL_URL = process.env.TOPICS_RETRIEVAL_URL;
-let presentDataAPIKeyNumber = 2;
-let PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
-const PAST_DATA_API_KEY = process.env.API_KEY11;
+const PRESENT_DATA_API_KEY = process.env.API_KEY1;
+const PAST_DATA_API_KEY = process.env.API_KEY2;
 
 /** Gets the Trending Topics from ABC News by WebScrapping 
 * @returns {Array} List of currently trending topics.
@@ -107,23 +106,11 @@ export async function fetchPastData(trendingTopics, date, previousDate) {
  * @returns {Object} - News data API output
  */
 async function requestCurrentNewsData(topic, source) {
-  presentDataAPIKeyNumber = 5;
-  let response;
-  while (presentDataAPIKeyNumber <= 8) {
-    PRESENT_DATA_API_KEY = process.env[`API_KEY${presentDataAPIKeyNumber}`];
-
-    const currentDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${source}&
+  const currentDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${source}&
                             sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
 
-    const promise = await fetch(currentDataURL);
-    response = await promise.json();
-
-    if (response.code && response.code == "rateLimited") {
-      presentDataAPIKeyNumber += 1; // try other API keys if current API key is rate limited
-    } else if (response.status && response.status == "ok") {
-      break;
-    }
-  }
+  const promise = await fetch(currentDataURL);
+  const response = await promise.json();
   return response;
 }
 
@@ -212,30 +199,17 @@ export async function fetchCurrentData(trendingTopics) {
  * @returns {Array<string, string>} - Array of the sentiment score and text of the news story
  */
 async function _getNewsSentimentScore(currentURL, sentiment) {
-  let sentimentKeyNumber = 1;
-  let data;
-  while (sentimentKeyNumber <= 4) {
+
+  try {
     const promise = await fetch(
-      `https://extractorapi.com/api/v1/extractor/?apikey=${process.env[`SENTIMENT_KEY${sentimentKeyNumber}`]
+      `https://extractorapi.com/api/v1/extractor/?apikey=${SENTIMENT_KEY}
       }&url=${currentURL}`
     );
-    try {
-      data = await promise.json();
-    } catch (err) {
-      console.log(err);
-      sentimentKeyNumber += 1;
-      continue;
-    }
 
-    if ("detail" in data && !("text" in data)) {
-      // rate limit for current API key-- shuffle to next API key
-      console.log("Extractor API Rate limited");
-      sentimentKeyNumber += 1;
-      continue;
-    } else {
-      // if valid data and API response, then stop shuffling API keys
-      break;
-    }
+    data = await promise.json();
+  } catch (err) {
+    console.log(err);
+    return null;
   }
 
   const text = data.text;
