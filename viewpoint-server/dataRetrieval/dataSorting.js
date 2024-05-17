@@ -82,17 +82,3 @@ export function maximizeNewsDiversity({ newsData, numStories = 5 }) {
 
 }
 
-// export function removeMissingNewsData(newsData) {
-//     const trendingTopics = Object.keys(newsData[0]['news'])
-//     for (let currentTopic of trendingTopics) {
-//         for (let newsBias in newsData[0]['news'][currentTopic]) {
-//             for (let [index, currentNewsStory] of newsData[0]['news'][currentTopic][newsBias].entries()) {
-//                 if (currentNewsStory == null) {
-//                     newsData[0]['news'][currentTopic][newsBias].splice(index, index + 1)
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
