@@ -24,7 +24,7 @@ app.use("/history", newsRouter);
 
 // Connect to MongoDB Database
 mongoose.connect(
-  process.env.MONGODB_KEY,
+  'mongodb+srv://shalder:0Aiq5tTJN8A2Ms93@viewpoint-app.caac4gp.mongodb.net/?retryWrites=true&w=majority',
   {
     useNewUrlParser: true
   }
