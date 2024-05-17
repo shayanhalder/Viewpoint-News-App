@@ -1,17 +1,27 @@
 import mongoose from 'mongoose'
+const newsStorySchema = new mongoose.Schema({
+    source: {
+        id: String,
+        name: String
+    },
+    author: String,
+    title: String,
+    description: String,
+    url: String,
+    urlToImage: String,
+    publishedAt: String,
+    content: String,
+})
 
 const newsDateSchema = new mongoose.Schema({
-    date: {
-        type: String,
-        required: true
-    },
-    trending: {
-        type: Array,
-        required: true
-    },
+    date: String,
+    trending: [String],
     news: {
-        type: Object,
-        required: true,
+        type: Map, // key here is the trending topic, arbitary number of trending topics
+        of: {
+            left: [newsStorySchema],
+            right: [newsStorySchema]
+        }
     }
 })
 
