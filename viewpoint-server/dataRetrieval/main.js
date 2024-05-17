@@ -41,8 +41,14 @@ async function requestPastNewsData({ topic, sources, startDate, endDate }) {
                         &from=${startDate}&to=${endDate}&apiKey=${PAST_DATA_API_KEY}`);
   // NOTE: when searching for past news in a timeframe with the news API, the search results tend to be better if
   // the potential sources are given all as one string.    
-  const promise = await fetch(pastDataURL);
-  const response = await promise.json();
+  let response;
+  try {
+    const promise = await fetch(pastDataURL);
+    response = await promise.json();
+  } catch (err) {
+    console.log(err);
+    return null;
+  }
 
   return response;
 }
@@ -108,9 +114,14 @@ export async function fetchPastData(trendingTopics, date, previousDate) {
 async function requestCurrentNewsData(topic, source) {
   const currentDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${source}&
                             sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
-
-  const promise = await fetch(currentDataURL);
-  const response = await promise.json();
+  let response;
+  try {
+    const promise = await fetch(currentDataURL);
+    response = await promise.json();
+  } catch (err) {
+    console.log(err);
+    return null;
+  }
   return response;
 }
 
