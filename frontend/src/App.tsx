@@ -6,10 +6,10 @@ import Calendar from "./components/Calendar/Calendar.tsx";
 import formatDate from "./dateFormat";
 import Tabs from "./components/Tabs/Tabs.tsx";
 
-const PROD_SERVER = 'https://viewpoint-node-js-backend.onrender.com'
-const DEV_SERVER = 'http://localhost:4000'
+const PROD_SERVER = 'http://146.190.172.231:4000'
+// const DEV_SERVER = 'http://localhost:4000'
 
-const CURRENT_SERVER = DEV_SERVER; // change accordingly for testing purposes
+const CURRENT_SERVER = PROD_SERVER; // change accordingly for testing purposes
 
 function App() {
   const [trendingTopics, setTrendingTopics] = useState<any>(); // array with the currently trending topics that were webscraped
