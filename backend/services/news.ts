@@ -10,14 +10,14 @@ import dotenv from "dotenv";
  * @param {string} endDate - Most recent date in the search timeframe.
 * @returns {Object} Past news data for given timeframe.
 */
-
 dotenv.config();
-const PAST_DATA_API_KEY = process.env.PAST_DATA_API_KEY;
-const PRESENT_DATA_API_KEY = process.env.PRESENT_DATA_API_KEY;
+// const PAST_DATA_API_KEY = process.env.PAST_DATA_API_KEY;
+// const PRESENT_DATA_API_KEY = process.env.PRESENT_DATA_API_KEY;
+const NEWS_API_KEY = process.env.NEWS_API_KEY;
 
 async function requestPastNewsData( topic: string, sources: string, startDate: string, endDate: string ) : Promise<newsAPIResponse | null> {
   const pastDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
-                        &from=${startDate}&to=${endDate}&apiKey=${PAST_DATA_API_KEY}`);
+                        &from=${startDate}&to=${endDate}&apiKey=${NEWS_API_KEY}`);
   // NOTE: when searching for past news in a timeframe with the news API, the search results tend to be better if
   // the potential sources are given all as one string.    
   let response;
@@ -95,7 +95,7 @@ export async function fetchPastData( trendingTopics : string[], date: string, pr
  */
 async function requestCurrentNewsData( topic: string, source: string ) : Promise<newsAPIResponse | null> {
   const currentDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${source}&
-                            sortBy=relevancy&apiKey=${PRESENT_DATA_API_KEY}`);
+                            sortBy=relevancy&apiKey=${NEWS_API_KEY}`);
   let response : newsAPIResponse;
   try {
     const promise = await fetch(currentDataURL);

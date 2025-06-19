@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const newsStorySchema = new mongoose.Schema({
+export const newsStorySchema = new mongoose.Schema({
     source: {
         type: {
             id: {
