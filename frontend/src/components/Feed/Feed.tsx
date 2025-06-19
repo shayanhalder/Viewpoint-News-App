@@ -9,6 +9,7 @@ export default function Feed({ data, currentTopic, viewType }: any) {
     <>
       {
         data && currentTopic != "Select topic" &&
+        // data &&
         <>
           <div className={feedStyles.bias}>
             <h1 className={feedStyles.leftBiasTitle}>Left</h1>

@@ -29,7 +29,12 @@ function App() {
 
     const databaseOutput = await promise.json();
     let output = databaseOutput[0]; // database returns all queries in an array
+    // if (!output || !output.trending) return;
     setData(output);
+    if (!output || !output.trending)  {
+      setTrendingTopics([]);
+      return;
+    }
     output.trending.splice(0, 0, "Select topic"); // add "Select topic" as the first elements in trending topics array as a default placeholder on page load
     setTrendingTopics(output.trending);
     // TODO: remove 'trending' state variable since it is derived from the "data" object and is redundant
@@ -48,6 +53,7 @@ function App() {
         method: "GET",
       });
       const data = await promise.json();
+      console.log("Past data response: ", data);
       if (data.length == 0) { // no data found for the given date 
         // TODO: make backend return a proper object with a 404 error
         alert("No data available for this day, try another date.");

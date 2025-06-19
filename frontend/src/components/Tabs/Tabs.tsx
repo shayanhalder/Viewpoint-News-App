@@ -12,7 +12,7 @@ export default function Tabs({ choices, setViewType } : any) {
 
   function handleViewChange(e: any) {
     setToggledChoices(e.target.id);
-    setViewType(e.target.getAttribute("viewtype"));
+    setViewType(e.target.getAttribute("data-viewtype"));
   }
 
   return (

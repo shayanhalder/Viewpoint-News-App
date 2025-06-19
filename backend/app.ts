@@ -4,7 +4,8 @@ import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
 import newsRouter from "./routes/news.js";
-import currentNews from "./models/news";
+// import currentNews from "./models/news";
+import newsDate from "./models/newsDate";
 import dotenv from "dotenv";
 
 dotenv.config(); // load env variables
@@ -42,7 +43,8 @@ app.get("/trending", async (req, res) => {
 // returns the current news data for today
 app.get("/current", async (req, res) => {
   try {
-    const news = await currentNews.find();
+    // const news = await currentNews.find();
+    const news = await newsDate.findOne().sort({ date: -1 });
     // removeMissingNewsData(news); // make sure no "null values"
     res.json(news);
   } catch (err: any) {

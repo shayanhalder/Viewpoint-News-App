@@ -1,5 +1,5 @@
 import express from 'express'
-import NewsDate from '../models/news'
+import NewsDate from '../models/newsDate'
 
 const router = express.Router()
 
@@ -23,7 +23,9 @@ router.get('/instance/:date', getNews, (req, res: any) => {
 async function getNews(req: any, res: any, next: any) {
     let news
     try {
+        console.log("Getting news for date: ", req.params.date);
         news = await NewsDate.find({ date: req.params.date })
+        console.log("Response: ", news);
         if (news == null) {
             return res.status(404).json({ message: "Cannot find news" })
         }
