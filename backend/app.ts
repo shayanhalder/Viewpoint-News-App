@@ -29,6 +29,10 @@ app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
 });
 
+app.get("/", (req, res) => {
+    res.send("News API Server is online");
+});
+
 // Returns trending topics in an array to the client
 app.get("/trending", async (req, res) => {
   const output = await getTrendingTopics();
