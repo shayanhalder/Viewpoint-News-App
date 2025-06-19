@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import newsStyles from ".News.module.css";
+import newsStyles from "./News.module.css";
 
 /**
  * Given a string, an array of targets, and a replacement, it replaces all the targets in the given string

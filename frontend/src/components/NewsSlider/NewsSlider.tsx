@@ -1,6 +1,6 @@
 import News from "../News/News.tsx";
 import { useState } from "react";
-import SliderStyles from "../css/NewsSlider.module.css";
+import SliderStyles from "./NewsSlider.module.css";
 
 export default function NewsSlider({ list, bias } : any ) {
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0); // handles displaying the current story in the slider
