@@ -5,7 +5,7 @@ export const newsStorySchema = new mongoose.Schema({
         type: {
             id: {
                 type: String,
-                required: true
+                required: false
             },
             name: {
                 type: String,

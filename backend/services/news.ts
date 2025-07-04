@@ -11,19 +11,20 @@ import dotenv from "dotenv";
 * @returns {Object} Past news data for given timeframe.
 */
 dotenv.config();
-// const PAST_DATA_API_KEY = process.env.PAST_DATA_API_KEY;
-// const PRESENT_DATA_API_KEY = process.env.PRESENT_DATA_API_KEY;
-const NEWS_API_KEY = process.env.NEWS_API_KEY;
+const NEWS_API_KEYS = [process.env.NEWS_API_KEY1, process.env.NEWS_API_KEY2, process.env.NEWS_API_KEY3,
+  process.env.NEWS_API_KEY4, process.env.NEWS_API_KEY5,
+  process.env.NEWS_API_KEY6, process.env.NEWS_API_KEY7,
+  process.env.NEWS_API_KEY8, process.env.NEWS_API_KEY9,
+  process.env.NEWS_API_KEY10];
 
 async function requestPastNewsData( topic: string, sources: string, startDate: string, endDate: string ) : Promise<newsAPIResponse | null> {
-  const pastDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
-                        &from=${startDate}&to=${endDate}&apiKey=${NEWS_API_KEY}`);
+  const pastDataURL = `https://newsapi.org/v2/everything?q=${topic}&domains=${sources}&sortBy=relevancy
+                        &from=${startDate}&to=${endDate}`;
   // NOTE: when searching for past news in a timeframe with the news API, the search results tend to be better if
   // the potential sources are given all as one string.    
   let response;
   try {
-    const promise = await fetch(pastDataURL);
-    response = await promise.json();
+    response = await makeShuffledAPIKeyRequest(pastDataURL);
   } catch (err) {
     console.log(err);
     return null;
@@ -86,6 +87,21 @@ export async function fetchPastData( trendingTopics : string[], date: string, pr
   return pastNewsDataOutput;
 }
 
+async function makeShuffledAPIKeyRequest(url: string) : Promise<newsAPIResponse | null> {
+  // Shuffle the API keys to make requests with different keys
+  for (const key of NEWS_API_KEYS) {
+    try {
+      const response = await fetch(`${url}&apiKey=${key}`);
+      if (!response.ok) {
+        continue;
+      }
+      return await response.json();
+    } catch (error) {
+      console.error(`Error with API key ${key}:`, error);
+    }
+  }
+  return null; // If all requests fail, return null
+}
 
 /**
  * Helper function to get News API output for current news data given a topic and source(s).
@@ -94,14 +110,12 @@ export async function fetchPastData( trendingTopics : string[], date: string, pr
  * @returns {Object} - News data API output
  */
 async function requestCurrentNewsData( topic: string, source: string ) : Promise<newsAPIResponse | null> {
-  const currentDataURL = new URL(`https://newsapi.org/v2/everything?q=${topic}&domains=${source}&
-                            sortBy=relevancy&apiKey=${NEWS_API_KEY}`);
-  let response : newsAPIResponse;
+  const currentDataURL = `https://newsapi.org/v2/everything?q=${topic}&domains=${source}&sortBy=relevancy`;
+  let response : newsAPIResponse | null;
   try {
-    const promise = await fetch(currentDataURL);
-    response = await promise.json();
+    response = await makeShuffledAPIKeyRequest(currentDataURL);
   } catch (err) {
-    console.log(err);
+    console.log("Error: ", err);
     return null;
   }
   return response;
@@ -120,8 +134,6 @@ export async function fetchCurrentData(trendingTopics: string[]) : Promise<Recor
     "foxnews.com,breitbart.com,theblaze.com,nypost.com,theepochtimes.com,washingtontimes.com";
 
   const sources : string[] = [leftSources, rightSources];
-//   const sentimentAnalyzer = new Sentimen/t();
-
   let newsDataOutput : Record<string, {left: newsData[], right: newsData[]}> = {};
 
   for (const currentTrendingTopic of trendingTopics) {
@@ -138,7 +150,6 @@ export async function fetchCurrentData(trendingTopics: string[]) : Promise<Recor
       if (presentNewsData && presentNewsData.articles && presentNewsData.articles.length > 0) {
         const [newsOutput, uniqueSources] = maximizeNewsDiversity({ newsData: presentNewsData });
         uniqueSourcesSeen = uniqueSources;
-        console.log('unique sources seen: ', uniqueSourcesSeen)
         currentBiasStories.push(...newsOutput);
       } else {
         uniqueSourcesSeen = new Set();
@@ -147,8 +158,6 @@ export async function fetchCurrentData(trendingTopics: string[]) : Promise<Recor
       const allSources = source.split(',');
       // sourcesToSearch are an array of sources that were not seen in the previous API output
       const sourcesToSearch = allSources.filter((source: string) => !uniqueSourcesSeen.has(sourceURLMap[source]));
-      console.log('sources to search: ')
-      console.log(sourcesToSearch);
 
       // We will make API calls for each of these individual sources we want to search to see if we can get
       // news stories from them that would not have appeared in the initial API calls with all the sources grouped together.
@@ -156,7 +165,6 @@ export async function fetchCurrentData(trendingTopics: string[]) : Promise<Recor
       for (const [index, singleSource] of sourcesToSearch.entries()) {
         const singleSourceNewsData = await requestCurrentNewsData(currentTrendingTopic, singleSource);
         if (singleSourceNewsData?.articles && singleSourceNewsData.articles.length > 0) {
-          console.log('single source query added: ', singleSource)
           // if news story found, replace a source we have already seen in the output array with this source
           currentBiasStories.splice(uniqueSourcesSeen.size + index, 1, singleSourceNewsData.articles[0])
         }
