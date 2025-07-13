@@ -1,7 +1,4 @@
 import * as cheerio from 'cheerio';
-// import dotenv from 'dotenv';
-
-// dotenv.config();
 
 const TOPICS_RETRIEVAL_URL = 'https://abcnews.go.com/';
 
