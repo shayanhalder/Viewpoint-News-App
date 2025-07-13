@@ -43,7 +43,6 @@ app.get("/trending", async (req, res) => {
 // returns the current news data for today
 app.get("/current", async (req, res) => {
   try {
-    // const news = await currentNews.find();
     const news = await newsDate.findOne().sort({ date: -1 });
     // removeMissingNewsData(news); // make sure no "null values"
     res.json(news);

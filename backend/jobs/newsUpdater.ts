@@ -19,6 +19,7 @@ async function updateNewsData() {
     const todayDate = formatDate(new Date(), 0);
     const uploadObject = new NewsDate({
       date: todayDate,
+      time: new Date().toISOString().substring(11, 16), // "HH:MM" in UTC
       trending: usedTrendingTopics,
       news: newsObject,
     });

@@ -51,6 +51,10 @@ const newsDateSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    time: {
+        type: String,
+        required: true
+    },
     trending: {
         type: [String],
         required: true
