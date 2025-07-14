@@ -1,9 +1,9 @@
 
-import { getTrendingTopics } from "./services/topics.js";
+import { getTrendingTopics } from "./services/topics";
 import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
-import newsRouter from "./routes/news.js";
+import newsRouter from "./routes/news";
 import newsDate from "./models/newsDate";
 import dotenv from "dotenv";
 
