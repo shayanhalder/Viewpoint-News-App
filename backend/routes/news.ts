@@ -24,7 +24,7 @@ async function getNews(req: any, res: any, next: any) {
     let news
     try {
         console.log("Getting news for date: ", req.params.date);
-        news = await NewsDate.find({ date: req.params.date })
+        news = await NewsDate.find({ date: req.params.date }).sort({ time: -1 }).limit(1); // get the latest news for the given date
         console.log("Response: ", news);
         if (news == null) {
             return res.status(404).json({ message: "Cannot find news" })
