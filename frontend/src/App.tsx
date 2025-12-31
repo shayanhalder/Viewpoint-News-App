@@ -6,15 +6,15 @@ import Calendar from "./components/Calendar/Calendar.tsx";
 import formatDate from "./dateFormat";
 import Tabs from "./components/Tabs/Tabs.tsx";
 
-const PROD_SERVER = 'https://viewpoint-server.duckdns.org';
+const PROD_SERVER = 'https://viewpoint.shayanhalder.me';
 // const DEV_SERVER = 'http://localhost:4000'
 
 const CURRENT_SERVER = PROD_SERVER;
 
 function App() {
-  const [trendingTopics, setTrendingTopics] = useState<any>(); // array with the currently trending topics that were webscraped
-  const [currentTopic, setCurrentTopic] = useState<any>(); // string with the currently chosen trending topic 
-  const [data, setData] = useState<any>(); // object containing the news data information associated with each trending topic 
+  const [trendingTopics, setTrendingTopics] = useState<string[]>(); // array with the currently trending topics that were webscraped
+  const [currentTopic, setCurrentTopic] = useState<string>(); // string with the currently chosen trending topic 
+  const [data, setData] = useState<never>(); // object containing the news data information associated with each trending topic 
   const [date, setDate] = useState(formatDate(new Date())); // array with the date components in YYYY-MM-DD format
   const [viewType, setViewType] = useState("Grid"); // string indicating the current layout option ('grid' or 'individual')
 
