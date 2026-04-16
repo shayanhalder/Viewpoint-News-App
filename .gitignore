@@ -3,3 +3,4 @@ backend/.env
 backend/jobs/logs
 frontend/node_modules
 backend/node_modules
+*.code-workspace
